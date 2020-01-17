@@ -1,0 +1,55 @@
+Industries alimentaires 
+Industries alimentaires, dont artisanat commercial (*) 
+Transformation et conservation de la viande et preparation de produits a base de viande 
+Transformation et conservation de la viande et preparation de produits a base de viande, dont artisanat commercial (**) 
+Transformation et conservation de la viande de boucherie 
+Transformation et conservation de la viande de volaille 
+Preparation de produits a base de viande 
+Preparation de produits a base de viande, dont artisanat commercial (**) 
+Preparation industrielle de produits a base de viande 
+Charcuterie 
+Transformation et conservation de poisson, de crustaces et de mollusques 
+Transformation et conservation de fruits et legumes 
+Transformation et conservation de pommes de terre 
+Preparation de jus de fruits et legumes 
+Autre transformation et conservation de fruits et legumes 
+Autre transformation et conservation de legumes 
+Transformation et conservation de fruits 
+Fabrication d'huiles et graisses vegetales et animales 
+Fabrication d'huiles et graisses 
+Fabrication d'huiles et graisses brutes 
+Fabrication d'huiles et graisses raffinees 
+Fabrication de margarine et graisses comestibles similaires 
+Fabrication de produits laitiers 
+Exploitation de laiteries et fabrication de fromage 
+Fabrication de lait liquide et de produits frais 
+Fabrication de beurre 
+Fabrication de fromage 
+Fabrication d'autres produits laitiers 
+Fabrication de glaces et sorbets 
+Travail des grains - fabrication de produits amylaces 
+Travail des grains 
+Meunerie 
+Autres activites du travail des grains 
+Fabrication de produits amylaces 
+Fabrication de produits de boulangerie-patisserie et de pates alimentaires 
+Fabrication de produits de boulangerie-patisserie et de pates alimentaires, dont artisanat commercial (***) 
+Fabrication de pain et de patisserie fraiche 
+Fabrication de pain et de patisserie fraiche, dont artisanat commercial (***) 
+Fabrication industrielle de pain et de patisserie fraiche 
+Cuisson de produits de boulangerie 
+Boulangerie et boulangerie-patisserie 
+Patisserie 
+Fabrication de biscuits, biscottes et patisseries de conservation 
+Fabrication de pates alimentaires 
+Fabrication d'autres produits alimentaires 
+Fabrication de sucre 
+Fabrication de cacao, chocolat et de produits de confiserie 
+Transformation du the et du cafe 
+Fabrication de condiments et assaisonnements 
+Fabrication de plats prepares 
+Fabrication d'aliments homogeneises et dietetiques  
+Fabrication d'autres produits alimentaires n.c.a. 
+Fabrication d'aliments pour animaux 
+Fabrication d'aliments pour animaux de ferme 
+Fabrication d'aliments pour animaux de compagnie 

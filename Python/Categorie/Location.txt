@@ -1,0 +1,18 @@
+Activites de location et location-bail 
+Location et location-bail de vehicules automobiles 
+Location et location-bail de voitures et de vehicules automobiles legers 
+Location de courte duree de voitures et de vehicules automobiles legers 
+Location de longue duree de voitures et de vehicules automobiles legers 
+Location et location-bail de camions 
+Location et location-bail de biens personnels et domestiques 
+Location et location-bail d'articles de loisirs et de sport 
+Location de videocassettes et disques video 
+Location et location-bail d'autres biens personnels et domestiques 
+Location et location-bail d'autres machines, equipements et biens 
+Location et location-bail de machines et equipements agricoles 
+Location et location-bail de machines et equipements pour la construction 
+Location et location-bail de machines de bureau et de materiel informatique 
+Location et location-bail de materiels de transport par eau  
+Location et location-bail de materiels de transport aerien 
+Location et location-bail d'autres machines, equipements et biens materiels n.c.a. 
+Location-bail de propriete intellectuelle et de produits similaires, a l'exception des oeuvres soumises a copyright 

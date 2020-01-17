@@ -1,0 +1,190 @@
+Commerce de gros et de detail, transports, hebergement et restauration 
+Commerce - reparation d'automobiles et de motocycles 
+Commerce et reparation d'automobiles et de motocycles 
+Commerce de vehicules automobiles 
+Commerce de voitures et de vehicules automobiles legers 
+Commerce d'autres vehicules automobiles 
+Entretien et reparation de vehicules automobiles 
+Entretien et reparation de vehicules automobiles legers 
+Entretien et reparation d'autres vehicules automobiles 
+Commerce d'equipements automobiles 
+Commerce de gros d'equipements automobiles 
+Commerce de detail d'equipements automobiles 
+Commerce et reparation de motocycles 
+Commerce de gros, a l'exception des automobiles et des motocycles 
+Intermediaires du commerce de gros 
+Intermediaires du commerce en matieres premieres agricoles, animaux vivants, matieres premieres textiles et produits semi-finis 
+Intermediaires du commerce en combustibles, metaux, mineraux et produits chimiques 
+Centrales d'achat de carburant 
+Autres intermediaires du commerce en combustibles, metaux, mineraux et produits chimiques 
+Intermediaires du commerce en bois et materiaux de construction 
+Intermediaires du commerce en machines, equipements industriels, navires et avions 
+Intermediaires du commerce en meubles, articles de menage et quincaillerie 
+Intermediaires du commerce en textiles, habillement, fourrures, chaussures et articles en cuir 
+Intermediaires du commerce en denrees, boissons et tabac 
+Centrales d'achat alimentaires 
+Autres intermediaires du commerce en denrees, boissons et tabac 
+Intermediaires specialises dans le commerce d'autres produits specifiques 
+Intermediaires du commerce en produits divers 
+Centrales d'achat non alimentaires 
+Autres intermediaires du commerce en produits divers 
+Commerce de gros de produits agricoles bruts et d'animaux vivants 
+Commerce de gros de cereales, de tabac non manufacture, de semences et d'aliments pour le betail 
+Commerce de gros (commerce interentreprises) de cereales, de tabac non manufacture, de semences et d'aliments pour le betail 
+Commerce de gros de fleurs et plantes 
+Commerce de gros (commerce interentreprises) de fleurs et plantes 
+Commerce de gros d'animaux vivants 
+Commerce de gros (commerce interentreprises) d'animaux vivants 
+Commerce de gros de cuirs et peaux 
+Commerce de gros (commerce interentreprises) de cuirs et peaux 
+Commerce de gros de produits alimentaires, de boissons et de tabac 
+Commerce de gros de fruits et legumes 
+Commerce de gros (commerce interentreprises) de fruits et legumes 
+Commerce de gros de viandes et de produits a base de viande 
+Commerce de gros (commerce interentreprises) de viandes de boucherie 
+Commerce de gros (commerce interentreprises) de produits a base de viande 
+Commerce de gros (commerce interentreprises) de volailles et gibier 
+Commerce de gros de produits laitiers, oeufs, huiles et matieres grasses comestibles 
+Commerce de gros (commerce interentreprises) de produits laitiers, oeufs, huiles et matieres grasses comestibles 
+Commerce de gros de boissons 
+Commerce de gros (commerce interentreprises) de boissons 
+Commerce de gros de produits a base de tabac 
+Commerce de gros (commerce interentreprises) de produits a base de tabac 
+Commerce de gros de sucre, chocolat et confiserie 
+Commerce de gros (commerce interentreprises) de sucre, chocolat et confiserie 
+Commerce de gros de cafe, the, cacao et epices 
+Commerce de gros (commerce interentreprises) de cafe, the, cacao et epices 
+Commerce de gros d'autres produits alimentaires, y compris poissons, crustaces et mollusques 
+Commerce de gros (commerce interentreprises) de poissons, crustaces et mollusques 
+Commerce de gros (commerce interentreprises) alimentaire specialise divers 
+Commerce de gros non specialise de denrees, boissons et tabac 
+Commerce de gros (commerce interentreprises) de produits surgeles 
+Commerce de gros (commerce interentreprises) alimentaire non specialise 
+Commerce de gros de biens domestiques 
+Commerce de gros de textiles 
+Commerce de gros (commerce interentreprises) de textiles 
+Commerce de gros d'habillement et de chaussures 
+Commerce de gros (commerce interentreprises) d'habillement et de chaussures 
+Commerce de gros d'appareils electromenagers 
+Commerce de gros (commerce interentreprises) d'appareils electromenagers 
+Commerce de gros de vaisselle, verrerie et produits d'entretien 
+Commerce de gros (commerce interentreprises) de vaisselle, verrerie et produits d'entretien 
+Commerce de gros de parfumerie et de produits de beaute 
+Commerce de gros (commerce interentreprises) de parfumerie et de produits de beaute 
+Commerce de gros de produits pharmaceutiques 
+Commerce de gros (commerce interentreprises) de produits pharmaceutiques 
+Commerce de gros de meubles, de tapis et d'appareils d'eclairage 
+Commerce de gros (commerce interentreprises) de meubles, de tapis et d'appareils d'eclairage 
+Commerce de gros d'articles d'horlogerie et de bijouterie 
+Commerce de gros (commerce interentreprises) d'articles d'horlogerie et de bijouterie 
+Commerce de gros d'autres biens domestiques 
+Commerce de gros (commerce interentreprises) d'autres biens domestiques 
+Commerce de gros d'equipements de l'information et de la communication 
+Commerce de gros d'ordinateurs, d'equipements informatiques peripheriques et de logiciels 
+Commerce de gros (commerce interentreprises) d'ordinateurs, d'equipements informatiques peripheriques et de logiciels 
+Commerce de gros de composants et d'equipements electroniques et de telecommunication 
+Commerce de gros (commerce interentreprises) de composants et d'equipements electroniques et de telecommunication 
+Commerce de gros d'autres equipements industriels 
+Commerce de gros de materiel agricole 
+Commerce de gros (commerce interentreprises) de materiel agricole 
+Commerce de gros de machines-outils 
+Commerce de gros (commerce interentreprises) de machines-outils 
+Commerce de gros de machines pour l'extraction, la construction et le genie civil 
+Commerce de gros (commerce interentreprises) de machines pour l'extraction, la construction et le genie civil 
+Commerce de gros de machines pour l'industrie textile et l'habillement 
+Commerce de gros (commerce interentreprises) de machines pour l'industrie textile et l'habillement 
+Commerce de gros de mobilier de bureau 
+Commerce de gros (commerce interentreprises) de mobilier de bureau 
+Commerce de gros d'autres machines et equipements de bureau 
+Commerce de gros (commerce interentreprises) d'autres machines et equipements de bureau 
+Commerce de gros d'autres machines et equipements 
+Commerce de gros (commerce interentreprises) de materiel electrique 
+Commerce de gros (commerce interentreprises) de fournitures et equipements industriels divers 
+Commerce de gros (commerce interentreprises) de fournitures et equipements divers pour le commerce et les services 
+Autres commerces de gros specialises 
+Commerce de gros de combustibles et de produits annexes 
+Commerce de gros (commerce interentreprises) de combustibles et de produits annexes 
+Commerce de gros de minerais et metaux 
+Commerce de gros (commerce interentreprises) de minerais et metaux 
+Commerce de gros de bois, de materiaux de construction et d'appareils sanitaires 
+Commerce de gros (commerce interentreprises) de bois et de materiaux de construction 
+Commerce de gros (commerce interentreprises) d'appareils sanitaires et de produits de decoration 
+Commerce de gros de quincaillerie et fournitures pour plomberie et chauffage 
+Commerce de gros (commerce interentreprises) de quincaillerie 
+Commerce de gros (commerce interentreprises) de fournitures pour la plomberie et le chauffage 
+Commerce de gros de produits chimiques 
+Commerce de gros (commerce interentreprises) de produits chimiques 
+Commerce de gros d'autres produits intermediaires 
+Commerce de gros (commerce interentreprises) d'autres produits intermediaires 
+Commerce de gros de dechets et debris 
+Commerce de gros (commerce interentreprises) de dechets et debris 
+Commerce de gros non specialise 
+Commerce de gros (commerce interentreprises) non specialise 
+Commerce de detail, a l'exception des automobiles et des motocycles 
+Commerce de detail en magasin non specialise 
+Commerce de detail en magasin non specialise a predominance alimentaire 
+Commerce de detail de produits surgeles 
+Commerce d'alimentation generale 
+Superettes
+Supermarches
+Magasins multi-commerces 
+Hypermarches 
+Autre commerce de detail en magasin non specialise 
+Grands magasins 
+Autres commerces de detail en magasin non specialise 
+Commerce de detail alimentaire en magasin specialise 
+Commerce de detail de fruits et legumes en magasin specialise 
+Commerce de detail de viandes et de produits a base de viande en magasin specialise 
+Commerce de detail de poissons, crustaces et mollusques en magasin specialise 
+Commerce de detail de pain, patisserie et confiserie en magasin specialise 
+Commerce de detail de boissons en magasin specialise 
+Commerce de detail de produits a base de tabac en magasin specialise 
+Autres commerces de detail alimentaires en magasin specialise 
+Commerce de detail de carburants en magasin specialise 
+Commerce de detail d'equipements de l'information et de la communication en magasin specialise 
+Commerce de detail d'ordinateurs, d'unites peripheriques et de logiciels en magasin specialise 
+Commerce de detail de materiels de telecommunication en magasin specialise 
+Commerce de detail de materiels audio/video en magasin specialise 
+Commerce de detail de materiels audio et video en magasin specialise 
+Commerce de detail d'autres equipements du foyer en magasin specialise 
+Commerce de detail de textiles en magasin specialise 
+Commerce de detail de quincaillerie, peintures et verres en magasin specialise 
+Commerce de detail de quincaillerie, peintures et verres en petites surfaces (moins de 400 m²) 
+Commerce de detail de quincaillerie, peintures et verres en grandes surfaces (400 m² et plus) 
+Commerce de detail de tapis, moquettes et revetements de murs et de sols en magasin specialise 
+Commerce de detail d'appareils electromenagers en magasin specialise 
+Commerce de detail de meubles, appareils d'eclairage et autres articles de menage en magasin specialise 
+Commerce de detail de meubles 
+Commerce de detail d'autres equipements du foyer 
+Commerce de detail de biens culturels et de loisirs en magasin specialise 
+Commerce de detail de livres en magasin specialise 
+Commerce de detail de journaux et papeterie en magasin specialise 
+Commerce de detail d'enregistrements musicaux et video en magasin specialise 
+Commerce de detail d'articles de sport en magasin specialise 
+Commerce de detail de jeux et jouets en magasin specialise 
+Autres commerces de detail en magasin specialise 
+Commerce de detail d'habillement en magasin specialise 
+Commerce de detail de chaussures et d'articles en cuir en magasin specialise 
+Commerce de detail de la chaussure 
+Commerce de detail de maroquinerie et d'articles de voyage 
+Commerce de detail de produits pharmaceutiques en magasin specialise 
+Commerce de detail d'articles medicaux et orthopediques en magasin specialise 
+Commerce de detail de parfumerie et de produits de beaute en magasin specialise 
+Commerce de detail de fleurs, plantes, graines, engrais, animaux de compagnie et aliments pour ces animaux en magasin specialise 
+Commerce de detail d'articles d'horlogerie et de bijouterie en magasin specialise 
+Autre commerce de detail de biens neufs en magasin specialise 
+Commerces de detail d'optique 
+Commerces de detail de charbons et combustibles 
+Autres commerces de detail specialises divers 
+Commerce de detail de biens d'occasion en magasin 
+Commerce de detail sur eventaires et marches 
+Commerce de detail alimentaire sur eventaires et marches 
+Commerce de detail de textiles, d'habillement et de chaussures sur eventaires et marches 
+Autres commerces de detail sur eventaires et marches 
+Commerce de detail hors magasin, eventaires ou marches 
+Vente a distance 
+Vente a distance sur catalogue general 
+Vente a distance sur catalogue specialise 
+Autres commerces de detail hors magasin, eventaires ou marches 
+Vente a domicile 
+Vente par automates et autres commerces de detail hors magasin, eventaires ou marches n.c.a.

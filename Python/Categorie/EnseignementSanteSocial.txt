@@ -1,0 +1,62 @@
+Administration publique, enseignement, sante humaine et action sociale 
+Enseignement 
+Enseignement 
+Enseignement pre-primaire 
+Enseignement primaire 
+Enseignement secondaire 
+Enseignement secondaire general 
+Enseignement secondaire technique ou professionnel 
+Enseignement superieur et post-secondaire non superieur 
+Enseignement post-secondaire non superieur 
+Enseignement superieur 
+Autres activites d'enseignement 
+Enseignement de disciplines sportives et d'activites de loisirs 
+Enseignement culturel 
+Enseignement de la conduite 
+Enseignements divers 
+Formation continue d'adultes 
+Autres enseignements 
+Activites de soutien a l'enseignement 
+Sante humaine et action sociale
+Activites pour la sante humaine 
+Activites hospitalieres 
+Activite des medecins et des dentistes 
+Activite des medecins generalistes 
+Activite des medecins specialistes 
+Activites de radiodiagnostic et de radiotherapie 
+Activites chirurgicales 
+Autres activites des medecins specialistes 
+Pratique dentaire 
+Autres activites pour la sante humaine 
+Ambulances 
+Laboratoires d'analyses medicales 
+Centres de collecte et banques d'organes 
+Activites des infirmiers et des sages-femmes 
+Activites des professionnels de la reeducation, de l'appareillage et des pedicures-podologues 
+Activites de sante humaine non classees ailleurs 
+Hebergement medico-social et social 
+Hebergement medicalise 
+Hebergement medicalise pour personnes agees 
+Hebergement medicalise pour enfants handicapes 
+Hebergement medicalise pour adultes handicapes et autre hebergement medicalise 
+Hebergement social pour personnes handicapees mentales, malades mentales et toxicomanes 
+Hebergement social pour handicapes mentaux et malades mentaux 
+Hebergement social pour toxicomanes 
+Hebergement social pour personnes agees ou handicapees physiques 
+Hebergement social pour personnes agees 
+Hebergement social pour handicapes physiques 
+Autres activites d'hebergement social 
+Hebergement social pour enfants en difficultes 
+Hebergement social pour adultes et familles en difficultes et autre hebergement social 
+Action sociale sans hebergement 
+Action sociale sans hebergement pour personnes agees et pour personnes handicapees 
+Aide a domicile 
+Accueil ou accompagnement sans hebergement d'adultes handicapes ou de personnes agees 
+Aide par le travail 
+Autre action sociale sans hebergement 
+Action sociale sans hebergement pour jeunes enfants 
+Accueil de jeunes enfants 
+Accueil ou accompagnement sans hebergement d'enfants handicapes 
+Autre action sociale sans hebergement n.c.a. 
+Autre accueil ou accompagnement sans hebergement d'enfants et d'adolescents 
+Action sociale sans hebergement n.c.a. 

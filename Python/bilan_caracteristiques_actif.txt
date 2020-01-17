@@ -1,0 +1,25 @@
+Nombre d'unites legales	
+Capital souscrit non appele	
+Immobilisations incorporelles	
+Immobilisations corporelles	
+Terrains	
+Constructions	
+Installations techniques, materiel et outillage industriels	
+Autres immobilisations corporelles	
+dont materiel de transport :	
+Immobilisations en cours	
+Avances et acomptes	
+Immobilisations financieres	
+Total de l'actif immobilise	
+Stocks - Matieres premieres approvisionnement et en cours	
+Stocks de marchandises	
+Avances et accomptes verses sur commandes	
+Clients et comptes rattaches	
+Autres creances	
+Valeurs mobilieres de placement	
+Disponibilite	
+Comptes de regularisation - Charges constatees d'avances	
+Total de l'actif circulant	
+Autres comptes de regularisation	
+Total actif brut	
+Total de l'actif net des amortissements et provisions inscrits a l'actif

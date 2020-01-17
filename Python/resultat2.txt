@@ -1,0 +1,1150 @@
+Centrales d'achat alimentaires 
+3813.6549619632888
+Fabrication de machines de formage des metaux et de machines-outils 
+3472.965260048402
+Fabrication de produits en plastique 
+2549.0304677338017
+Reparation d'ordinateurs et de biens personnels et domestiques 
+1858.6779195872596
+Commerce de gros de fruits et legumes 
+1655.5622209078497
+Fabrication d'equipements hydrauliques et pneumatiques 
+1296.0341373414403
+Fabrication de machines-outils pour le travail des metaux 
+1212.1430278747082
+Travail du bois et fabrication d'articles en bois et en liege, a l'exception des meubles - fabrication d'articles en vannerie et sparterie 
+1021.2801653064345
+Activites photographiques 
+960.002526989936
+Fabrication de tubes, tuyaux, profiles creux et accessoires correspondants en acier 
+882.6320903328785
+Activites des agences de travail temporaire 
+690.3222505475429
+Traitement et elimination des dechets non dangereux 
+511.9158616067181
+Activites des parcs d'attractions et parcs a themes 
+434.2266825464374
+Activites comptables 
+366.2617443175639
+Autre transformation et conservation de fruits et legumes 
+366.2617443175639
+Organisation de jeux de hasard et d'argent 
+342.0468564579761
+Activites recreatives et de loisirs 
+312.7991287304041
+Tissage 
+283.20721521673715
+Transformation et conservation de fruits et legumes 
+209.54320451836475
+Commerce de gros (commerce interentreprises) de produits laitiers, oeufs, huiles et matieres grasses comestibles 
+178.2830119215104
+Formation continue d'adultes 
+175.82521755002833
+Intermediaires specialises dans le commerce d'autres produits specifiques 
+163.30425307492237
+Conception d'ensemble et assemblage sur site industriel d'equipements de controle des processus industriels 
+162.25878562251157
+Laboratoires d'analyses medicales 
+142.12587792683905
+Reparation d'ordinateurs et d'equipements de communication 
+124.46492629315404
+Commerce de gros non specialise de denrees, boissons et tabac 
+89.5913611721956
+Hebergement social pour personnes agees ou handicapees physiques 
+78.24217201313259
+Commerce de gros de mobilier de bureau 
+64.00519529818342
+Fabrication de produits refractaires 
+58.06334546153512
+Fabrication de pesticides et d'autres produits agrochimiques 
+42.67143308529026
+Autres activites d'enseignement 
+41.399124339033996
+Fabrication de vis et de boulons 
+39.687802101091634
+Commerce d'electricite 
+39.37284126532931
+Fabrication et rechapage de pneumatiques 
+36.176917559047155
+Reparation de materiels electroniques et optiques 
+35.90092519310462
+Commerce de detail de biens culturels et de loisirs en magasin specialise 
+35.37815263097304
+Fabrication d'autres produits chimiques n.c.a. 
+34.025535126530634
+Travaux de preparation des sites 
+33.3423866661853
+Fabrication de produits de boulangerie-patisserie et de pates alimentaires, dont artisanat commercial (***) 
+30.421858451379173
+Fabrication de pain et de patisserie fraiche, dont artisanat commercial (***) 
+27.943683566457096
+Autre imprimerie (labeur) 
+27.721381372354863
+Production et distribution d'eau - assainissement, gestion des dechets et depollution 
+27.580685994756646
+Charcuterie 
+26.814335316836164
+Fabrication de moteurs, generatrices et transformateurs electriques 
+25.076271298293538
+Fabrication d'autres machines d'usage specifique 
+21.51420256085454
+Hypermarches 
+20.39608199967347
+Construction de voies ferrees de surface et souterraines 
+19.658308602188647
+Fabrication d'huiles et graisses vegetales et animales 
+19.47076241416763
+Fabrication d'autres produits ceramiques 
+18.919647840881662
+Activites de clubs de sports 
+18.304232344467632
+Fabrication de cartonnages 
+17.292017338440413
+Commerce de gros et de detail, transports, hebergement et restauration 
+17.2213065476827
+Vente par automates et autres commerces de detail hors magasin, eventaires ou marches n.c.a. 
+16.672810468037355
+Fabrication de machines et d'equipements de bureau (a l'exception des ordinateurs et equipements peripheriques) 
+16.667188782882725
+Aide par le travail 
+16.454905430843855
+Enseignement superieur 
+16.284663602062846
+Fabrication d'autres textiles techniques et industriels 
+16.00787859575404
+Fabrication de briques, tuiles et produits de construction, en terre cuite 
+14.899846583274956
+Transformation et conservation de la viande de volaille 
+13.15361954065668
+Fabrication d'autres produits de premiere transformation de l'acier 
+13.11064196660015
+Arts du spectacle vivant 
+12.791067696975412
+Centrales d'achat de carburant 
+12.336920985447454
+Travaux de couverture par elements 
+12.223768263853938
+Decoupage, emboutissage 
+11.43932353700367
+Fabrication de preparations pharmaceutiques 
+10.305155593491834
+Fabrication de carrosseries et remorques 
+10.252258637391707
+Fabrication d'appareils d'eclairage electrique 
+9.66101053389645
+Fabrication d'autres produits mineraux non metalliques n.c.a. 
+8.84947067657821
+Messagerie, fret express 
+8.501020407624397
+Activites de securite privee 
+7.521760594918815
+Ambulances 
+7.262624896671529
+Action sociale sans hebergement pour jeunes enfants 
+7.068857031168516
+Autres industries extractives 
+6.737423574058672
+Fabrication d'equipements electriques 
+6.537694837039521
+Reparation de machines et equipements mecaniques 
+6.456094139838276
+Commerce de gros (commerce interentreprises) de fruits et legumes 
+6.370356559576122
+Fabrication de machines pour l'industrie agro-alimentaire 
+6.223097841589871
+Commerce de gros de fleurs et plantes 
+6.19825404095555
+Fabrication d'huiles essentielles 
+6.024151905965107
+Recherche-developpement scientifique 
+5.908021091108352
+Commerce de gros de composants et d'equipements electroniques et de telecommunication 
+5.800679006347197
+Fabrication d'autres materiels electriques 
+5.652115448643026
+Reparation et maintenance d'aeronefs et d'engins spatiaux 
+5.522580305412301
+Fabrication de verre creux 
+5.365017929502606
+Fabrication d'autres articles en matieres plastiques 
+5.235276448077928
+Appret et tannage des cuirs 
+4.8681897925865565
+Autres activites specialisees, scientifiques et techniques 
+4.864745741301879
+Commerce de detail de carburants en magasin specialise 
+4.599544103487758
+Services d'information
+4.483854122866472
+Activites de centres d'appels 
+4.417140364338732
+Commerce de gros (commerce interentreprises) de composants et d'equipements electroniques et de telecommunication 
+4.287612255940562
+Fabrication de futs et emballages metalliques similaires 
+4.041913752552538
+Fabrication d'ordinateurs et d'equipements peripheriques 
+3.870498077727765
+Fonderie 
+3.4366061599618987
+Fabrication de papier et carton ondules et d'emballages en papier ou en carton 
+3.414319955749551
+Fabrication d'autres articles en caoutchouc 
+3.4013033787512197
+Fabrication d'autres produits metalliques n.c.a. 
+3.292645787765034
+Fabrication d'elements en platre pour la construction 
+3.2401008216415446
+Fabrication d'articles de joaillerie, bijouterie et articles similaires 
+3.2401008216415446
+Decolletage 
+3.13288740951149
+Fabrication de jeux et jouets 
+3.102014943944679
+Metallurgie 
+3.087116832996956
+edition de livres et periodiques et autres activites d'edition 
+2.934143352766623
+Production d'autres boissons fermentees non distillees 
+2.832921663999822
+Autre action sociale sans hebergement 
+2.7476796237682226
+Entretien et reparation de vehicules automobiles legers 
+2.7319964331919837
+Fabrication de moteurs et turbines, a l'exception des moteurs d'avions et de vehicules 
+2.706490835677043
+Travaux de couverture 
+2.6157932823887906
+Fabrication de charpentes et d'autres menuiseries 
+2.4599701618173393
+Fabrication d'autres textiles 
+2.4015000184460438
+Activites des organisations economiques, patronales et professionnelles 
+2.378060675603203
+Autre mise a disposition de ressources humaines 
+2.2952000285688308
+Programmation informatique 
+2.2725774731886914
+Activites des organisations professionnelles 
+2.2326081037088668
+Location de camions avec chauffeur 
+2.2100963200918953
+Commerce de gros d'equipements de l'information et de la communication 
+2.0406727024753293
+Fabrication de vetements, autres qu'en fourrure 
+2.0402066431646526
+Extraction de pierres, de sables et d'argiles 
+2.0400226824746213
+Imprimerie et services annexes 
+2.0392543771638043
+Centrales d'achat non alimentaires 
+2.037413058792108
+Reliure et activites connexes 
+2.036876421027663
+Collecte, traitement et elimination des dechets - recuperation 
+2.036639080862654
+Reparation et maintenance d'autres equipements de transport 
+2.0362401493392825
+Entretien et reparation de vehicules automobiles 
+2.0348326393794305
+Commerce de gros de biens domestiques 
+2.0319815115526767
+Fabrication de bicyclettes et de vehicules pour invalides 
+2.030830271737422
+Commerce de detail alimentaire en magasin specialise 
+2.030106347964528
+Production de metaux precieux et d'autres metaux non ferreux 
+2.029430930762908
+Commerce de gros d'ordinateurs, d'equipements informatiques peripheriques et de logiciels 
+2.0284587424981124
+Fabrication de machines agricoles et forestieres 
+2.0249227730694686
+Fabrication d'armes et de munitions 
+2.0236232091472606
+Regie publicitaire de medias 
+2.0236145994286847
+Commerce de gros de sucre, chocolat et confiserie 
+2.0233565401622413
+edition d'autres logiciels 
+2.021696546912741
+Fabrication d'autres ouvrages en beton, en ciment ou en platre 
+2.0216488596166844
+Fabrication d'autres produits chimiques 
+2.020990541843015
+Fabrication d'articles textiles, sauf habillement 
+2.0173475476415788
+Activites des agences de presse 
+2.015233464401779
+Fabrication de coutellerie 
+2.014480827555411
+Industrie du papier et du carton 
+2.01399565194568
+Usinage 
+2.013180713534406
+Enseignement 
+2.012938681447286
+Activites hospitalieres 
+2.0114500746683817
+Fabrication d'articles en papier a usage sanitaire ou domestique 
+2.011400055002578
+Activites immobilieres 
+2.0105715174509413
+Commerce de detail en magasin non specialise a predominance alimentaire 
+2.010523589147406
+Fabrication d'autres textiles n.c.a. 
+2.010455379331306
+Commerce de detail de produits pharmaceutiques en magasin specialise 
+2.009069504798329
+Commerce de detail de quincaillerie, peintures et verres en grandes surfaces (400 m² et plus) 
+2.0081817049596298
+Travaux d'isolation 
+2.0065712362767814
+Fabrication de matelas 
+2.004673370876009
+Fabrication de produits en caoutchouc et en plastique 
+2.0042915293472174
+Fabrication de materiel de distribution et de commande electrique 
+2.0022319057766436
+Travaux de finition 
+2.0001883060081043
+Activites de pre-presse 
+1.9996776299783316
+Recherche-developpement en sciences humaines et sociales 
+1.9979654486253398
+Intermediaires du commerce en machines, equipements industriels, navires et avions 
+1.996273830423096
+Commerce de gros (commerce interentreprises) de mobilier de bureau 
+1.9954036287482988
+Metallurgie des autres metaux non ferreux 
+1.9944705770116828
+Aide a domicile 
+1.993224746083338
+Activites des centres de culture physique 
+1.9912694807905709
+Production et distribution de vapeur et d'air conditionne 
+1.990682140539533
+Commerce de gros d'autres equipements industriels 
+1.990157392389819
+Recherche-developpement en sciences physiques et naturelles 
+1.9893451192604628
+Commerce de gros (commerce interentreprises) de sucre, chocolat et confiserie 
+1.9845348986807847
+Transformation et conservation de la viande et preparation de produits a base de viande, dont artisanat commercial (**) 
+1.9834427511421897
+Traitement et elimination des dechets dangereux 
+1.983076584260476
+Fabrication de sieges d'ameublement d'interieur 
+1.980599275539961
+Fabrication de meubles de cuisine 
+1.9777106353034435
+Conseil de gestion 
+1.9733890376151555
+Publicite 
+1.9730455817510761
+Blanchisserie-teinturerie de gros 
+1.9726272373073024
+Transports maritimes et cotiers de passagers 
+1.969002870704934
+Façonnage et transformation du verre plat 
+1.969002870704934
+Fabrication d'autres pompes et compresseurs 
+1.9685422785654885
+Services administratifs combines de bureau
+1.9654807368231553
+Preparation industrielle de produits a base de viande 
+1.9650565036890058
+edition de logiciels 
+1.9641128166692299
+Autres transports terrestres de voyageurs n.c.a. 
+1.9640773573703025
+Commerce de gros de machines pour l'extraction, la construction et le genie civil 
+1.963105528227028
+Commerce de gros (commerce interentreprises) de machines pour l'extraction, la construction et le genie civil 
+1.963105528227028
+Manutention non portuaire 
+1.9614957143448584
+Entreposage et stockage non frigorifique 
+1.9592729134757516
+Recuperation de dechets tries 
+1.9583869013000974
+Travaux de platrerie 
+1.957445187625833
+Activites d'architecture et d'ingenierie 
+1.9573163126724191
+Intermediaires du commerce en bois et materiaux de construction 
+1.9566762795326458
+Reparation d'autres equipements 
+1.9566443807240195
+Fabrication d'emballages en matieres plastiques 
+1.9549663447184635
+Commerce de gros (commerce interentreprises) de boissons 
+1.9539848753361968
+Services auxiliaires des transports par eau
+1.9539166576513625
+Fabrication de serrures et de ferrures 
+1.953498315251344
+Fabrication de vins effervescents 
+1.952615923979658
+Accueil ou accompagnement sans hebergement d'adultes handicapes ou de personnes agees 
+1.9511394747181086
+Autres services d'information 
+1.9494412630077718
+Vinification 
+1.9484586220950493
+Impregnation du bois 
+1.9480470270216521
+Commerce de detail en magasin non specialise 
+1.9474299581066261
+Construction de reseaux et de lignes 
+1.9445058671684061
+Fabrication d'elements en matieres plastiques pour la construction 
+1.9397967632943764
+Autres activites auxiliaires de services financiers, hors assurance et caisses de retraite, n.c.a. 
+1.9388782974771837
+Autres travaux de construction specialises n.c.a. 
+1.9362243344843173
+Autres activites extractives n.c.a. 
+1.9361965759004076
+Transports urbains et suburbains de voyageurs 
+1.934569302208343
+Activites de controle et analyses techniques 
+1.9316141294070295
+Fabrication d'equipements aerauliques et frigorifiques industriels 
+1.9303544822333174
+Imprimerie et reproduction d'enregistrements 
+1.927457252406445
+Fabrication d'instruments de musique 
+1.9265316580813738
+Fabrication de beton pret a l'emploi 
+1.926016415513138
+Manutention portuaire 
+1.924411244657186
+Autre action sociale sans hebergement n.c.a. 
+1.9234943237713589
+Supermarches
+1.9205506165535955
+edition de logiciels outils de developpement et de langages 
+1.9205237734957448
+Fabrication de colorants et de pigments 
+1.9204184000096398
+Fabrication de produits pharmaceutiques de base 
+1.9174226998859807
+Activites de soutien au spectacle vivant 
+1.9172059651611273
+Commerce de gros (commerce interentreprises) d'ordinateurs, d'equipements informatiques peripheriques et de logiciels 
+1.9125132570505121
+Recherche-developpement en autres sciences physiques et naturelles 
+1.9076600234720418
+Fabrication de plaques, feuilles, tubes et profiles en matieres plastiques 
+1.9052655422416889
+Autres activites auxiliaires de services financiers, hors assurance et caisses de retraite 
+1.9045131487025069
+Services relatifs aux batiments et amenagement paysager
+1.9010612685947021
+Fabrication de tapis et moquettes 
+1.9001653986345535
+Autres services personnels 
+1.8996979829079836
+Desinfection, desinsectisation, deratisation 
+1.8996564126073168
+Activites sportives, recreatives et de loisirs 
+1.8996474340464626
+Activites des voyagistes 
+1.8979592540469554
+Commerce de gros (commerce interentreprises) d'autres machines et equipements de bureau 
+1.8979447145408253
+Action sociale sans hebergement pour personnes agees et pour personnes handicapees 
+1.896809935008831
+Activites liees au sport 
+1.8953204000147026
+Activites de nettoyage 
+1.8922303162265326
+Ennoblissement textile 
+1.890445348976899
+Gestion des sites et monuments historiques et des attractions touristiques similaires 
+1.8861376868833095
+Transports de voyageurs par taxis 
+1.8842541853572912
+Fabrication d'engrenages et d'organes mecaniques de transmission 
+1.8840609416994567
+Fabrication d'aliments pour animaux de compagnie 
+1.8840609416994567
+Fabrication de matieres plastiques de base 
+1.8835769828643318
+Travaux d'installation d'equipements thermiques et de climatisation 
+1.883171394185682
+Fabrication de pain et de patisserie fraiche 
+1.8822004467270703
+Fabrication de cables de fibres optiques 
+1.8815444150300222
+Fabrication de vetements de dessus 
+1.8779024644793822
+Construction de routes et autoroutes 
+1.8741110859761274
+Fabrication de machines pour le travail du caoutchouc ou des plastiques 
+1.8720539632205102
+Autres transports routiers de voyageurs 
+1.8690414944034828
+Laminage a froid de feuillards 
+1.8685721341765371
+Fabrication de machines pour les industries du papier et du carton 
+1.867830216907999
+Installation de machines et equipements mecaniques 
+1.8658246632184903
+Fabrication de vetements de travail 
+1.8652755972204107
+Fabrication de produits de boulangerie-patisserie et de pates alimentaires 
+1.8617913352265054
+Fabrication d'equipements d'emballage, de conditionnement et de pesage 
+1.8600626247606715
+Services de soutien aux industries extractives
+1.8599055317212558
+Fabrication de machines pour la metallurgie 
+1.859323818522273
+Activites specialisees de design 
+1.8591363561336558
+Production de films et de programmes pour la television 
+1.8580622099254696
+Fabrication de machines diverses d'usage general 
+1.8559114981329878
+Activites des services financiers, hors assurance et caisses de retraite 
+1.8534258746285701
+Promotion immobiliere 
+1.8534258746285701
+Entreposage et services auxiliaires des transports 
+1.8534258746285701
+Arts, spectacles et activites recreatives 
+1.8500094815553096
+Fabrication de placage et de panneaux de bois 
+1.8498203068801342
+Fabrication de produits explosifs 
+1.849556004447922
+Traitement et revetement des metaux 
+1.8461737207175966
+Fabrication de machines pour l'extraction ou la construction 
+1.8461737207175966
+Activites auxiliaires de services financiers, hors assurance et caisses de retraite 
+1.8451556138910719
+Fabrication d'articles de joaillerie et bijouterie 
+1.8413036485149579
+Hebergement touristique et autre hebergement de courte duree 
+1.8402608540492917
+Fabrication d'autres meubles 
+1.8382487644780008
+Fonderie de fonte 
+1.8379338429214358
+Promotion immobiliere de logements 
+1.8369741991969837
+Commerce de gros de produits laitiers, oeufs, huiles et matieres grasses comestibles 
+1.8334594857101398
+Autre transformation et conservation de legumes 
+1.831670076872319
+Taille, façonnage et finissage de pierres 
+1.8314728935037383
+Intermediaires du commerce en matieres premieres agricoles, animaux vivants, matieres premieres textiles et produits semi-finis 
+1.8314728935037383
+Fabrication de produits laitiers 
+1.831000110137551
+Transports routiers de fret 
+1.8283815711567692
+Fabrication d'autres produits mineraux non metalliques 
+1.8275939515118071
+Fabrication de textiles 
+1.826932094124465
+Reparation d'ordinateurs et d'equipements peripheriques 
+1.8231569151416558
+Hebergement social pour handicapes mentaux et malades mentaux 
+1.822824342259523
+Accueil de jeunes enfants 
+1.814590383768276
+Forge, estampage, matriçage - metallurgie des poudres 
+1.8129403194585572
+Fabrication d'autres ouvrages en metaux 
+1.8120972558975832
+Fabrication de lait liquide et de produits frais 
+1.8095589150140134
+Commerce d'alimentation generale 
+1.8079602088762312
+Transformation et conservation de poisson, de crustaces et de mollusques 
+1.8066016323843885
+Fabrication de carton ondule 
+1.8065964040867402
+Production de vin (de raisin) 
+1.8047582165423464
+Autres services auxiliaires des transports 
+1.8047474732202857
+Preparation de fibres textiles et filature 
+1.8040523841167115
+Commerce de voitures et de vehicules automobiles legers 
+1.8007601850914519
+Commerce de gros de produits alimentaires, de boissons et de tabac 
+1.8007215627423416
+Fabrication de moteurs, generatrices et transformateurs electriques et de materiel de distribution et de commande electrique 
+1.8006907043181706
+Hebergement medicalise 
+1.7995554028526972
+Fabrication d'autres outillages 
+1.799224454875543
+Hebergement 
+1.7991742681474387
+Trefilage a froid 
+1.7934933101582968
+Installation de machines et d'equipements industriels 
+1.789086142225345
+Fabrication d'autres vetements et accessoires 
+1.7834007004722834
+Fabrication de caoutchouc synthetique 
+1.7832771026401846
+Fabrication de produits azotes et d'engrais 
+1.7828460520506915
+Location et location-bail d'autres biens personnels et domestiques 
+1.780671706462231
+Analyses, essais et inspections techniques 
+1.7780992010016259
+Entreposage et stockage frigorifique 
+1.7779468127683333
+Autres intermediaires du commerce en denrees, boissons et tabac 
+1.7739829232860127
+Fabrication de verre et d'articles en verre 
+1.7694391757513552
+Fabrication de beurre 
+1.7662095414864063
+Travaux de terrassement courants et travaux preparatoires 
+1.7660999356343967
+etudes de marche et sondages 
+1.765341981332534
+Travaux de maçonnerie generale et gros oeuvre de batiment 
+1.7649675974816046
+Fabrication d'autres articles en papier ou en carton 
+1.7644759491035145
+Fabrication de radiateurs et de chaudieres pour le chauffage central 
+1.7634808741508097
+Appret et tannage des cuirs - preparation et teinture des fourrures 
+1.7611282795868848
+Transformation et conservation de la viande et preparation de produits a base de viande 
+1.7578640280832747
+Activites combinees de soutien lie aux batiments 
+1.7576019449241775
+Traduction et interpretation 
+1.7556085037608895
+Commerce de detail de viandes et de produits a base de viande en magasin specialise 
+1.753653018186718
+Construction de routes et de voies ferrees 
+1.744876483680427
+Depollution et autres services de gestion des dechets 
+1.7436256376025647
+Fabrication d'articles ceramiques a usage domestique ou ornemental 
+1.7382123489419212
+Fabrication d'elements en beton pour la construction 
+1.7370051888351885
+Promotion immobiliere d'autres batiments 
+1.7331636174290408
+Fabrication de machines d'usage general 
+1.7307740054237117
+Hebergement social pour personnes handicapees mentales, malades mentales et toxicomanes 
+1.7307128964547354
+Fabrication d'autres equipements automobiles 
+1.7264813875874945
+Fabrication d'instruments et de fournitures a usage medical et dentaire 
+1.7246614204598043
+Commerce de gros de boissons 
+1.7214417983461505
+Fabrication d'etoffes a mailles 
+1.720887166760202
+Travail des grains 
+1.7200920398964865
+Installation de structures metalliques, chaudronnees et de tuyauterie 
+1.7177247545928493
+Collecte et traitement des eaux usees 
+1.716304621053787
+Ingenierie, etudes techniques 
+1.7147527243246503
+Commerce de gros d'autres machines et equipements de bureau 
+1.714534130764539
+Activites liees a l'emploi 
+1.712858214793502
+Fabrication de savons, de produits d'entretien et de parfums 
+1.71238925305935
+Telecommunications par satellite 
+1.712178197621908
+Travaux de charpente 
+1.711596447474293
+Travaux de plomberie et installation de chauffage et de conditionnement d'air 
+1.7082356046423932
+Activites des organisations associatives 
+1.7081785825338258
+Enseignement de disciplines sportives et d'activites de loisirs 
+1.7081785825338258
+Vente a distance sur catalogue specialise 
+1.7069121112382493
+Action sociale sans hebergement n.c.a. 
+1.7060956966211007
+Commerce de detail de parfumerie et de produits de beaute en magasin specialise 
+1.7060261374753865
+Commerce de detail de meubles 
+1.7015606696061454
+Fabrication de meubles 
+1.6998283947797925
+Exploitation de gravieres et sablieres, extraction d'argiles et de kaolin 
+1.6994039241572478
+Fabrication de produits en caoutchouc 
+1.6983427799578994
+Activites des agences de voyage 
+1.6952359461182192
+Fabrication de vetements de dessous 
+1.6910986936912953
+Fabrication de plats prepares 
+1.6895506115131995
+Fabrication de parfums et de produits pour la toilette 
+1.689301888435752
+Enseignement superieur et post-secondaire non superieur 
+1.6888582481568009
+Fabrication de cidre et de vins de fruits 
+1.6876600159817536
+Industries extractives 
+1.6862017505423632
+Travaux de terrassement specialises ou de grande masse 
+1.6792629099321594
+Commerce de detail hors magasin, eventaires ou marches 
+1.679192748853601
+Commerce de gros d'animaux vivants 
+1.6715665364167898
+Location de logements 
+1.6702872501431234
+Magasins multi-commerces 
+1.6692756967668279
+Construction de reseaux pour fluides 
+1.6686447546726688
+Location et location-bail d'autres machines, equipements et biens 
+1.6672349713238421
+Conseil pour les affaires et autres conseils de gestion 
+1.6641715955859
+Location et location-bail de machines de bureau et de materiel informatique 
+1.6610384332603818
+Transports fluviaux de fret 
+1.653470242588558
+Industrie manufacturiere, industries extractives  et autres, dont artisanat commercial (*) 
+1.6494990555747409
+Production de films cinematographiques, de video et de programmes de television - enregistrement sonore et edition musicale 
+1.6473111585416105
+Fabrication de verre plat 
+1.64404661023798
+Recherche-developpement en biotechnologie 
+1.6425863926441424
+Production de boissons rafraichissantes 
+1.6425863926441424
+Activites des organisations patronales et consulaires 
+1.6420744033761852
+Reparation d'equipements electriques 
+1.6406250691959532
+Fabrication de pate a papier 
+1.6367615306275964
+Fabrication de piles et d'accumulateurs electriques 
+1.6335136400916124
+Publicite et etudes de marche 
+1.6314894275071974
+Fonderie d'autres metaux non ferreux 
+1.6309032357086517
+Transports par conduites 
+1.6308967315116736
+Transports terrestres et transport par conduites 
+1.6300885686283368
+Fabrication d'autres meubles et industries connexes de l'ameublement 
+1.625411649238468
+Entreposage et stockage 
+1.6248013814887126
+Activites creatives, artistiques et de spectacle 
+1.6244478745453452
+Reparation d'ouvrages en metaux, de machines et d'equipements 
+1.623662788960753
+Industries alimentaires 
+1.6232339526481754
+Autres activites liees au sport 
+1.6227247645879825
+Fabrication d'appareils sanitaires en ceramique 
+1.6227187906702665
+Commerce de gros (commerce interentreprises) de fleurs et plantes 
+1.6219319467102828
+Fabrication d'ouvrages en fibre-ciment 
+1.6191380954061936
+Fabrication de machines de formage des metaux 
+1.618181162908265
+Intermediaires du commerce en combustibles, metaux, mineraux et produits chimiques 
+1.6166576708897928
+Fabrication d'articles de sport 
+1.6132832866762783
+Commerce de vehicules automobiles 
+1.6095268149837025
+Cuisson de produits de boulangerie 
+1.6072216860230193
+Transports routiers de fret interurbains 
+1.605327121253897
+Metallurgie du cuivre 
+1.6023062209708714
+Hebergement medico-social et social 
+1.6023030674612224
+Activites des agences de publicite 
+1.6000325742166235
+Coiffure 
+1.5956229106644457
+Traitement de donnees, hebergement et activites connexes - portails Internet 
+1.5937308813794646
+Fabrication d'autres articles de robinetterie 
+1.5911614604549946
+Reparation d'appareils electromenagers et d'equipements pour la maison et le jardin 
+1.5895808522980195
+Travail des grains - fabrication de produits amylaces 
+1.5885485841870695
+Activites specialisees, scientifiques et techniques diverses 
+1.5880410739881152
+Fabrication d'articles a mailles 
+1.587888943255899
+Fabrication de meubles de bureau et de magasin 
+1.5812710376967751
+Mecanique industrielle 
+1.5735922377403255
+Fabrication d'articles en bois, liege, vannerie et sparterie 
+1.5731388550168461
+Autres activites auxiliaires d'assurance et de caisses de retraite 
+1.5648591435459371
+Autres activites du travail des grains 
+1.5643368567607123
+Fabrication de malt 
+1.562616276832421
+Hotels et hebergement similaire 
+1.5615555825529772
+Manutention 
+1.55955776337006
+Commerce de detail de meubles, appareils d'eclairage et autres articles de menage en magasin specialise 
+1.5580867905825282
+Fabrication de vetements en cuir 
+1.5517057528339597
+Fabrication d'isolateurs et pieces isolantes en ceramique 
+1.5464099939314646
+Fabrication de materiel d'installation electrique 
+1.54635230145918
+Fabrication d'emballages metalliques legers 
+1.541818867833003
+Forge, emboutissage, estampage - metallurgie des poudres 
+1.5376756146051074
+Grands magasins 
+1.5369454851049213
+Telepheriques et remontees mecaniques 
+1.5369454851049213
+Services de demenagement
+1.5336952230612504
+Autres industries manufacturieres 
+1.53066034809651
+Fabrication d'aliments homogeneises et dietetiques 
+1.5268836199827216
+Location et location-bail d'articles de loisirs et de sport 
+1.5265099225274905
+Photocopie, preparation de documents et autres activites specialisees de soutien de bureau 
+1.5246572994141707
+Construction de reseaux electriques et de telecommunications 
+1.524186480193282
+Captage, traitement et distribution d'eau 
+1.521312465412813
+Fabrication d'outillage portatif a moteur incorpore 
+1.5207488959207687
+Transports routiers de fret et services de demenagement 
+1.5178593057180791
+Transports routiers reguliers de voyageurs 
+1.5150244453694488
+Traitement de donnees, hebergement et activites connexes 
+1.5111888640420867
+Controle technique automobile 
+1.5033490603423314
+Fabrication de composants et cartes electroniques 
+1.50293711911738
+Activites extractives n.c.a. 
+1.5028730729718076
+Production et distribution de combustibles gazeux 
+1.5020837078040967
+Commerce de gros de produits agricoles bruts et d'animaux vivants 
+1.4987138948055492
+Commerce de detail de quincaillerie, peintures et verres en magasin specialise 
+1.4967979971865004
+Fabrication d'aliments pour animaux 
+1.4967979971865004
+Fabrication de produits metalliques, a l'exception des machines et des equipements 
+1.4957922165550748
+Industrie pharmaceutique 
+1.4914694521777734
+Extraction de pierres ornementales et de construction, de calcaire industriel, de gypse, de craie et d'ardoise 
+1.4899484923692095
+Fabrication d'objets divers en bois - fabrication d'objets en liege, vannerie et sparterie 
+1.4859678408236092
+Fabrication de structures metalliques et de parties de structures 
+1.482824652621783
+Fabrication et façonnage d'autres articles en verre, y compris verre technique 
+1.4796684331429213
+Reproduction d'enregistrements 
+1.4767478212906258
+Fabrication d'autres produits chimiques organiques de base 
+1.475633124875538
+Autres transports terrestres de voyageurs 
+1.475463037252421
+Meunerie 
+1.4728000078267485
+Autres intermediaires du commerce en produits divers 
+1.4672409757579365
+Preparation de produits a base de viande 
+1.4625187980799796
+Fabrication de boissons 
+1.4589801883281412
+Industrie de l'habillement 
+1.453687612079606
+edition de logiciels applicatifs 
+1.4488137767194103
+Reparation et maintenance navale 
+1.448513209861117
+Fabrication de machines et equipements n.c.a. 
+1.448128040275486
+edition de logiciels systeme et de reseau 
+1.4380403504468926
+Fabrication de materiel de levage et de manutention 
+1.4329204483561802
+Production de films cinematographiques, de video et de programmes de television 
+1.4267203257652843
+Supports juridiques de gestion de patrimoine mobilier
+1.4263330238675707
+Fabrication d'autres produits chimiques inorganiques de base n.c.a. 
+1.423426414428225
+Autres activites specialisees, scientifiques et techniques n.c.a. 
+1.423426414428225
+Demantelement d'epaves 
+1.4153484013062019
+Commerce de gros (commerce interentreprises) de cereales, de tabac non manufacture, de semences et d'aliments pour le betail 
+1.4059175682217453
+Autres enseignements 
+1.4052185275921505
+Fabrication de fils et cables et de materiel d'installation electrique 
+1.3981191595258244
+Fabrication d'autres machines d'usage specifique n.c.a. 
+1.397095070333282
+Enseignement post-secondaire non superieur 
+1.3970325663588312
+Enseignement secondaire 
+1.3916502748322983
+Enseignement secondaire technique ou professionnel 
+1.384751432845702
+Accueil ou accompagnement sans hebergement d'enfants handicapes 
+1.383084984136549
+Activites de conditionnement 
+1.3823319691850329
+Location de courte duree de voitures et de vehicules automobiles legers 
+1.3823319691850329
+Coiffure et soins de beaute 
+1.3809634844582344
+Intermediaires du commerce en produits divers 
+1.3808502123015607
+Fabrication de ciment 
+1.3781618473605883
+Commerce et reparation d'automobiles et de motocycles 
+1.3765010918652705
+Fabrication d'ouvrages en beton, en ciment ou en platre 
+1.370490562556625
+Fonderie de metaux legers 
+1.3550930657910665
+Autres travaux de construction specialises 
+1.3530375877441887
+Metallurgie de l'aluminium 
+1.352120630760834
+Location et exploitation de biens immobiliers propres ou loues 
+1.3498249017324888
+Activites auxiliaires de services financiers et d'assurance 
+1.3498249017324888
+Enseignement secondaire general 
+1.3443281770739177
+Fabrication de fromage 
+1.339061273913627
+Activites administratives 
+1.337939579269857
+Exploitation de laiteries et fabrication de fromage 
+1.3367719447180242
+Fabrication d'articles en fils metalliques, de chaines et de ressorts 
+1.3361268259228507
+Fabrication de chaux et platre 
+1.3336894891229976
+Telecommunications 
+1.3315542167384182
+Commerce de detail, a l'exception des automobiles et des motocycles 
+1.330812409710379
+Commerce d'autres vehicules automobiles 
+1.329828112602365
+Profilage a froid par formage ou pliage 
+1.3162232879302718
+Fabrication de ficelles, cordes et filets 
+1.31453781750093
+Nettoyage courant des batiments
+1.3091414571014277
+Fabrication d'equipements de communication 
+1.3089305771813902
+Fabrication d'autres produits alimentaires 
+1.3088823084615215
+Fabrication de fours et bruleurs 
+1.3057018567473537
+Commerce de gros (commerce interentreprises) alimentaire non specialise 
+1.3056974826031413
+Transports ferroviaires de fret 
+1.302861442115328
+Activites cinematographiques, video et de television 
+1.2954437222550772
+Services d'amenagement paysager
+1.2934347246740598
+Vente a distance 
+1.2855006215089886
+Raffinage du petrole 
+1.2820470035024523
+Travaux d'installation d'eau et de gaz en tous locaux 
+1.2814527587849551
+Fabrication de produits amylaces 
+1.2800023114276264
+Fabrication de pieces techniques a base de matieres plastiques 
+1.2795727590882418
+Enseignements divers 
+1.2708837802772237
+Fabrication de gaz industriels 
+1.2690067215546494
+Fabrication d'autres produits chimiques inorganiques de base 
+1.2677048669613582
+Hebergement medicalise pour personnes agees 
+1.2674248831939212
+Superettes
+1.2659612322870126
+edition 
+1.265196439678338
+Transformation et conservation de la viande de boucherie 
+1.2578818732603285
+Fabrication d'autres produits alimentaires n.c.a. 
+1.2550925583503854
+Intermediaires du commerce de gros 
+1.2475111655677988
+Fabrication d'autres produits en ceramique et en porcelaine 
+1.2443447292074097
+Installation d'equipements electriques, de materiels electroniques et optiques ou d'autres materiels 
+1.2439176541961523
+Enseignement primaire 
+1.2418711881515043
+Commerce de detail de produits surgeles 
+1.2377100839734534
+Commerce de gros d'autres produits alimentaires, y compris poissons, crustaces et mollusques 
+1.2337381251062338
+Fabrication d'autres fils et cables electroniques ou electriques 
+1.2311747500061319
+Fabrication d'autres articles metalliques 
+1.226498157304397
+Fabrication de produits de consommation courante en matieres plastiques 
+1.224110484626803
+Fabrication d'autres machines d'usage general 
+1.216943562009711
+Commerce - reparation d'automobiles et de motocycles 
+1.2141036857215013
+Transformation du the et du cafe 
+1.211197100929192
+Fabrication d'articles de voyage, de maroquinerie et de sellerie 
+1.211197100929192
+Fabrication de savons, detergents et produits d'entretien 
+1.2092123847669487
+Fabrication de fibres de verre 
+1.208626865214567
+Commerce de gros de cereales, de tabac non manufacture, de semences et d'aliments pour le betail 
+1.2068418248147983
+Fabrication d'aliments pour animaux de ferme 
+1.2062595163465635
+Fabrication d'articles metalliques menagers 
+1.205849744161087
+Fabrication d'autres produits ceramiques a usage technique 
+1.1949623936103189
+Entretien et reparation d'autres vehicules automobiles 
+1.1946611789346029
+Fabrication d'emballages en papier 
+1.1899918325322207
+Gestion des bibliotheques et des archives 
+1.1890903970991602
+Enquetes et securite 
+1.1887327121915046
+Travaux de menuiserie 
+1.1850924512843286
+Transport ferroviaire interurbain de voyageurs 
+1.1849441587413
+Production de boissons alcooliques distillees 
+1.1735545019732758
+Services auxiliaires des transports aeriens
+1.167887766466675
+Fabrication de materiels optique et photographique 
+1.1675364739924088
+Activites des sieges sociaux - conseil de gestion 
+1.157917122801522
+Fabrication de mortiers et betons secs 
+1.1576898298846576
+Fabrication de cacao, chocolat et de produits de confiserie 
+1.1569425960847795
+Siderurgie
+1.1556457796773811
+Commerce et reparation de motocycles 
+1.1521629070947834
+Affretement et organisation des transports 
+1.1478229202398005
+Fabrication de biscuits, biscottes et patisseries de conservation 
+1.1386403406286534
+Activites des agences de placement de main-d'oeuvre 
+1.136434661504628
+Enregistrement sonore et edition musicale 
+1.1349686490600326
+Commerce de gros (commerce interentreprises) alimentaire specialise divers 
+1.1264513258764568
+Organisation de salons professionnels et congres 
+1.1219501228068032
+Fabrication de sucre 
+1.1208393353790422
+Fabrication d'autres machines specialisees 
+1.1119721593392826
+Fabrication de papier et de carton 
+1.0771798040496507
+Autres activites de nettoyage des batiments et nettoyage industriel 
+1.0734816578414659
+Fabrication de biere 
+1.0609716311915067
+Construction et entretien de tunnels 
+1.0570669043234044
+Preparation de produits a base de viande, dont artisanat commercial (**) 
+1.0531195912191498
+Commerce de detail d'autres equipements du foyer 
+1.041140876028336
+Fabrication d'emballages en bois 
+1.041140876028336
+Activites liees aux systemes de securite 
+1.0387026525876992
+etirage a froid de barres 
+1.0321532709346306
+Fabrication de condiments et assaisonnements 
+1.0316577576301815
+Intermediaires du commerce en denrees, boissons et tabac 
+1.030115209833951
+Travaux de peinture et vitrerie 
+1.0244082037749285
+Boulangerie et boulangerie-patisserie 
+1.0089772598141507
+Commerce de gros (commerce interentreprises) d'animaux vivants 
+0.9949663638246803
+Industries alimentaires, dont artisanat commercial (*) 
+0.9889269051375521
+Activites d'architecture et d'ingenierie - activites de controle et analyses techniques 
+0.981662039411829
+Fabrication de machines pour les industries textiles 
+0.9746068444048458
+Gestion d'installations sportives 
+0.9666593069596223
+Transports maritimes et cotiers de fret 
+0.9151812631681248
+Industrie manufacturiere, dont artisanat commercial (*) 
+0.8688202823615858
+Industrie des eaux minerales et autres eaux embouteillees et des boissons rafraichissantes 
+0.8505535808521854
+Autres activites de soutien aux entreprises n.c.a. 
+0.8334333053902404
+Organisation de foires, salons professionnels et congres 
+0.7265708605086362
+Action sociale sans hebergement 
+0.667042715409324

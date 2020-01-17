@@ -1,0 +1,50 @@
+Metallurgie 
+Fabrication de tubes, tuyaux, profiles creux et accessoires correspondants en acier 
+Fabrication d'autres produits de premiere transformation de l'acier 
+etirage a froid de barres 
+Laminage a froid de feuillards 
+Profilage a froid par formage ou pliage 
+Trefilage a froid 
+Production de metaux precieux et d'autres metaux non ferreux 
+Production de metaux precieux 
+Metallurgie de l'aluminium 
+Metallurgie du plomb, du zinc ou de l'etain
+Metallurgie du cuivre 
+Metallurgie des autres metaux non ferreux 
+elaboration et transformation de matieres nucleaires 
+Fonderie 
+Fonderie de fonte 
+Fonderie d'acier 
+Fonderie de metaux legers 
+Fonderie d'autres metaux non ferreux 
+Fabrication de produits metalliques, a l'exception des machines et des equipements 
+Fabrication d'elements en metal pour la construction 
+Fabrication de structures metalliques et de parties de structures 
+Fabrication de portes et fenetres en metal 
+Fabrication de reservoirs, citernes et conteneurs metalliques 
+Fabrication de radiateurs et de chaudieres pour le chauffage central 
+Fabrication d'autres reservoirs, citernes et conteneurs metalliques 
+Fabrication de generateurs de vapeur, a l'exception des chaudieres pour le chauffage central 
+Fabrication d'armes et de munitions 
+Forge, emboutissage, estampage - metallurgie des poudres 
+Forge, estampage, matriçage - metallurgie des poudres 
+Decoupage, emboutissage 
+Traitement et revetement des metaux - usinage 
+Traitement et revetement des metaux 
+Usinage 
+Decolletage 
+Mecanique industrielle 
+Fabrication de coutellerie, d'outillage et de quincaillerie 
+Fabrication de coutellerie 
+Fabrication de serrures et de ferrures 
+Fabrication d'outillage 
+Fabrication de moules et modeles 
+Fabrication d'autres outillages 
+Fabrication d'autres ouvrages en metaux 
+Fabrication de futs et emballages metalliques similaires 
+Fabrication d'emballages metalliques legers 
+Fabrication d'articles en fils metalliques, de chaines et de ressorts 
+Fabrication de vis et de boulons 
+Fabrication d'autres produits metalliques n.c.a. 
+Fabrication d'articles metalliques menagers 
+Fabrication d'autres articles metalliques 
