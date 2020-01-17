@@ -54,13 +54,18 @@ def FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,adresse,rep
 
 	Z = sc.fit_transform(sources2)
 	#print(Z)
+	print(len(Z))
+	print(len(Z[0]))
 
 	n = len(sources2)
 	p = len(sources2[0])
+	print(n)
+	print(p)
 
 	coord = acp.fit_transform(Z)
 
 	eigval = (acp.singular_values_**2)/n
+	print(len(eigval))
 
 	print(acp.explained_variance_ratio_)
 	numpy.savetxt(adresse+"explained_variance_ratio_.txt",acp.explained_variance_ratio_,fmt='%f', delimiter='	')

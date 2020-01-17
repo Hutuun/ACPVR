@@ -116,7 +116,6 @@ for i in range(len(secteurG)):
 	secteurG[i] = secteurG[i][:-4]
 print(secteurG)
 print("Glob")
-print(sources2)
 
 sourcelocalsup = []
 
