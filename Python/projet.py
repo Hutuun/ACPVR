@@ -104,6 +104,8 @@ for i in range(1,len(sources2)):
 		print("false")
 		print(str(i) + " : " + str(len(sources2[i])))
 
+fct.FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,"Image0/",1)
+
 #Analyse ACP des grands secteurs à faire
 
 print("Glob")

@@ -71,6 +71,8 @@ def FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,adresse,rep
 	bs = numpy.cumsum(bs) 
 	bs = bs[::-1]
 
+	print(eigval)
+	print(bs)
 	print(pandas.DataFrame({'Val.Propre':eigval,'Seuils':bs,'Choisi':eigval>bs}))
 	numpy.savetxt(adresse+"eigval.txt",eigval,fmt='%f', delimiter='	')
 	numpy.savetxt(adresse+"bs.txt",bs,fmt='%f', delimiter='	')
