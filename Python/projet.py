@@ -2,6 +2,8 @@
 
 import numpy
 import sklearn
+import glob
+import os
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
@@ -19,6 +21,8 @@ resultat = open("resultat.txt","w")
 resultat2 = open("resultat2.txt","w")
 
 #Initialisation des variables
+
+lancer = 1
 
 i=0
 dimx = 10
@@ -100,8 +104,44 @@ for i in range(1,len(sources2)):
 		print("false")
 		print(str(i) + " : " + str(len(sources2[i])))
 
+#Analyse ACP des grands secteurs à faire
 
-di = fct.FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,"Image/",1)
+print("Glob")
+ouvrir = glob.glob("D:\Etude\Etude\RVI\ACPVR\Python\Categorie\*.txt")
+print(ouvrir)
+secteurG = os.listdir("D:\Etude\Etude\RVI\ACPVR\Python\Categorie")
+for i in range(len(secteurG)):
+	secteurG[i] = secteurG[i][:-4]
+print(secteurG)
+print("Glob")
+print(sources2)
+
+sourcelocalsup = []
+
+for i in range(len(secteurG)):
+	secteurlocal = []
+	sourcelocal = []
+	temp = open(ouvrir[i])
+	for ligne in temp:
+		secteurlocal += [ligne]
+	sourcelocal = numpy.zeros(44)
+	for j in range(len(secteurlocal)):
+		for k in range(len(secteurs2)):
+			if(secteurs2[k]==secteurlocal[j]):
+				for l in range(len(sources2[k])):
+					sourcelocal[l]+=sources2[k][l]
+	sourcelocalsup += [sourcelocal]
+	print(sourcelocal)
+
+print(pandas.DataFrame({'Secteur G':secteurG,'Source locale':sourcelocalsup}))
+
+fct.FonctionPrincipale(sourcelocalsup,secteurG,caracteristique,nbEle,dimx,"Bidule/",0)
+
+
+#Analyse ACP par défaut
+
+if(lancer==0):
+	di = fct.FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,"Image0/",1)
 
 secteurs3 = secteurs2
 sources3 = sources2
@@ -124,9 +164,9 @@ for i in range(len(di)):
 		secteurs3.pop(i)
 		sources3.pop(i)
 
-
 		
-di = fct.FonctionPrincipale(sources3,secteurs3,caracteristique,nbEle,dimx,"Image1/",1)
+if(lancer==0):
+	di = fct.FonctionPrincipale(sources3,secteurs3,caracteristique,nbEle,dimx,"Image1/",1)
 
 secteurs3 = secteurs2
 sources3 = sources2
@@ -157,7 +197,8 @@ for i in range(0,len(sources2)):
 	temp +=[sources2[i][3]]
 	sources3+=[temp]
 
-fct.FonctionPrincipale(sources3,secteurs2,caracteristique2,nbEle,dimx,"Image3/",1)
+if(lancer==0):
+	fct.FonctionPrincipale(sources3,secteurs2,caracteristique2,nbEle,dimx,"Image3/",1)
 
 caracteristique2 =[]
 caracteristique2 +=[caracteristique[12]]
@@ -170,7 +211,8 @@ for i in range(0,len(sources2)):
 	temp +=[sources2[i][21]]
 	sources3+=[temp] 
 
-fct.FonctionPrincipale(sources3,secteurs2,caracteristique2,nbEle,dimx,"Image4/",1)
+if(lancer==0):
+	fct.FonctionPrincipale(sources3,secteurs2,caracteristique2,nbEle,dimx,"Image4/",1)
 
 caracteristique2 =[]
 caracteristique2 +=[caracteristique[2]]
@@ -185,7 +227,8 @@ for i in range(0,len(sources2)):
 	temp +=[sources2[i][11]]
 	sources3+=[temp]
 
-fct.FonctionPrincipale(sources3,secteurs2,caracteristique2,nbEle,dimx,"Image5/",1)
+if(lancer==0):
+	fct.FonctionPrincipale(sources3,secteurs2,caracteristique2,nbEle,dimx,"Image5/",1)
 
 caracteristique2 =[]
 caracteristique2 +=[caracteristique[23]]
@@ -198,13 +241,16 @@ for i in range(0,len(sources2)):
 	temp +=[sources2[i][43]]
 	sources3+=[temp]
 
-fct.FonctionPrincipale(sources3,secteurs2,caracteristique2,nbEle,dimx,"Image6/",1)
+if(lancer==0):
+	fct.FonctionPrincipale(sources3,secteurs2,caracteristique2,nbEle,dimx,"Image6/",1)
 
 
-fct.FonctionActif(sources2,secteurs2,caracteristique,nbEle,dimx,"Image7/",1)
+if(lancer==0):
+	fct.FonctionActif(sources2,secteurs2,caracteristique,nbEle,dimx,"Image7/",1)
 
 
-fct.FonctionPassif(sources2,secteurs2,caracteristique,nbEle,dimx,"Image8/",1)
+if(lancer==0):
+	fct.FonctionPassif(sources2,secteurs2,caracteristique,nbEle,dimx,"Image8/",1)
 
 
 #Fermeture des fichiers
