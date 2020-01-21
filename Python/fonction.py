@@ -46,7 +46,7 @@ def FonctionActif(sources2,secteurs2,caracteristique,nbEle,dimx,adresse,rep):
 
 	fct.FonctionPrincipale(sources3,secteurs2,caracteristique2,nbEle,dimx,adresse,rep)
 
-def FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,adresse,rep):
+def FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,adresse,rep,affiche):
 	sc = StandardScaler()
 	acp = PCA(svd_solver='full')
 
@@ -138,14 +138,15 @@ def FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,adresse,rep
 
 	#Affichage
 
-	fct.AffichageClassement(p,eigval,adresse)
+	if affiche == 0:
+		fct.AffichageClassement(p,eigval,adresse)
 
-	fct.AffichageCumul(p,acp,adresse)
+		fct.AffichageCumul(p,acp,adresse)
+		
+		fct.AffichageCercleCorrelation(caracteristique,corvar,p,adresse)
 
 	if rep==0:
 		fct.RepresentationIndividus(n,nbEle,dimx,coord,secteurs2,adresse)
-
-	fct.AffichageCercleCorrelation(caracteristique,corvar,p,adresse)
 	
 	return di
 

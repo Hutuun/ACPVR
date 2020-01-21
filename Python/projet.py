@@ -143,34 +143,60 @@ for i in range(len(temp)):
 	temp[i]/=len(sourcelocalsup)
 
 for i in range(len(secteurG),len(sourcelocalsup[0])):
-	secteurG+=["Inutilisé"]
+	secteurG+=["Inutilise"]
 	sourcelocalsup+=[temp]
 
 print(pandas.DataFrame({'Secteur G':secteurG,'Source locale':sourcelocalsup}))
 
-fct.FonctionPrincipale(sourcelocalsup,secteurG,caracteristique,nbEle,dimx,"Secteur/",0)
+fct.FonctionPrincipale(sourcelocalsup,secteurG,caracteristique,nbEle,dimx,"Secteur/",1,1)
 
-for i in secteurG:
-	if i != "Inutilisé":
-		os.makedirs("D:\Etude\Etude\Et5\RVI\ACPVR\Python\InfoSecteur\\" + i,exist_ok=True)
-		os.makedirs("D:\Etude\Etude\Et5\RVI\ACPVR\Python\InfoSecteur\\" + i + "\Correlation",exist_ok=True)
-		
+# os.makedirs("D:\Etude\Etude\Et5\RVI\ACPVR\Python\InfoSecteur\\" + "Inutilise",exist_ok=True)
+# os.makedirs("D:\Etude\Etude\Et5\RVI\ACPVR\Python\InfoSecteur\\" + "Inutilise" + "\Correlation",exist_ok=True)
+
 for i in range(len(secteurG)):
-	secteurlocal = []
-	temp = open(ouvrir[i])
-	for ligne in temp:
-		secteurlocal += [ligne]
-	sourcelocal = numpy.zeros(44)
-	for j in range(len(secteurlocal)):
-		for k in range(len(secteurs2)):
-			if(secteurs2[k]==secteurlocal[j]):
-				for l in range(len(sources2[k])):
-					sourcelocal[l]+=sources2[k][l]
+	if i != "Inutilise":
+		os.makedirs("D:\Etude\Etude\Et5\RVI\ACPVR\Python\InfoSecteur\\" + secteurG[i],exist_ok=True)
+		os.makedirs("D:\Etude\Etude\Et5\RVI\ACPVR\Python\InfoSecteur\\" + secteurG[i] + "\Correlation",exist_ok=True)
+		
+		secteurlocal = []
+		print(i)
+		temp = open(ouvrir[i])
+		for ligne in temp:
+			secteurlocal += [ligne]
+		sourcelocal = []
+		temp = []
+		for j in range(len(secteurlocal)):
+			existe = 0
+			for k in range(len(secteurs2)):
+				if(secteurs2[k]==secteurlocal[j]):
+					existe = 1
+					sourcelocal+=[sources2[k]]
+			if existe == 0:
+				temp+=[j]
+		
+		for j in range(len(temp)-1,-1,-1):
+			del secteurlocal[temp[j]]
+		
+		temp = numpy.zeros(44)
+
+		for k in range(len(sourcelocal)):
+			for j in range(len(sourcelocal[k])):
+				temp[j] += sourcelocal[k][j]
+		
+		for j in range(len(temp)):
+			temp[j]/=len(sourcelocal)
+		
+		for j in range(len(secteurlocal),len(sourcelocal[0])):
+			secteurlocal+=["Inutilise"]
+			sourcelocal+=[temp]
+		
+		print(pandas.DataFrame({'Secteur G':secteurlocal,'Source locale':sourcelocal}))
+		fct.FonctionPrincipale(sourcelocal,secteurlocal,caracteristique,nbEle,dimx,"InfoSecteur/" + secteurG[i] + "/",0,1)
 
 #Analyse ACP par défaut
 
 if(lancer==0):
-	di = fct.FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,"Image0/",1)
+	di = fct.FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,"Image0/",1,1)
 
 secteurs3 = secteurs2
 sources3 = sources2
@@ -195,7 +221,7 @@ for i in range(len(di)):
 
 		
 if(lancer==0):
-	di = fct.FonctionPrincipale(sources3,secteurs3,caracteristique,nbEle,dimx,"Image1/",1)
+	di = fct.FonctionPrincipale(sources3,secteurs3,caracteristique,nbEle,dimx,"Image1/",1,1)
 
 secteurs3 = secteurs2
 sources3 = sources2
@@ -227,7 +253,7 @@ for i in range(0,len(sources2)):
 	sources3+=[temp]
 
 if(lancer==0):
-	fct.FonctionPrincipale(sources3,secteurs2,caracteristique2,nbEle,dimx,"Image3/",1)
+	fct.FonctionPrincipale(sources3,secteurs2,caracteristique2,nbEle,dimx,"Image3/",1,1)
 
 caracteristique2 =[]
 caracteristique2 +=[caracteristique[12]]
@@ -241,7 +267,7 @@ for i in range(0,len(sources2)):
 	sources3+=[temp] 
 
 if(lancer==0):
-	fct.FonctionPrincipale(sources3,secteurs2,caracteristique2,nbEle,dimx,"Image4/",1)
+	fct.FonctionPrincipale(sources3,secteurs2,caracteristique2,nbEle,dimx,"Image4/",1,1)
 
 caracteristique2 =[]
 caracteristique2 +=[caracteristique[2]]
@@ -257,7 +283,7 @@ for i in range(0,len(sources2)):
 	sources3+=[temp]
 
 if(lancer==0):
-	fct.FonctionPrincipale(sources3,secteurs2,caracteristique2,nbEle,dimx,"Image5/",1)
+	fct.FonctionPrincipale(sources3,secteurs2,caracteristique2,nbEle,dimx,"Image5/",1,1)
 
 caracteristique2 =[]
 caracteristique2 +=[caracteristique[23]]
@@ -271,15 +297,15 @@ for i in range(0,len(sources2)):
 	sources3+=[temp]
 
 if(lancer==0):
-	fct.FonctionPrincipale(sources3,secteurs2,caracteristique2,nbEle,dimx,"Image6/",1)
+	fct.FonctionPrincipale(sources3,secteurs2,caracteristique2,nbEle,dimx,"Image6/",1,1)
 
 
 if(lancer==0):
-	fct.FonctionActif(sources2,secteurs2,caracteristique,nbEle,dimx,"Image7/",1)
+	fct.FonctionActif(sources2,secteurs2,caracteristique,nbEle,dimx,"Image7/",1,1)
 
 
 if(lancer==0):
-	fct.FonctionPassif(sources2,secteurs2,caracteristique,nbEle,dimx,"Image8/",1)
+	fct.FonctionPassif(sources2,secteurs2,caracteristique,nbEle,dimx,"Image8/",1,1)
 
 
 #Fermeture des fichiers
