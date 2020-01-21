@@ -154,7 +154,7 @@ fct.FonctionPrincipale(sourcelocalsup,secteurG,caracteristique,nbEle,dimx,"Secte
 # os.makedirs("D:\Etude\Etude\Et5\RVI\ACPVR\Python\InfoSecteur\\" + "Inutilise" + "\Correlation",exist_ok=True)
 
 for i in range(len(secteurG)):
-	if i != "Inutilise":
+	if secteurG[i] != "Inutilise":
 		os.makedirs("D:\Etude\Etude\Et5\RVI\ACPVR\Python\InfoSecteur\\" + secteurG[i],exist_ok=True)
 		os.makedirs("D:\Etude\Etude\Et5\RVI\ACPVR\Python\InfoSecteur\\" + secteurG[i] + "\Correlation",exist_ok=True)
 		
