@@ -104,14 +104,14 @@ for i in range(1,len(sources2)):
 		print("false")
 		print(str(i) + " : " + str(len(sources2[i])))
 
-fct.FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,"Image0/",1)
+# fct.FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,"Image0/",1)
 
 #Analyse ACP des grands secteurs à faire
 
 print("Glob")
-ouvrir = glob.glob("D:\Etude\Etude\RVI\ACPVR\Python\Categorie\*.txt")
+ouvrir = glob.glob("D:\Etude\Etude\Et5\RVI\ACPVR\Python\Categorie\*.txt")
 print(ouvrir)
-secteurG = os.listdir("D:\Etude\Etude\RVI\ACPVR\Python\Categorie")
+secteurG = os.listdir("D:\Etude\Etude\Et5\RVI\ACPVR\Python\Categorie")
 for i in range(len(secteurG)):
 	secteurG[i] = secteurG[i][:-4]
 print(secteurG)
@@ -132,12 +132,40 @@ for i in range(len(secteurG)):
 				for l in range(len(sources2[k])):
 					sourcelocal[l]+=sources2[k][l]
 	sourcelocalsup += [sourcelocal]
-	print(sourcelocal)
+
+temp = numpy.zeros(44)
+
+for i in range(len(sourcelocalsup)):
+	for j in range(len(sourcelocalsup[i])):
+		temp[j] += sourcelocalsup[i][j]
+		
+for i in range(len(temp)):
+	temp[i]/=len(sourcelocalsup)
+
+for i in range(len(secteurG),len(sourcelocalsup[0])):
+	secteurG+=["Inutilisé"]
+	sourcelocalsup+=[temp]
 
 print(pandas.DataFrame({'Secteur G':secteurG,'Source locale':sourcelocalsup}))
 
-fct.FonctionPrincipale(sourcelocalsup,secteurG,caracteristique,nbEle,dimx,"Bidule/",0)
+fct.FonctionPrincipale(sourcelocalsup,secteurG,caracteristique,nbEle,dimx,"Secteur/",0)
 
+for i in secteurG:
+	if i != "Inutilisé":
+		os.makedirs("D:\Etude\Etude\Et5\RVI\ACPVR\Python\InfoSecteur\\" + i,exist_ok=True)
+		os.makedirs("D:\Etude\Etude\Et5\RVI\ACPVR\Python\InfoSecteur\\" + i + "\Correlation",exist_ok=True)
+		
+for i in range(len(secteurG)):
+	secteurlocal = []
+	temp = open(ouvrir[i])
+	for ligne in temp:
+		secteurlocal += [ligne]
+	sourcelocal = numpy.zeros(44)
+	for j in range(len(secteurlocal)):
+		for k in range(len(secteurs2)):
+			if(secteurs2[k]==secteurlocal[j]):
+				for l in range(len(sources2[k])):
+					sourcelocal[l]+=sources2[k][l]
 
 #Analyse ACP par défaut
 
