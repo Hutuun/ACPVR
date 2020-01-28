@@ -626,6 +626,7 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
+    Collab: 1
     UNet: 1
   luminIcon:
     m_Name: 
@@ -646,10 +647,10 @@ PlayerSettings:
   facebookXfbml: 0
   facebookFrictionlessRequests: 1
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 2399b406-4b20-4d6d-986b-fbf34deb1345
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: ACP
+  organizationId: unity_f9m_tnsxq5i2zg
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
