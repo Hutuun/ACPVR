@@ -68,7 +68,7 @@ def FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,adresse,rep
 	print(len(eigval))
 
 	print(acp.explained_variance_ratio_)
-	numpy.savetxt(adresse+"explained_variance_ratio_.txt",acp.explained_variance_ratio_,fmt='%f', delimiter='	')
+	numpy.savetxt(adresse+"explained_variance_ratio_.txt",acp.explained_variance_ratio_,fmt='%f', delimiter='\n')
 
 	#Determination du nombre de facteurs a retenir
 
@@ -79,16 +79,16 @@ def FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,adresse,rep
 	print(eigval)
 	print(bs)
 	print(pandas.DataFrame({'Val.Propre':eigval,'Seuils':bs,'Choisi':eigval>bs}))
-	numpy.savetxt(adresse+"eigval.txt",eigval,fmt='%f', delimiter='	')
-	numpy.savetxt(adresse+"bs.txt",bs,fmt='%f', delimiter='	')
+	numpy.savetxt(adresse+"eigval.txt",eigval,fmt='%f', delimiter='\n')
+	numpy.savetxt(adresse+"bs.txt",bs,fmt='%f', delimiter='\n')
 	#fichier.write(pandas.DataFrame({'Val.Propre':eigval,'Seuils':bs,'Choisi':eigval>bs}))
 
 	#Contribution à l'inertie
 	di = numpy.sum(Z**2,axis=1) 
 	
 	print(pandas.DataFrame({'ID':secteurs2,'d_i':di})) 
-	numpy.savetxt(adresse+"di.txt",di,fmt='%f', delimiter='	')
-	numpy.savetxt(adresse+"secteurs.txt",secteurs2,fmt='%s', delimiter='	')
+	numpy.savetxt(adresse+"di.txt",di,fmt='%f', delimiter='\n')
+	numpy.savetxt(adresse+"secteurs.txt",secteurs2,fmt='%s', delimiter='\n')
 
 	#Qualité de représentation
 	cos2 = coord**2 
@@ -96,7 +96,7 @@ def FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,adresse,rep
 		cos2[:,j] = cos2[:,j]/di 
  
 	print(pandas.DataFrame({'id':secteurs2,'COS2_1':cos2[:,0],'COS2_2':cos2[:,1]}))
-	numpy.savetxt(adresse+"cos2.txt",cos2,fmt='%f', delimiter='	')
+	numpy.savetxt(adresse+"cos2.txt",cos2,fmt='%f', delimiter='\n')
 
 	#Contribution à chaque axes
 	ctr = coord**2
@@ -104,7 +104,7 @@ def FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,adresse,rep
 		ctr[:,j] = ctr[:,j]/(n*eigval[j])      
  
 	print(pandas.DataFrame({'id':secteurs2,'CTR_1':ctr[:,0],'CTR_2':ctr[:,1]})) 
-	numpy.savetxt(adresse+"ctr.txt",ctr,fmt='%f', delimiter='	')
+	numpy.savetxt(adresse+"ctr.txt",ctr,fmt='%f', delimiter='\n')
 
 	#Représentation des variables
 	sqrt_eigval = numpy.sqrt(eigval) 
@@ -117,14 +117,14 @@ def FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,adresse,rep
 	#print(corvar)
 
 	print(pandas.DataFrame({'id':caracteristique,'COR_1':corvar[:,0],'COR_2':corvar[:,1]}))
-	numpy.savetxt(adresse+"caracteristique.txt",caracteristique,fmt='%s', delimiter='	')
-	numpy.savetxt(adresse+"corvar.txt",corvar,fmt='%f', delimiter='	')
+	numpy.savetxt(adresse+"caracteristique.txt",caracteristique,fmt='%s', delimiter='\n')
+	numpy.savetxt(adresse+"corvar.txt",corvar,fmt='%f', delimiter='\n')
 
 	#Qualité de représentation des variables
 
 	cos2var = corvar**2 
 	print(pandas.DataFrame({'id':caracteristique,'COS2_1':cos2var[:,0],'COS2_2':cos2var[:,1]}))
-	numpy.savetxt(adresse+"cos2var.txt",cos2var,fmt='%f', delimiter='	')
+	numpy.savetxt(adresse+"cos2var.txt",cos2var,fmt='%f', delimiter='\n')
 
 	#Contribution des variables aux axes
 
@@ -134,7 +134,7 @@ def FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,adresse,rep
 		ctrvar[:,k] = ctrvar[:,k]/eigval[k] 
  
 	print(pandas.DataFrame({'id':caracteristique,'CTR_1':ctrvar[:,0],'CTR_2':ctrvar[:,1]})) 
-	numpy.savetxt(adresse+"ctrvar.txt",ctrvar,fmt='%f', delimiter='	')
+	numpy.savetxt(adresse+"ctrvar.txt",ctrvar,fmt='%f', delimiter='\n')
 
 	#Affichage
 

@@ -65,10 +65,10 @@ for ligne in passif:
 #print(pandas.DataFrame({'temp4':temp4})) 
 
 for ligne in Cactif:
-	caracteristique += [ligne]
+	caracteristique += [ligne.split()[0]]
 	
 for ligne in Cpassif:
-	caracteristique += [ligne]
+	caracteristique += [ligne.split()[0]]
 
 	
 for i in range(0,len(temp4)):
@@ -109,9 +109,9 @@ for i in range(1,len(sources2)):
 #Analyse ACP des grands secteurs à faire
 
 print("Glob")
-ouvrir = glob.glob("D:\Etude\Etude\Et5\RVI\ACPVR\Python\Categorie\*.txt")
+ouvrir = glob.glob("Categorie\*.txt")
 print(ouvrir)
-secteurG = os.listdir("D:\Etude\Etude\Et5\RVI\ACPVR\Python\Categorie")
+secteurG = os.listdir("Categorie")
 for i in range(len(secteurG)):
 	secteurG[i] = secteurG[i][:-4]
 print(secteurG)
@@ -155,8 +155,8 @@ fct.FonctionPrincipale(sourcelocalsup,secteurG,caracteristique,nbEle,dimx,"Secte
 
 for i in range(len(secteurG)):
 	if secteurG[i] != "Inutilise":
-		os.makedirs("D:\Etude\Etude\Et5\RVI\ACPVR\Python\InfoSecteur\\" + secteurG[i],exist_ok=True)
-		os.makedirs("D:\Etude\Etude\Et5\RVI\ACPVR\Python\InfoSecteur\\" + secteurG[i] + "\Correlation",exist_ok=True)
+		os.makedirs("InfoSecteur\\" + secteurG[i],exist_ok=True)
+		os.makedirs("InfoSecteur\\" + secteurG[i] + "\Correlation",exist_ok=True)
 		
 		secteurlocal = []
 		print(i)
@@ -197,6 +197,8 @@ for i in range(len(secteurG)):
 
 if(lancer==0):
 	di = fct.FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,"Image0/",1,1)
+else:
+	exit()
 
 secteurs3 = secteurs2
 sources3 = sources2
