@@ -31,80 +31,80 @@ public class TestCrea : MonoBehaviour
 
         for(int i = 0;i<res.Count;i+=44)
         {
-            convert(res[i])
+            
             //spheres.Add(GameObject.Instantiate(sphere, new Vector3(-15+res[i], -12 + res[i+1], 53 + res[i+2]), Quaternion.identity));
-            //Debug.Log(double.Parse(res[i].Split('\n')[0]));
+            Debug.Log(convert(res[i]));
         }
 
     }
     
-    double convert(string temp)
+    double convert(string str)
     {
         double res=0;
         double before=0;
         double after=0;
         bool virgule=false;
-        for(int i=0;i<temp.Count;i++)
+        for(int i=0;i<str.Length;i++)
         {
             double temp;
             if(virgule)
                 temp = after;
             else
                 temp = before;
-            if(temp[i]=='0')
+            if(str[i]=='0')
             {
                 temp*=10;
             }
-            else if(temp[i]=='1')
+            else if(str[i]=='1')
             {
                 temp*=10;
                 temp+=1;
             }
-            else if(temp[i]=='2')
+            else if(str[i]=='2')
             {
                 temp*=10;
                 temp+=2;
             }
-            else if(temp[i]=='3')
+            else if(str[i]=='3')
             {
                 temp*=10;
                 temp+=3;
             }
-            else if(temp[i]=='4')
+            else if(str[i]=='4')
             {
                 temp*=10;
                 temp+=4;
             }
-            else if(temp[i]=='5')
+            else if(str[i]=='5')
             {
                 temp*=10;
                 temp+=5;
             }
-            else if(temp[i]=='6')
+            else if(str[i]=='6')
             {
                 temp*=10;
                 temp+=6;
             }
-            else if(temp[i]=='7')
+            else if(str[i]=='7')
             {
                 temp*=10;
                 temp+=7;
             }
-            else if(temp[i]=='8')
+            else if(str[i]=='8')
             {
                 temp*=10;
                 temp+=8;
             }
-            else if(temp[i]=='9')
+            else if(str[i]=='9')
             {
                 temp*=10;
                 temp+=9;
             }
-            else if(temp[i]==',')
+            else if(str[i]==',')
             {
                 virgule = true;
             }
-            else if(temp[i]=='.')
+            else if(str[i]=='.')
             {
                 virgule = true;
             }
