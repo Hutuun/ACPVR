@@ -113,6 +113,11 @@ public class TestCrea : MonoBehaviour
             else
                 before = temp;
         }
+        while(after>0)
+        {
+            after/=10;
+        }
+        res = before + after;
         return res;
     }
     
