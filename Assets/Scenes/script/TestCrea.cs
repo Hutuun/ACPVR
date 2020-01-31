@@ -15,7 +15,7 @@ public class TestCrea : MonoBehaviour
     void Start()
     {
         GameObject prefab = (GameObject)Resources.Load("Graph");
-        GameObject graph = GameObject.Instantiate(prefab,new Vector3(-15,-12,53),Quaternion.identity);
+        GameObject graph = GameObject.Instantiate(prefab, new Vector3(-6.055751f, 4.12f, 13.75607f), Quaternion.identity);
 
         GameObject sphere = (GameObject)Resources.Load("SpherePrefab");
 
@@ -29,12 +29,12 @@ public class TestCrea : MonoBehaviour
             res.Add(line);
         }
 
-        for(int i = 0;i<res.Count;i+=44)
+        for (int i = 0; i < res.Count; i += 44)
         {
-            
-            spheres.Add(GameObject.Instantiate(sphere, new Vector3(-15 - -7.53f + (float)convert(res[i])*15, -12- -16.195f + (float)convert(res[i+1])*15, 53 -40.93f + (float)convert(res[i+2])*15), Quaternion.identity));
+
+            spheres.Add(GameObject.Instantiate(sphere, new Vector3(-6.055751f + (float)convert(res[i]) * 15, 4.12f + (float)convert(res[i + 1]) * 15, 13.75607f + (float)convert(res[i + 2]) * 15), Quaternion.identity));
             Debug.Log(convert(res[i]));
-            for(int j = 0; j < newShoe.transform.childCount; ++j)
+            for (int j = 0; j < newShoe.transform.childCount; ++j)
             {
                 Transform currentItem = newShoe.transform.GetChild(j);
                 if (currentItem.name.Equals("Name"))
