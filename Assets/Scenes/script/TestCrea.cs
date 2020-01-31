@@ -108,6 +108,7 @@ public class TestCrea : MonoBehaviour
             {
                 virgule = true;
             }
+            Debug.Log(temp);
             if(virgule)
                 after = temp;
             else
@@ -117,6 +118,7 @@ public class TestCrea : MonoBehaviour
         {
             after/=10;
         }
+        //Debug.Log(before);
         res = before + after;
         return res;
     }
