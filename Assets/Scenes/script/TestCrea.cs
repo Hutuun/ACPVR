@@ -31,12 +31,75 @@ public class TestCrea : MonoBehaviour
 
         for(int i = 0;i<res.Count;i+=44)
         {
+            convert(res[i])
             //spheres.Add(GameObject.Instantiate(sphere, new Vector3(-15+res[i], -12 + res[i+1], 53 + res[i+2]), Quaternion.identity));
-            Debug.Log(double.Parse(res[i].Split('\n')[0]));
+            //Debug.Log(double.Parse(res[i].Split('\n')[0]));
         }
 
     }
-
+    
+    double convert(string temp)
+    {
+        double res;
+        double pos;
+        for(int i=0;i<temp.Count;i++)
+        {
+            if(temp[i]=='0')
+            {
+            
+            }
+            else if(temp[i]=='0')
+            {
+            
+            }
+            else if(temp[i]=='1')
+            {
+            
+            }
+            else if(temp[i]=='2')
+            {
+            
+            }
+            else if(temp[i]=='3')
+            {
+            
+            }
+            else if(temp[i]=='4')
+            {
+            
+            }
+            else if(temp[i]=='5')
+            {
+            
+            }
+            else if(temp[i]=='6')
+            {
+            
+            }
+            else if(temp[i]=='7')
+            {
+            
+            }
+            else if(temp[i]=='8')
+            {
+            
+            }
+            else if(temp[i]=='9')
+            {
+            
+            }
+            else if(temp[i]==',')
+            {
+            
+            }
+            else if(temp[i]=='.')
+            {
+            
+            }
+        }
+        return res;
+    }
+    
     // Update is called once per frame
     void Update()
     {
