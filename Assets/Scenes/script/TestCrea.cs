@@ -32,7 +32,7 @@ public class TestCrea : MonoBehaviour
         for(int i = 0;i<res.Count;i+=44)
         {
             
-            //spheres.Add(GameObject.Instantiate(sphere, new Vector3(-15+res[i], -12 + res[i+1], 53 + res[i+2]), Quaternion.identity));
+            spheres.Add(GameObject.Instantiate(sphere, new Vector3(-15 - -7.53f + (float)convert(res[i])*15, -12- -16.195f + (float)convert(res[i+1])*15, 53 -40.93f + (float)convert(res[i+2])*15), Quaternion.identity));
             Debug.Log(convert(res[i]));
         }
 
