@@ -9,17 +9,20 @@ public class TestCrea : MonoBehaviour
     public int modele = 0;
 
     private List<string> res = new List<string>();
+    private GameObject graph;
+    private List<string> names = new List<string>();
     private List<GameObject> spheres = new List<GameObject>();
 
     // Start is called before the first frame update
     void Start()
     {
         GameObject prefab = (GameObject)Resources.Load("Graph");
-        GameObject graph = GameObject.Instantiate(prefab, new Vector3(-6.055751f, 4.12f, 13.75607f), Quaternion.identity);
+        graph = GameObject.Instantiate(prefab, new Vector3(-6.055751f, 4.12f, 13.75607f), Quaternion.identity);
 
         GameObject sphere = (GameObject)Resources.Load("SpherePrefab");
 
-        System.IO.StreamReader fileT = new System.IO.StreamReader(file);
+        System.IO.StreamReader fileT = new System.IO.StreamReader(file + "corvar.txt");
+        System.IO.StreamReader fileName = new System.IO.StreamReader(file + "caracteristique.txt");
 
         string line;
 
@@ -29,19 +32,37 @@ public class TestCrea : MonoBehaviour
             res.Add(line);
         }
 
+        while ((line = fileName.ReadLine()) != null)
+        {
+            System.Console.WriteLine(line);
+            names.Add(line);
+        }
+
         for (int i = 0; i < res.Count; i += 44)
         {
 
             spheres.Add(GameObject.Instantiate(sphere, new Vector3(-6.055751f + (float)convert(res[i]) * 15, 4.12f + (float)convert(res[i + 1]) * 15, 13.75607f + (float)convert(res[i + 2]) * 15), Quaternion.identity));
             Debug.Log(convert(res[i]));
-            for (int j = 0; j < newShoe.transform.childCount; ++j)
+
+            /*for (int j = 0; j < spheres[i].transform.childCount; ++j)
             {
-                Transform currentItem = newShoe.transform.GetChild(j);
+
+                
+
+                Transform currentItem = spheres[i].transform.GetChild(j);
                 if (currentItem.name.Equals("Name"))
                 {
-                    currentItem.Text.setText("Test")
+                    
+                    temp.Text.setText("Test");
                 }
-            }
+            }*/
+        }
+
+        for(int i = 0; i<spheres.Count;i++)
+        {
+            TextMesh temp = spheres[i].GetComponentInChildren<TextMesh>();
+
+            temp.text = names[i];
         }
 
     }
