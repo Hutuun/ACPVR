@@ -42,7 +42,9 @@ public class TestCrea : MonoBehaviour
     {
         double before=0;
         double after=0;
+        int nbZero = 0;
         bool virgule=false;
+        bool zero=true;
         for(int i=0;i<str.Length;i++)
         {
             double temp;
@@ -53,6 +55,8 @@ public class TestCrea : MonoBehaviour
             if(str[i]=='0')
             {
                 temp*=10;
+                if(zero)
+                    nbZero++;
             }
             else if(str[i]=='1')
             {
@@ -108,13 +112,21 @@ public class TestCrea : MonoBehaviour
                 virgule = true;
             }
             //Debug.Log(temp);
+            if(temp!=0)
+                if(virgule && zero)
+                    zero=false;
             if(virgule)
                 after = temp;
             else
                 before = temp;
         }
-        while(after>0)
+        while(after>1)
         {
+            after/=10;
+        }
+        while(nbZero!=0)
+        {
+            nbZero--;
             after/=10;
         }
         Debug.Log(before);
