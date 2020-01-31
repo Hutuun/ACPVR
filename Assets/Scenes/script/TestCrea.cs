@@ -40,9 +40,9 @@ public class TestCrea : MonoBehaviour
     
     double convert(string temp)
     {
-        double res;
-        double before;
-        double after;
+        double res=0;
+        double before=0;
+        double after=0;
         bool virgule=false;
         for(int i=0;i<temp.Count;i++)
         {
@@ -62,35 +62,43 @@ public class TestCrea : MonoBehaviour
             }
             else if(temp[i]=='2')
             {
-            
+                temp*=10;
+                temp+=2;
             }
             else if(temp[i]=='3')
             {
-            
+                temp*=10;
+                temp+=3;
             }
             else if(temp[i]=='4')
             {
-            
+                temp*=10;
+                temp+=4;
             }
             else if(temp[i]=='5')
             {
-            
+                temp*=10;
+                temp+=5;
             }
             else if(temp[i]=='6')
             {
-            
+                temp*=10;
+                temp+=6;
             }
             else if(temp[i]=='7')
             {
-            
+                temp*=10;
+                temp+=7;
             }
             else if(temp[i]=='8')
             {
-            
+                temp*=10;
+                temp+=8;
             }
             else if(temp[i]=='9')
             {
-            
+                temp*=10;
+                temp+=9;
             }
             else if(temp[i]==',')
             {
@@ -100,6 +108,10 @@ public class TestCrea : MonoBehaviour
             {
                 virgule = true;
             }
+            if(virgule)
+                after = temp;
+            else
+                before = temp;
         }
         return res;
     }
