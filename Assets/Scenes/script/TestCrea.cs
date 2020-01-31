@@ -40,7 +40,6 @@ public class TestCrea : MonoBehaviour
     
     double convert(string str)
     {
-        double res=0;
         double before=0;
         double after=0;
         bool virgule=false;
@@ -108,7 +107,7 @@ public class TestCrea : MonoBehaviour
             {
                 virgule = true;
             }
-            Debug.Log(temp);
+            //Debug.Log(temp);
             if(virgule)
                 after = temp;
             else
@@ -118,9 +117,9 @@ public class TestCrea : MonoBehaviour
         {
             after/=10;
         }
-        //Debug.Log(before);
-        res = before + after;
-        return res;
+        Debug.Log(before);
+        Debug.Log(after);
+        return before + after;
     }
     
     // Update is called once per frame
