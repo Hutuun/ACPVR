@@ -41,20 +41,24 @@ public class TestCrea : MonoBehaviour
     double convert(string temp)
     {
         double res;
-        double pos;
+        double before;
+        double after;
+        bool virgule=false;
         for(int i=0;i<temp.Count;i++)
         {
+            double temp;
+            if(virgule)
+                temp = after;
+            else
+                temp = before;
             if(temp[i]=='0')
             {
-            
-            }
-            else if(temp[i]=='0')
-            {
-            
+                temp*=10;
             }
             else if(temp[i]=='1')
             {
-            
+                temp*=10;
+                temp+=1;
             }
             else if(temp[i]=='2')
             {
@@ -90,11 +94,11 @@ public class TestCrea : MonoBehaviour
             }
             else if(temp[i]==',')
             {
-            
+                virgule = true;
             }
             else if(temp[i]=='.')
             {
-            
+                virgule = true;
             }
         }
         return res;
