@@ -34,6 +34,14 @@ public class TestCrea : MonoBehaviour
             
             spheres.Add(GameObject.Instantiate(sphere, new Vector3(-15 - -7.53f + (float)convert(res[i])*15, -12- -16.195f + (float)convert(res[i+1])*15, 53 -40.93f + (float)convert(res[i+2])*15), Quaternion.identity));
             Debug.Log(convert(res[i]));
+            for(int j = 0; j < newShoe.transform.childCount; ++j)
+            {
+                Transform currentItem = newShoe.transform.GetChild(j);
+                if (currentItem.name.Equals("Name"))
+                {
+                    currentItem.Text.setText("Test")
+                }
+            }
         }
 
     }
