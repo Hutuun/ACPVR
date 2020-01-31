@@ -24,7 +24,7 @@ public class SphereInfo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ChargementDonnees(file, modele);
+        //ChargementDonnees(file, modele);
     }
 
     // Update is called once per frame
