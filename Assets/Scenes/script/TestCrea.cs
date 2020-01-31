@@ -42,7 +42,7 @@ public class TestCrea : MonoBehaviour
     {
         double before=0;
         double after=0;
-        int nbZero = 0;
+        int nbZero = -1;
         bool virgule=false;
         bool zero=true;
         for(int i=0;i<str.Length;i++)
