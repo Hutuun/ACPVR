@@ -7,12 +7,15 @@ public class TestCrea : MonoBehaviour
 
     public string file = null;
     public int modele = 0;
+	public double coeff = 6;
+	
 	public Vector3 centreGraphCara = new Vector3(-6.055751f, 6.14f, 13.75607f);
 	
 	public Vector3 centreGraphSect = new Vector3(-6.055751f, 6.14f, 13.75607f);
 
     private List<string> resCara = new List<string>();
-    private GameObject graphCara;
+    private List<double> resCara2 = new List<double>();
+	private GameObject graphCara;
 	private List<string> namesCara = new List<string>();
 	private List<string> namesCompleteCara = new List<string>();
     private List<GameObject> spheresCara = new List<GameObject>();
@@ -77,12 +80,13 @@ public class TestCrea : MonoBehaviour
 		for(int i = 0;i<resSect2.Count;i++)
 		{
 			resSect2[i]/=max;
+			resSect2[i]*=coeff;
 		}
 		
 		for (int i = 0; i < resSect2.Count; i += 3)
         {
             spheresSect.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]), Quaternion.identity));
-            Debug.Log(convert(resSect[i]));
+            //Debug.Log(convert(resSect[i]));
         }
 
         for(int i = 0; i< spheresSect.Count;i++)
@@ -117,11 +121,23 @@ public class TestCrea : MonoBehaviour
             //System.Console.WriteLine(line);
             namesCara.Add(line);
         }
+		
+		for(int i = 0; i < resCara.Count; i += 44)
+		{
+			resCara2.Add(convert(resCara[i]));
+			resCara2.Add(convert(resCara[i+1]));
+			resCara2.Add(convert(resCara[i+2]));
+		}
+		
+		for(int i = 0;i<resCara2.Count;i++)
+		{
+			resCara2[i]*=coeff;
+		}
 
-        for (int i = 0; i < resCara.Count; i += 44)
+        for (int i = 0; i < resCara2.Count; i += 44)
         {
 
-            spheresCara.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphCara.x + (float)convert(resCara[i]) * 6, centreGraphCara.y + (float)convert(resCara[i + 1]) * 6, centreGraphCara.z + (float)convert(resCara[i + 2]) * 6), Quaternion.identity));
+            spheresSect.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphSect.x + (float)resCara2[i], centreGraphSect.y + (float)resCara2[i+1], centreGraphSect.z + (float)resCara2[i+2]), Quaternion.identity));
             //Debug.Log(convert(resCara[i]));
         }
 
