@@ -68,7 +68,7 @@ public class TestCrea : MonoBehaviour
         {
 
             spheresSect.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphSect.x + (float)convert(resSect[i]) * 6, centreGraphSect.y + (float)convert(resSect[i + 1]) * 6, centreGraphSect.z + (float)convert(resSect[i + 2]) * 6), Quaternion.identity));
-            //Debug.Log(convert(resSect[i]));
+            Debug.Log(convert(resSect[i]));
         }
 
         for(int i = 0; i< spheresSect.Count;i++)
@@ -206,7 +206,7 @@ public class TestCrea : MonoBehaviour
             }
 			else if(str[i]=='-')
 			{
-				Debug.Log("Negatif");
+				//Debug.Log("Negatif");
 				negatif=true;
 			}
             //Debug.Log(temp);
@@ -225,7 +225,7 @@ public class TestCrea : MonoBehaviour
         {
             after/=10;
         }
-		Debug.Log(nbZero);
+		//Debug.Log(nbZero);
         while(nbZero>0)
         {
             nbZero--;
