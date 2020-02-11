@@ -36,7 +36,7 @@ public class TestCrea : MonoBehaviour
         GameObject sphere = (GameObject)Resources.Load("SpherePrefab");
 
         System.IO.StreamReader fileT = new System.IO.StreamReader(file + "corvar.txt");
-        System.IO.StreamReader fileName = new System.IO.StreamReader(file + "secteur.txt");
+        System.IO.StreamReader fileName = new System.IO.StreamReader(file + "secteurs.txt");
 		
 		while ((line = fileT.ReadLine()) != null)
         {
@@ -47,7 +47,7 @@ public class TestCrea : MonoBehaviour
         while ((line = fileName.ReadLine()) != null)
         {
             System.Console.WriteLine(line);
-            namesCara.Add(line);
+            namesSect.Add(line);
         }
 	}
 	
