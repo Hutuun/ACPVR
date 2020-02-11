@@ -16,7 +16,7 @@ public class TestCrea : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-		Vector3 centreGraph = new Vector3(-6.055751f, 4.12f, 13.75607f);
+		Vector3 centreGraph = new Vector3(-6.055751f, 6.12f, 13.75607f);
         GameObject prefab = (GameObject)Resources.Load("Graph");
         graph = GameObject.Instantiate(prefab, centreGraph, Quaternion.identity);
 
@@ -42,7 +42,7 @@ public class TestCrea : MonoBehaviour
         for (int i = 0; i < res.Count; i += 44)
         {
 
-            spheres.Add(GameObject.Instantiate(sphere, new Vector3(-6.055751f + (float)convert(res[i]) * 7.5f, 4.12f + (float)convert(res[i + 1]) * 7.5f, 13.75607f + (float)convert(res[i + 2]) * 7.5f), Quaternion.identity));
+            spheres.Add(GameObject.Instantiate(sphere, new Vector3(-6.055751f + (float)convert(res[i]) * 7.5f, 6.12f + (float)convert(res[i + 1]) * 7.5f, 13.75607f + (float)convert(res[i + 2]) * 7.5f), Quaternion.identity));
             Debug.Log(convert(res[i]));
 
             /*for (int j = 0; j < spheres[i].transform.childCount; ++j)
