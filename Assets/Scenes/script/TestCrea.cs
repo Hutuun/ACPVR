@@ -46,12 +46,12 @@ public class TestCrea : MonoBehaviour
             namesSect.Add(line);
         }
 		
-		int temp=0;
+		int trucTemp=0;
 		
 		while ((line = fileT.ReadLine()) != null)
         {
-			temp++;
-			if(namesSect[temp]=="Inutilise")
+            trucTemp++;
+			if(namesSect[trucTemp] =="Inutilise")
             {
 				System.Console.WriteLine(line);
 				resSect.Add(line);
