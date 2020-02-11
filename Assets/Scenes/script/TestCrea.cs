@@ -218,7 +218,9 @@ public class TestCrea : MonoBehaviour
         }
         //Debug.Log(before);
         //Debug.Log(after);
-        return before + after;
+		if(negatif)
+			return - before - after;
+		return before + after;
     }
     
     // Update is called once per frame
