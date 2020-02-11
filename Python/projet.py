@@ -28,7 +28,7 @@ lancer = 1
 
 i=0
 dimx = 10
-nbEle = 5
+nbEle = 10
 
 temp = []
 temp2 = []
@@ -159,7 +159,11 @@ for i in range(len(secteurG),len(sourcelocalsup[0])):
 
 print(pandas.DataFrame({'Secteur G':secteurG,'Source locale':sourcelocalsup}))
 
-fct.FonctionPrincipale(sourcelocalsup,secteurG,caracteristique,nbEle,dimx,"Secteur/",1,1)
+os.makedirs("Secteur",exist_ok=True)
+os.makedirs("InfoSecteur",exist_ok=True)
+
+os.makedirs("Secteur\Correlation",exist_ok=True)
+fct.FonctionPrincipale(sourcelocalsup,secteurG,caracteristique,nbEle,dimx,"Secteur/",0,1)
 
 # os.makedirs("D:\Etude\Etude\Et5\RVI\ACPVR\Python\InfoSecteur\\" + "Inutilise",exist_ok=True)
 # os.makedirs("D:\Etude\Etude\Et5\RVI\ACPVR\Python\InfoSecteur\\" + "Inutilise" + "\Correlation",exist_ok=True)
