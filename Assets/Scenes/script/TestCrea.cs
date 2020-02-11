@@ -7,18 +7,41 @@ public class TestCrea : MonoBehaviour
 
     public string file = null;
     public int modele = 0;
+	public Vector3 centreGraphCara = new Vector3(-6.055751f, 6.14f, 13.75607f);
+	public Vector3 centreGraphSect = new Vector3(-6.055751f, 6.14f, 13.75607f);
 
-    private List<string> res = new List<string>();
-    private GameObject graph;
-    private List<string> names = new List<string>();
-    private List<GameObject> spheres = new List<GameObject>();
+    private List<string> resCara = new List<string>();
+    private GameObject graphCara;
+	private List<string> namesCara = new List<string>();
+    private List<GameObject> spheresCara = new List<GameObject>();
+	
+	private List<string> resCara = new List<string>();
+	private GameObject graphSect;
+    private List<string> namesSect = new List<string>();
+    private List<GameObject> spheresSect = new List<GameObject>();
 
     // Start is called before the first frame update
     void Start()
     {
-		Vector3 centreGraph = new Vector3(-6.055751f, 6.14f, 13.75607f);
-        GameObject prefab = (GameObject)Resources.Load("Graph");
+        creationCaracteristique();
+		creationSecteur();
+    }
+	
+	void creationSecteur()
+	{
+		GameObject prefab = (GameObject)Resources.Load("Graph");
         graph = GameObject.Instantiate(prefab, centreGraph, Quaternion.identity);
+
+        GameObject sphere = (GameObject)Resources.Load("SpherePrefab");
+
+        System.IO.StreamReader fileT = new System.IO.StreamReader(file + "corvar.txt");
+        System.IO.StreamReader fileName = new System.IO.StreamReader(file + "caracteristique.txt");
+	}
+	
+	void creationCaracteristique()
+	{
+		GameObject prefab = (GameObject)Resources.Load("Graph");
+        graphCara = GameObject.Instantiate(prefab, centreGraph, Quaternion.identity);
 
         GameObject sphere = (GameObject)Resources.Load("SpherePrefab");
 
@@ -44,19 +67,6 @@ public class TestCrea : MonoBehaviour
 
             spheres.Add(GameObject.Instantiate(sphere, new Vector3(centreGraph.x + (float)convert(res[i]) * 7.5f, centreGraph.y + (float)convert(res[i + 1]) * 7.5f, centreGraph.z + (float)convert(res[i + 2]) * 7.5f), Quaternion.identity));
             Debug.Log(convert(res[i]));
-
-            /*for (int j = 0; j < spheres[i].transform.childCount; ++j)
-            {
-
-                
-
-                Transform currentItem = spheres[i].transform.GetChild(j);
-                if (currentItem.name.Equals("Name"))
-                {
-                    
-                    temp.Text.setText("Test");
-                }
-            }*/
         }
 
         for(int i = 0; i<spheres.Count;i++)
@@ -65,8 +75,7 @@ public class TestCrea : MonoBehaviour
 
             temp.text = names[i];
         }
-
-    }
+	}
     
     double convert(string str)
     {
