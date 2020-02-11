@@ -104,7 +104,7 @@ public class TestCrea : MonoBehaviour
 			
 			Vector3 vec = spheresSect[i].transform.scale;
 			
-			spheresSect[i].transform.scale = new Vector3(vec.x*temporaire,vec.y*temporaire,vec.z*temporaire);
+			spheresSect[i].transform.scale = new Vector3(vec.x*(float)temporaire,vec.y*(float)temporaire,vec.z*(float)temporaire);
 			
             TextMesh temp = spheresSect[i].GetComponentInChildren<TextMesh>();
 
