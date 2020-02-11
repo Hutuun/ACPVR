@@ -102,9 +102,9 @@ public class TestCrea : MonoBehaviour
         {
 			double temporaire = diSect[i];
 			
-			Vector3 vec = spheresSect[i].transform.scale;
+			Vector3 vec = spheresSect[i].transform.localScale ;
 			
-			spheresSect[i].transform.scale = new Vector3(vec.x*(float)temporaire,vec.y*(float)temporaire,vec.z*(float)temporaire);
+			spheresSect[i].transform.localScale = new Vector3(vec.x*(float)temporaire,vec.y*(float)temporaire,vec.z*(float)temporaire);
 			
             TextMesh temp = spheresSect[i].GetComponentInChildren<TextMesh>();
 
