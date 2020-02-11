@@ -88,7 +88,7 @@ public class TestCrea : MonoBehaviour
 
         System.IO.StreamReader fileT = new System.IO.StreamReader(file + "corvar.txt");
         System.IO.StreamReader fileName = new System.IO.StreamReader(file + "caracteristique.txt");
-		System.IO.StreamReader fileName = new System.IO.StreamReader(file + "caracteristique.txt");
+		//System.IO.StreamReader fileName = new System.IO.StreamReader(file + "caracteristique.txt");
 
         string line;
 
