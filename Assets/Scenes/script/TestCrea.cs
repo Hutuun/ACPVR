@@ -74,7 +74,7 @@ public class TestCrea : MonoBehaviour
 		
 		double max = maxList(resSect2);
 		
-		for(int i = 0;i<resSect2;i++)
+		for(int i = 0;i<resSect2.Count;i++)
 		{
 			resSect2[i]/=max;
 		}
