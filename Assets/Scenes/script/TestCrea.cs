@@ -72,7 +72,7 @@ public class TestCrea : MonoBehaviour
 			resSect2.Add(convert(resSect[i+2]));
 		}
 		
-		max = maxList(resSect2);
+		double max = maxList(resSect2);
 		
 		for(int i = 0;i<resSect2;i++)
 		{
