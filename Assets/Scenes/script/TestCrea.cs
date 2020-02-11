@@ -35,7 +35,7 @@ public class TestCrea : MonoBehaviour
 
         GameObject sphere = (GameObject)Resources.Load("SpherePrefab");
 
-        System.IO.StreamReader fileT = new System.IO.StreamReader(file + "corvar.txt");
+        System.IO.StreamReader fileT = new System.IO.StreamReader(file + "coord.txt");
         System.IO.StreamReader fileName = new System.IO.StreamReader(file + "secteurs.txt");
 		
 		string line;
