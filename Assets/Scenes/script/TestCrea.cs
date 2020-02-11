@@ -198,7 +198,7 @@ public class TestCrea : MonoBehaviour
 				Debug.Log("Negatif");
 				negatif=true;
 			}
-            Debug.Log(temp);
+            //Debug.Log(temp);
             if(str[i]=='-')
 			{
 				if(temp!=0)
@@ -214,6 +214,7 @@ public class TestCrea : MonoBehaviour
         {
             after/=10;
         }
+		Debug.Log(nbZero);
         /*while(nbZero!=0)
         {
             nbZero--;
