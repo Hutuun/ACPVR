@@ -72,9 +72,8 @@ public class TestCrea : MonoBehaviour
 			resSect2.Add(convert(resSect[i+2]));
 		}
 		
-		for (int i = 0; i < resSect.Count; i += 3)
+		for (int i = 0; i < resSect2.Count; i += 3)
         {
-
             spheresSect.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]), Quaternion.identity));
             Debug.Log(convert(resSect[i]));
         }
@@ -242,6 +241,8 @@ public class TestCrea : MonoBehaviour
 			return - before - after;
 		return before + after;
     }
+	
+	
     
     // Update is called once per frame
     void Update()
