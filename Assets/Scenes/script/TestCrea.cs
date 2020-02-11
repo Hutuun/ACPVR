@@ -198,7 +198,7 @@ public class TestCrea : MonoBehaviour
 				Debug.Log("Negatif");
 				negatif=true;
 			}
-            //Debug.Log(temp);
+            Debug.Log(temp);
             if(temp!=0)
                 if(virgule && zero)
                     zero=false;
