@@ -226,11 +226,11 @@ public class TestCrea : MonoBehaviour
             after/=10;
         }
 		Debug.Log(nbZero);
-        /*while(nbZero!=0)
+        while(nbZero>0)
         {
             nbZero--;
             after/=10;
-        }*/
+        }
         //Debug.Log(before);
         //Debug.Log(after);
 		if(negatif)
