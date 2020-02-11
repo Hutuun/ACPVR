@@ -8,6 +8,7 @@ public class TestCrea : MonoBehaviour
     public string file = null;
     public int modele = 0;
 	public Vector3 centreGraphCara = new Vector3(-6.055751f, 6.14f, 13.75607f);
+	
 	public Vector3 centreGraphSect = new Vector3(-6.055751f, 6.14f, 13.75607f);
 
     private List<string> resCara = new List<string>();
@@ -15,7 +16,7 @@ public class TestCrea : MonoBehaviour
 	private List<string> namesCara = new List<string>();
     private List<GameObject> spheresCara = new List<GameObject>();
 	
-	private List<string> resCara = new List<string>();
+	private List<string> resSect = new List<string>();
 	private GameObject graphSect;
     private List<string> namesSect = new List<string>();
     private List<GameObject> spheresSect = new List<GameObject>();
@@ -30,12 +31,12 @@ public class TestCrea : MonoBehaviour
 	void creationSecteur()
 	{
 		GameObject prefab = (GameObject)Resources.Load("Graph");
-        graph = GameObject.Instantiate(prefab, centreGraph, Quaternion.identity);
+        graphSect = GameObject.Instantiate(prefab, centreGraphSect, Quaternion.identity);
 
         GameObject sphere = (GameObject)Resources.Load("SpherePrefab");
 
         System.IO.StreamReader fileT = new System.IO.StreamReader(file + "corvar.txt");
-        System.IO.StreamReader fileName = new System.IO.StreamReader(file + "caracteristique.txt");
+        System.IO.StreamReader fileName = new System.IO.StreamReader(file + "secteur.txt");
 	}
 	
 	void creationCaracteristique()

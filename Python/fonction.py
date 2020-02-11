@@ -63,6 +63,7 @@ def FonctionPrincipale(sources2,secteurs2,caracteristique,nbEle,dimx,adresse,rep
 	print(p)
 
 	coord = acp.fit_transform(Z)
+	numpy.savetxt(adresse+"coord.txt",coord,fmt='%f', delimiter='\n')
 
 	eigval = (acp.singular_values_**2)/n
 	print(len(eigval))
