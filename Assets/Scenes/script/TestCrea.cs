@@ -199,13 +199,16 @@ public class TestCrea : MonoBehaviour
 				negatif=true;
 			}
             Debug.Log(temp);
-            if(temp!=0)
-                if(virgule && zero)
-                    zero=false;
-            if(virgule)
-                after = temp;
-            else
-                before = temp;
+            if(str[i]=='-')
+			{
+				if(temp!=0)
+					if(virgule && zero)
+						zero=false;
+				if(virgule)
+					after = temp;
+				else
+					before = temp;
+			}
         }
         while(after>1)
         {
