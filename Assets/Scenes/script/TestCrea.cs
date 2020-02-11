@@ -102,7 +102,7 @@ public class TestCrea : MonoBehaviour
         {
 			double temporaire = diSect[i];
 			
-			Vector3 vec = spheresSect[i].transform.localScale ;
+			Vector3 vec = spheresSect[i].transform.localScale;
 			
 			spheresSect[i].transform.localScale = new Vector3(vec.x*(float)temporaire,vec.y*(float)temporaire,vec.z*(float)temporaire);
 			
