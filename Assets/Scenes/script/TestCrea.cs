@@ -251,7 +251,7 @@ public class TestCrea : MonoBehaviour
 	
 	private double maxList(List<double> list)
 	{
-		double res=Double.MinValue;
+		double res=double.MinValue;
 		foreach(double i in list)
 		{
 			if(i>res)
