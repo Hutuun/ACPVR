@@ -137,7 +137,7 @@ public class TestCrea : MonoBehaviour
         for (int i = 0; i < resCara2.Count; i += 3)
         {
 
-            spheresSect.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphSect.x + (float)resCara2[i], centreGraphSect.y + (float)resCara2[i+1], centreGraphSect.z + (float)resCara2[i+2]), Quaternion.identity));
+            spheresCara.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphCara.x + (float)resCara2[i], centreGraphCara.y + (float)resCara2[i+1], centreGraphCara.z + (float)resCara2[i+2]), Quaternion.identity));
             Debug.Log(resCara2[i]);
         }
 
