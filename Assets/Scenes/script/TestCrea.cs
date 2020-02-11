@@ -212,9 +212,6 @@ public class TestCrea : MonoBehaviour
             //Debug.Log(temp);
             if(str[i]!='-')
 			{
-				/*if(temp!=0)
-					if(virgule && zero)
-						zero=false;*/
 				if(virgule)
 					after = temp;
 				else
