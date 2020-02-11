@@ -210,7 +210,7 @@ public class TestCrea : MonoBehaviour
 					before = temp;
 			}
         }
-        while(after>1)
+        /*while(after>1)
         {
             after/=10;
         }
@@ -218,7 +218,7 @@ public class TestCrea : MonoBehaviour
         {
             nbZero--;
             after/=10;
-        }
+        }*/
         //Debug.Log(before);
         //Debug.Log(after);
 		/*if(negatif)
