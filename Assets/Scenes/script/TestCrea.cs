@@ -67,7 +67,7 @@ public class TestCrea : MonoBehaviour
 		for (int i = 0; i < resSect.Count; i += 44)
         {
 
-            spheresSect.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphSect.x + (float)convert(resSect[i]) * 6, centreGraphSect.y + (float)convert(resSect[i + 1]) * 6, centreGraphSect.z + (float)convert(resSect[i + 2]) * 6), Quaternion.identity));
+            spheresSect.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphSect.x + (float)convert(resSect[i]), centreGraphSect.y + (float)convert(resSect[i + 1]), centreGraphSect.z + (float)convert(resSect[i + 2])), Quaternion.identity));
             Debug.Log(convert(resSect[i]));
         }
 
