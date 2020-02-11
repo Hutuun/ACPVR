@@ -42,7 +42,7 @@ public class TestCrea : MonoBehaviour
 		
 		while ((line = fileName.ReadLine()) != null)
         {
-            System.Console.WriteLine(line);
+            //Debug.Log(line);
             namesSect.Add(line);
         }
 		
@@ -50,19 +50,24 @@ public class TestCrea : MonoBehaviour
 		
 		while ((line = fileT.ReadLine()) != null)
         {
-            trucTemp++;
-			if(namesSect[trucTemp] =="Inutilise")
+            //Debug.Log(trucTemp / 44);
+            if (trucTemp / 44 < namesSect.Count)
             {
-				System.Console.WriteLine(line);
-				resSect.Add(line);
-			}
+                if (namesSect[trucTemp / 44] != "Inutilise")
+                {
+                    //System.Console.WriteLine(line);
+                    resSect.Add(line);
+                }
+            }
+            trucTemp++;
+            //Debug.Log(trucTemp);
         }
 		
-		for (int i = 0; i < resCara.Count; i += 44)
+		for (int i = 0; i < resSect.Count; i += 44)
         {
 
             spheresSect.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphSect.x + (float)convert(resSect[i]) * 6, centreGraphSect.y + (float)convert(resSect[i + 1]) * 6, centreGraphSect.z + (float)convert(resSect[i + 2]) * 6), Quaternion.identity));
-            Debug.Log(convert(resSect[i]));
+            //Debug.Log(convert(resSect[i]));
         }
 
         for(int i = 0; i< spheresSect.Count;i++)
