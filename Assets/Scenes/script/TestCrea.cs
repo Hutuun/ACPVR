@@ -144,46 +144,55 @@ public class TestCrea : MonoBehaviour
             {
                 temp*=10;
                 temp+=1;
+				zero = false;
             }
             else if(str[i]=='2')
             {
                 temp*=10;
                 temp+=2;
+				zero = false;
             }
             else if(str[i]=='3')
             {
                 temp*=10;
                 temp+=3;
+				zero = false;
             }
             else if(str[i]=='4')
             {
                 temp*=10;
                 temp+=4;
+				zero = false;
             }
             else if(str[i]=='5')
             {
                 temp*=10;
                 temp+=5;
+				zero = false;
             }
             else if(str[i]=='6')
             {
                 temp*=10;
                 temp+=6;
+				zero = false;
             }
             else if(str[i]=='7')
             {
                 temp*=10;
                 temp+=7;
+				zero = false;
             }
             else if(str[i]=='8')
             {
                 temp*=10;
                 temp+=8;
+				zero = false;
             }
             else if(str[i]=='9')
             {
                 temp*=10;
                 temp+=9;
+				zero = false;
             }
             else if(str[i]==',')
             {
@@ -203,9 +212,9 @@ public class TestCrea : MonoBehaviour
             //Debug.Log(temp);
             if(str[i]=='-')
 			{
-				if(temp!=0)
+				/*if(temp!=0)
 					if(virgule && zero)
-						zero=false;
+						zero=false;*/
 				if(virgule)
 					after = temp;
 				else
