@@ -37,6 +37,18 @@ public class TestCrea : MonoBehaviour
 
         System.IO.StreamReader fileT = new System.IO.StreamReader(file + "corvar.txt");
         System.IO.StreamReader fileName = new System.IO.StreamReader(file + "secteur.txt");
+		
+		while ((line = fileT.ReadLine()) != null)
+        {
+            System.Console.WriteLine(line);
+            resSect.Add(line);
+        }
+
+        while ((line = fileName.ReadLine()) != null)
+        {
+            System.Console.WriteLine(line);
+            namesCara.Add(line);
+        }
 	}
 	
 	void creationCaracteristique()
@@ -66,7 +78,7 @@ public class TestCrea : MonoBehaviour
         for (int i = 0; i < resCara.Count; i += 44)
         {
 
-            spheresCara.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphCara.x + (float)convert(resCara[i]) * 7.5f, centreGraphCara.y + (float)convert(resCara[i + 1]) * 7.5f, centreGraphCara.z + (float)convert(resCara[i + 2]) * 7.5f), Quaternion.identity));
+            spheresCara.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphCara.x + (float)convert(resCara[i]) * 6, centreGraphCara.y + (float)convert(resCara[i + 1]) * 6, centreGraphCara.z + (float)convert(resCara[i + 2]) * 6), Quaternion.identity));
             Debug.Log(convert(resCara[i]));
         }
 
