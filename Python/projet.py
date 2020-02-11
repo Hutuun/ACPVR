@@ -163,7 +163,7 @@ os.makedirs("Secteur",exist_ok=True)
 os.makedirs("InfoSecteur",exist_ok=True)
 
 os.makedirs("Secteur\Correlation",exist_ok=True)
-fct.FonctionPrincipale(sourcelocalsup,secteurG,caracteristique,nbEle,dimx,"Secteur/",0,1)
+fct.FonctionPrincipale(sourcelocalsup,secteurG,caracteristique,nbEle,dimx,"Secteur/",1,1)
 
 # os.makedirs("D:\Etude\Etude\Et5\RVI\ACPVR\Python\InfoSecteur\\" + "Inutilise",exist_ok=True)
 # os.makedirs("D:\Etude\Etude\Et5\RVI\ACPVR\Python\InfoSecteur\\" + "Inutilise" + "\Correlation",exist_ok=True)
@@ -206,7 +206,7 @@ for i in range(len(secteurG)):
 			sourcelocal+=[temp]
 		
 		print(pandas.DataFrame({'Secteur G':secteurlocal,'Source locale':sourcelocal}))
-		fct.FonctionPrincipale(sourcelocal,secteurlocal,caracteristique,nbEle,dimx,"InfoSecteur/" + secteurG[i] + "/",0,1)
+		fct.FonctionPrincipale(sourcelocal,secteurlocal,caracteristique,nbEle,dimx,"InfoSecteur/" + secteurG[i] + "/",1,1)
 
 #Analyse ACP par défaut
 
