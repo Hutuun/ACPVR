@@ -210,7 +210,7 @@ public class TestCrea : MonoBehaviour
 				negatif=true;
 			}
             //Debug.Log(temp);
-            if(str[i]=='-')
+            if(str[i]!='-')
 			{
 				/*if(temp!=0)
 					if(virgule && zero)
