@@ -25,6 +25,7 @@ public class TestCrea : MonoBehaviour
 	private List<double> resSect2 = new List<double>();
 	private GameObject graphSect;
     private List<string> namesSect = new List<string>();
+	private List<double> diSect = new List<string>();
     private List<GameObject> spheresSect = new List<GameObject>();
 
     // Start is called before the first frame update
@@ -43,6 +44,7 @@ public class TestCrea : MonoBehaviour
 
         System.IO.StreamReader fileT = new System.IO.StreamReader(file + "coord.txt");
         System.IO.StreamReader fileName = new System.IO.StreamReader(file + "secteurs.txt");
+		System.IO.StreamReader fileDi = new System.IO.StreamReader(file + "di.txt");
 		
 		string line;
 		
@@ -50,6 +52,12 @@ public class TestCrea : MonoBehaviour
         {
             //Debug.Log(line);
             namesSect.Add(line);
+        }
+		
+		while ((line = fileDi.ReadLine()) != null)
+        {
+            //Debug.Log(line);
+            diSect.Add(convert(line));
         }
 		
 		int trucTemp=0;
@@ -87,11 +95,13 @@ public class TestCrea : MonoBehaviour
 		for (int i = 0; i < resSect2.Count; i += 3)
         {
             spheresSect.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]), Quaternion.identity));
-            //Debug.Log(convert(resSect[i]));
+			//Debug.Log(convert(resSect[i]));
         }
 
         for(int i = 0; i< spheresSect.Count;i++)
         {
+			spheresSect[i].Transform.Scale(diSect[i]);
+			
             TextMesh temp = spheresSect[i].GetComponentInChildren<TextMesh>();
 
             temp.text = namesSect[i];
