@@ -38,6 +38,8 @@ public class TestCrea : MonoBehaviour
         System.IO.StreamReader fileT = new System.IO.StreamReader(file + "corvar.txt");
         System.IO.StreamReader fileName = new System.IO.StreamReader(file + "secteurs.txt");
 		
+		string line;
+		
 		while ((line = fileT.ReadLine()) != null)
         {
             System.Console.WriteLine(line);
@@ -48,6 +50,20 @@ public class TestCrea : MonoBehaviour
         {
             System.Console.WriteLine(line);
             namesSect.Add(line);
+        }
+		
+		for (int i = 0; i < resCara.Count; i += 44)
+        {
+
+            spheresSect.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphSect.x + (float)convert(resSect[i]) * 6, centreGraphSect.y + (float)convert(resSect[i + 1]) * 6, centreGraphSect.z + (float)convert(resSect[i + 2]) * 6), Quaternion.identity));
+            Debug.Log(convert(resSect[i]));
+        }
+
+        for(int i = 0; i< spheresSect.Count;i++)
+        {
+            TextMesh temp = spheresSect[i].GetComponentInChildren<TextMesh>();
+
+            temp.text = namesSect[i];
         }
 	}
 	
