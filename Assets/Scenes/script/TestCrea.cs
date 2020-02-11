@@ -18,6 +18,7 @@ public class TestCrea : MonoBehaviour
     private List<GameObject> spheresCara = new List<GameObject>();
 	
 	private List<string> resSect = new List<string>();
+	private List<double> resSect2 = new List<double>();
 	private GameObject graphSect;
     private List<string> namesSect = new List<string>();
     private List<GameObject> spheresSect = new List<GameObject>();
@@ -64,10 +65,17 @@ public class TestCrea : MonoBehaviour
             //Debug.Log(trucTemp);
         }
 		
-		for (int i = 0; i < resSect.Count; i += 44)
+		for(int i = 0; i < resSect.Count; i += 44)
+		{
+			resSect2.Add(convert(resSect[i]));
+			resSect2.Add(convert(resSect[i+1]));
+			resSect2.Add(convert(resSect[i+2]));
+		}
+		
+		for (int i = 0; i < resSect.Count; i += 3)
         {
 
-            spheresSect.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphSect.x + (float)convert(resSect[i]), centreGraphSect.y + (float)convert(resSect[i + 1]), centreGraphSect.z + (float)convert(resSect[i + 2])), Quaternion.identity));
+            spheresSect.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2], Quaternion.identity));
             Debug.Log(convert(resSect[i]));
         }
 
