@@ -100,7 +100,11 @@ public class TestCrea : MonoBehaviour
 
         for(int i = 0; i< spheresSect.Count;i++)
         {
-			spheresSect[i].Transform.Scale(diSect[i]);
+			double temporaire = diSect[i];
+			
+			Vector3 vec = spheresSect[i].transform.scale;
+			
+			spheresSect[i].transform.scale = new Vector3(vec.x*temporaire,vec.y*temporaire,vec.z*temporaire);
 			
             TextMesh temp = spheresSect[i].GetComponentInChildren<TextMesh>();
 
