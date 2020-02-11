@@ -25,7 +25,7 @@ public class TestCrea : MonoBehaviour
 	private List<double> resSect2 = new List<double>();
 	private GameObject graphSect;
     private List<string> namesSect = new List<string>();
-	private List<double> diSect = new List<string>();
+	private List<double> diSect = new List<double>();
     private List<GameObject> spheresSect = new List<GameObject>();
 
     // Start is called before the first frame update
