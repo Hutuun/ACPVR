@@ -7,7 +7,8 @@ public class TestCrea : MonoBehaviour
 
     public string file = null;
     public int modele = 0;
-	public double coeff = 6;
+	public double coeffCara = 6;
+	public double coeffSect = 6;
 	
 	public Vector3 centreGraphCara = new Vector3(-6.055751f, 6.14f, 13.75607f);
 	
@@ -80,7 +81,7 @@ public class TestCrea : MonoBehaviour
 		for(int i = 0;i<resSect2.Count;i++)
 		{
 			resSect2[i]/=max;
-			resSect2[i]*=coeff;
+			resSect2[i]*=coeffSect;
 		}
 		
 		for (int i = 0; i < resSect2.Count; i += 3)
@@ -131,7 +132,7 @@ public class TestCrea : MonoBehaviour
 		
 		for(int i = 0;i<resCara2.Count;i++)
 		{
-			resCara2[i]*=coeff;
+			resCara2[i]*=coeffCara;
 		}
 
         for (int i = 0; i < resCara2.Count; i += 3)
