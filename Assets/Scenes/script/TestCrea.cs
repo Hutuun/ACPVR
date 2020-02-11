@@ -123,10 +123,10 @@ public class TestCrea : MonoBehaviour
     {
         double before=0;
         double after=0;
-        int nbZero = -1;
+        int nbZero = 0;
         bool virgule=false;
 		bool negatif=false;
-        bool zero=true;
+        bool zero=false;
         for(int i=0;i<str.Length;i++)
         {
             double temp;
@@ -188,10 +188,12 @@ public class TestCrea : MonoBehaviour
             else if(str[i]==',')
             {
                 virgule = true;
+				zero = true;
             }
             else if(str[i]=='.')
             {
-                virgule = true;
+                zero = true;
+				virgule = true;
             }
 			else if(str[i]=='-')
 			{
