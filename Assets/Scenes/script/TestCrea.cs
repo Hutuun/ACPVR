@@ -42,7 +42,7 @@ public class TestCrea : MonoBehaviour
 	void creationCaracteristique()
 	{
 		GameObject prefab = (GameObject)Resources.Load("Graph");
-        graphCara = GameObject.Instantiate(prefab, centreGraph, Quaternion.identity);
+        graphCara = GameObject.Instantiate(prefab, centreGraphCara, Quaternion.identity);
 
         GameObject sphere = (GameObject)Resources.Load("SpherePrefab");
 
@@ -54,27 +54,27 @@ public class TestCrea : MonoBehaviour
         while ((line = fileT.ReadLine()) != null)
         {
             System.Console.WriteLine(line);
-            res.Add(line);
+            resCara.Add(line);
         }
 
         while ((line = fileName.ReadLine()) != null)
         {
             System.Console.WriteLine(line);
-            names.Add(line);
+            namesCara.Add(line);
         }
 
-        for (int i = 0; i < res.Count; i += 44)
+        for (int i = 0; i < resCara.Count; i += 44)
         {
 
-            spheres.Add(GameObject.Instantiate(sphere, new Vector3(centreGraph.x + (float)convert(res[i]) * 7.5f, centreGraph.y + (float)convert(res[i + 1]) * 7.5f, centreGraph.z + (float)convert(res[i + 2]) * 7.5f), Quaternion.identity));
-            Debug.Log(convert(res[i]));
+            spheresCara.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphCara.x + (float)convert(resCara[i]) * 7.5f, centreGraphCara.y + (float)convert(resCara[i + 1]) * 7.5f, centreGraphCara.z + (float)convert(resCara[i + 2]) * 7.5f), Quaternion.identity));
+            Debug.Log(convert(resCara[i]));
         }
 
-        for(int i = 0; i<spheres.Count;i++)
+        for(int i = 0; i< spheresCara.Count;i++)
         {
-            TextMesh temp = spheres[i].GetComponentInChildren<TextMesh>();
+            TextMesh temp = spheresCara[i].GetComponentInChildren<TextMesh>();
 
-            temp.text = names[i];
+            temp.text = namesCara[i];
         }
 	}
     
