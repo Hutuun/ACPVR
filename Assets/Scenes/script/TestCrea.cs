@@ -30,7 +30,7 @@ public class TestCrea : MonoBehaviour
 		creationSecteur();
     }
 	
-	void creationSecteur()
+	private void creationSecteur()
 	{
 		GameObject prefab = (GameObject)Resources.Load("Graph");
         graphSect = GameObject.Instantiate(prefab, centreGraphSect, Quaternion.identity);
@@ -72,6 +72,13 @@ public class TestCrea : MonoBehaviour
 			resSect2.Add(convert(resSect[i+2]));
 		}
 		
+		max = maxList(resSect2);
+		
+		for(int i = 0;i<resSect2;i++)
+		{
+			resSect2[i]/=max;
+		}
+		
 		for (int i = 0; i < resSect2.Count; i += 3)
         {
             spheresSect.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]), Quaternion.identity));
@@ -86,7 +93,7 @@ public class TestCrea : MonoBehaviour
         }
 	}
 	
-	void creationCaracteristique()
+	private void creationCaracteristique()
 	{
 		GameObject prefab = (GameObject)Resources.Load("Graph");
         graphCara = GameObject.Instantiate(prefab, centreGraphCara, Quaternion.identity);
@@ -126,7 +133,7 @@ public class TestCrea : MonoBehaviour
         }
 	}
     
-    double convert(string str)
+    private double convert(string str)
     {
         double before=0;
         double after=0;
@@ -242,7 +249,16 @@ public class TestCrea : MonoBehaviour
 		return before + after;
     }
 	
-	
+	private double maxList(List<double> list)
+	{
+		double res;
+		foreach(double i in list)
+		{
+			if(i>res)
+				res = i;
+		}
+		return res;
+	}
     
     // Update is called once per frame
     void Update()
