@@ -17,6 +17,8 @@ passif = open("bilan_Y.txt","r")
 Y = open("bilan_secteurs.txt","r")
 Cactif = open("bilan_caracteristique_abbr_actif.txt")
 Cpassif = open("bilan_caracteristique_abbr_passif.txt")
+Cactifc = open("bilan_caracteristiques_actif.txt")
+Cpassifc = open("bilan_caracteristiques_passif.txt")
 resultat = open("resultat.txt","w")
 resultat2 = open("resultat2.txt","w")
 
@@ -44,6 +46,9 @@ sources3 = []
 caracteristique =[]
 caracteristique2 =[]
 
+caracteristiquec =[]
+caracteristique2c =[]
+
 #Preparation des donnees
 
 for ligne in actif:
@@ -69,6 +74,12 @@ for ligne in Cactif:
 	
 for ligne in Cpassif:
 	caracteristique += [ligne.split()[0]]
+
+for ligne in Cactifc:
+	caracteristiquec += [ligne.split()[0]]
+	
+for ligne in Cpassifc:
+	caracteristiquec += [ligne.split()[0]]
 
 	
 for i in range(0,len(temp4)):

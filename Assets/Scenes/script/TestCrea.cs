@@ -14,6 +14,7 @@ public class TestCrea : MonoBehaviour
     private List<string> resCara = new List<string>();
     private GameObject graphCara;
 	private List<string> namesCara = new List<string>();
+	private List<string> namesCompleteCara = new List<string>();
     private List<GameObject> spheresCara = new List<GameObject>();
 	
 	private List<string> resSect = new List<string>();
@@ -87,6 +88,7 @@ public class TestCrea : MonoBehaviour
 
         System.IO.StreamReader fileT = new System.IO.StreamReader(file + "corvar.txt");
         System.IO.StreamReader fileName = new System.IO.StreamReader(file + "caracteristique.txt");
+		System.IO.StreamReader fileName = new System.IO.StreamReader(file + "caracteristique.txt");
 
         string line;
 
@@ -123,6 +125,7 @@ public class TestCrea : MonoBehaviour
         double after=0;
         int nbZero = -1;
         bool virgule=false;
+		bool negatif=false;
         bool zero=true;
         for(int i=0;i<str.Length;i++)
         {
@@ -190,6 +193,11 @@ public class TestCrea : MonoBehaviour
             {
                 virgule = true;
             }
+			else if(str[i]=='-')
+			{
+				Debug.Log("Negatif");
+				negatif=true;
+			}
             //Debug.Log(temp);
             if(temp!=0)
                 if(virgule && zero)
