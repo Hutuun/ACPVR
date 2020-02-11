@@ -210,11 +210,11 @@ public class TestCrea : MonoBehaviour
 					before = temp;
 			}
         }
-        /*while(after>1)
+        while(after>1)
         {
             after/=10;
         }
-        while(nbZero!=0)
+        /*while(nbZero!=0)
         {
             nbZero--;
             after/=10;
