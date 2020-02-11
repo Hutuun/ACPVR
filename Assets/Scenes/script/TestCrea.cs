@@ -40,16 +40,22 @@ public class TestCrea : MonoBehaviour
 		
 		string line;
 		
-		while ((line = fileT.ReadLine()) != null)
-        {
-            System.Console.WriteLine(line);
-            resSect.Add(line);
-        }
-
-        while ((line = fileName.ReadLine()) != null)
+		while ((line = fileName.ReadLine()) != null)
         {
             System.Console.WriteLine(line);
             namesSect.Add(line);
+        }
+		
+		int temp=0;
+		
+		while ((line = fileT.ReadLine()) != null)
+        {
+			temp++;
+			if(namesSect[temp]=="Inutilise")
+            {
+				System.Console.WriteLine(line);
+				resSect.Add(line);
+			}
         }
 		
 		for (int i = 0; i < resCara.Count; i += 44)
@@ -81,13 +87,13 @@ public class TestCrea : MonoBehaviour
 
         while ((line = fileT.ReadLine()) != null)
         {
-            System.Console.WriteLine(line);
+            //System.Console.WriteLine(line);
             resCara.Add(line);
         }
 
         while ((line = fileName.ReadLine()) != null)
         {
-            System.Console.WriteLine(line);
+            //System.Console.WriteLine(line);
             namesCara.Add(line);
         }
 
@@ -95,7 +101,7 @@ public class TestCrea : MonoBehaviour
         {
 
             spheresCara.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphCara.x + (float)convert(resCara[i]) * 6, centreGraphCara.y + (float)convert(resCara[i + 1]) * 6, centreGraphCara.z + (float)convert(resCara[i + 2]) * 6), Quaternion.identity));
-            Debug.Log(convert(resCara[i]));
+            //Debug.Log(convert(resCara[i]));
         }
 
         for(int i = 0; i< spheresCara.Count;i++)
