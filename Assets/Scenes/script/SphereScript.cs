@@ -34,7 +34,7 @@ public class TestCrea : MonoBehaviour
     {
 		TextMesh temp = this.GetComponentInChildren<TextMesh>();
 		
-		file += temp.text;
+		file = temp.text;
 		
         creationCaracteristique();
 		creationSecteur();
