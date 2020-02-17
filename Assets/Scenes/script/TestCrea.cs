@@ -9,6 +9,7 @@ public class TestCrea : MonoBehaviour
     public int modele = 0;
 	public double coeffCara = 6;
 	public double coeffSect = 6;
+	public double coeffTaille = 9;
 	
 	public Vector3 centreGraphCara = new Vector3(-6.055751f, 6.14f, 13.75607f);
 	
@@ -85,6 +86,7 @@ public class TestCrea : MonoBehaviour
 		}
 		
 		double max = maxList(resSect2);
+		double maxTaille = maxList(diSect);
 		
 		for(int i = 0;i<resSect2.Count;i++)
 		{
@@ -100,7 +102,7 @@ public class TestCrea : MonoBehaviour
 
         for(int i = 0; i< spheresSect.Count;i++)
         {
-			double temporaire = diSect[i];
+			double temporaire = 1+coeffTaille*diSect[i]/maxTaille;
 			
 			Vector3 vec = spheresSect[i].transform.localScale;
 			
