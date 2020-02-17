@@ -350,10 +350,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c4533914b048004ba659336bfcd4165, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  file: C:\Users\Sulli\OneDrive\Bureau\ACPVR\Python\Secteur\
+  file: C:\Users\LLoyd\Desktop\projet\ACPVR\Python\Secteur\
   modele: 0
   coeffCara: 6
   coeffSect: 6
+  coeffTaille: 9
   centreGraphCara: {x: -11, y: 6.14, z: 13.75607}
   centreGraphSect: {x: 5, y: 6.14, z: 13.75607}
 --- !u!4 &232621564

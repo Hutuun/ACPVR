@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestCrea : MonoBehaviour
+public class SphereScript : MonoBehaviour
 {
     public int modele = 0;
 	public double coeffCara = 6;
