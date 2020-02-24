@@ -42,7 +42,7 @@ public class TestCrea : MonoBehaviour
 		GameObject prefab = (GameObject)Resources.Load("Graph");
         graphSect = GameObject.Instantiate(prefab, centreGraphSect, Quaternion.identity);
 
-        GameObject sphere = (GameObject)Resources.Load("SpherePrefab");
+        GameObject sphere = (GameObject)Resources.Load("SpherePrefabSecteur");
 
         System.IO.StreamReader fileT = new System.IO.StreamReader(file + "coord.txt");
         System.IO.StreamReader fileName = new System.IO.StreamReader(file + "secteurs.txt");
