@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class TestCrea : MonoBehaviour
 {
-
-    public string file = null;
+	
     public int modele = 0;
 	public double coeffCara = 6;
 	public double coeffSect = 6;
@@ -14,6 +13,8 @@ public class TestCrea : MonoBehaviour
 	public Vector3 centreGraphCara = new Vector3(-6.055751f, 6.14f, 13.75607f);
 	
 	public Vector3 centreGraphSect = new Vector3(-6.055751f, 6.14f, 13.75607f);
+
+	public string file = "Python/Secteur";
 
     private List<string> resCara = new List<string>();
     private List<double> resCara2 = new List<double>();
