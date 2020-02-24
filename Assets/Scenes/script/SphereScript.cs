@@ -50,13 +50,13 @@ public class SphereScript : MonoBehaviour
 	}
 	
 	// Disable the behaviour when it becomes invisible...
-    void OnBecameInvisible()
+    public void OnBecameInvisible()
     {
         enabled = false;
     }
 
     // ...and enable it again when it becomes visible.
-    void OnBecameVisible()
+    public void OnBecameVisible()
     {
         enabled = true;
     }
