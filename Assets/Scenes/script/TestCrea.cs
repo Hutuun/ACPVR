@@ -113,7 +113,7 @@ public class TestCrea : MonoBehaviour
 
             temp.text = namesSect[i];
 			
-			spheresSect[i].setCentre();
+			spheresSect[i].GetComponent("SphereScript").setCentre();
         }
 	}
 	
