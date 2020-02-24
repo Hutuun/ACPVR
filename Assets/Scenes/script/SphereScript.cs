@@ -13,7 +13,7 @@ public class SphereScript : MonoBehaviour
 	
 	public Vector3 centreGraphSect = new Vector3(-6.055751f, 6.14f, 13.75607f);
 	
-	private string file = null;
+	private string file = "Python/Secteur/";
 
     private List<string> resCara = new List<string>();
     private List<double> resCara2 = new List<double>();
@@ -34,7 +34,7 @@ public class SphereScript : MonoBehaviour
     {
 		TextMesh temp = this.GetComponentInChildren<TextMesh>();
 		
-		file = temp.text;
+		file += temp.text;
 		
         creationCaracteristique();
 		creationSecteur();
