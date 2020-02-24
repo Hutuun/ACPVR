@@ -49,18 +49,6 @@ public class SphereScript : MonoBehaviour
 		return;
 	}
 	
-	// Disable the behaviour when it becomes invisible...
-    public void OnBecameInvisible()
-    {
-        enabled = false;
-    }
-
-    // ...and enable it again when it becomes visible.
-    public void OnBecameVisible()
-    {
-        enabled = true;
-    }
-	
 	private void creationSecteur()
 	{
 		GameObject prefab = (GameObject)Resources.Load("Graph");
