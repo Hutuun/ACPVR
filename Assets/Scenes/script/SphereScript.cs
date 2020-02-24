@@ -42,7 +42,7 @@ public class SphereScript : MonoBehaviour
 	
 	public void setCentre()
 	{
-		
+		return;
 	}
 	
 	private void creationSecteur()
