@@ -112,6 +112,8 @@ public class TestCrea : MonoBehaviour
             TextMesh temp = spheresSect[i].GetComponentInChildren<TextMesh>();
 
             temp.text = namesSect[i];
+			
+			spheresSect[i].setCentre();
         }
 	}
 	

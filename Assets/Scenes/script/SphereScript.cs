@@ -40,6 +40,11 @@ public class SphereScript : MonoBehaviour
 		creationSecteur();
     }
 	
+	public void setCentre()
+	{
+		
+	}
+	
 	private void creationSecteur()
 	{
 		GameObject prefab = (GameObject)Resources.Load("Graph");
