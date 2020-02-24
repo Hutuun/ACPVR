@@ -40,8 +40,12 @@ public class SphereScript : MonoBehaviour
 		creationSecteur();
     }
 	
-	public void setCentre()
+	public void setCentre(Vector3 vecCara, Vector3 vecSect)
 	{
+		centreGraphCara = vecCara;
+		
+		centreGraphSect = vecSect;
+		
 		return;
 	}
 	
