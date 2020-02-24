@@ -117,7 +117,7 @@ public class TestCrea : MonoBehaviour
 
             sphereScript.setCentre(centreGraphCara,centreGraphSect);
 			
-			spheresSect[i].SetActive(false);
+			//spheresSect[i].SetActive(false);
         }
 	}
 	
