@@ -14,7 +14,7 @@ public class TestCrea : MonoBehaviour
 	
 	public Vector3 centreGraphSect = new Vector3(-6.055751f, 6.14f, 13.75607f);
 
-	public string file = "Python/Secteur";
+	private string file = "Python/Secteur";
 
     private List<string> resCara = new List<string>();
     private List<double> resCara2 = new List<double>();
