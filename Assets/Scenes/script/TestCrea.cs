@@ -115,7 +115,7 @@ public class TestCrea : MonoBehaviour
 
             SphereScript sphereScript = (SphereScript)spheresSect[i].GetComponent("SphereScript");
 
-            sphereScript.setCentre();
+            sphereScript.setCentre(centreGraphCara,centreGraphSect);
         }
 	}
 	
