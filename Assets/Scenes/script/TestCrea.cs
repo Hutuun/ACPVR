@@ -102,7 +102,7 @@ public class TestCrea : MonoBehaviour
         }
 
         for(int i = 0; i< spheresSect.Count;i++)
-        {
+        {	
 			double temporaire = 1+coeffTaille*diSect[i]/maxTaille;
 			
 			Vector3 vec = spheresSect[i].transform.localScale;
@@ -116,6 +116,8 @@ public class TestCrea : MonoBehaviour
             SphereScript sphereScript = (SphereScript)spheresSect[i].GetComponent("SphereScript");
 
             sphereScript.setCentre(centreGraphCara,centreGraphSect);
+			
+			spheresSect[i].OnBecameInvisible();
         }
 	}
 	
