@@ -117,7 +117,7 @@ public class TestCrea : MonoBehaviour
 
             sphereScript.setCentre(centreGraphCara,centreGraphSect);
 			
-			spheresSect[i].OnBecameInvisible();
+			spheresSect[i].GetComponent<Renderer>().OnBecameInvisible();
         }
 	}
 	
