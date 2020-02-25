@@ -143,8 +143,10 @@ public class SphereScript : MonoBehaviour
         }
 	}
 	
-	private void onMouseDrag()
+	private void OnMouseOver()
 	{
+		moi.GetComponent(Renderer).material.color = Color.Green;
+		
 		//this.setColor(255,255,255);
 	}
 	
