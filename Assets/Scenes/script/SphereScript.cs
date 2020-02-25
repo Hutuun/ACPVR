@@ -153,7 +153,9 @@ public class SphereScript : MonoBehaviour
 			spheresCara[i].SetActive(true);
         }
 		
-		papa.setAllInvisible()
+		TestCrea testCrea = (TestCrea)papa.GetComponent("TestCrea");
+		
+		testCrea.setAllInvisible()
 	}
 	
 	private void retour()
@@ -168,7 +170,9 @@ public class SphereScript : MonoBehaviour
 			spheresCara[i].SetActive(false);
         }
 		
-		papa.setAllVisible()
+		TestCrea testCrea = (TestCrea)papa.GetComponent("TestCrea");
+		
+		testCrea.setAllVisible()
 	}
 	
 	private void creationCaracteristique()
