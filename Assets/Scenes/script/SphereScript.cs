@@ -151,6 +151,12 @@ public class SphereScript : MonoBehaviour
 		//this.setColor(255,255,255);
 	}
 	
+	private void OnMouseExit()
+	{
+		Renderer renderer = (Renderer)moi.GetComponent("Renderer");
+        renderer.material.color = Color.red;
+	}
+	
 	private void clique()
 	{
 		for(int i = 0; i< spheresSect.Count;i++)
