@@ -30,6 +30,8 @@ public class SphereScript : MonoBehaviour
     private List<GameObject> spheresSect = new List<GameObject>();
 	
 	private TestCrea papa = null;
+	
+	private GameObject moi = null;
 
     // Start is called before the first frame update
     void Start()
@@ -49,6 +51,11 @@ public class SphereScript : MonoBehaviour
 		centreGraphSect = vecSect;
 		
 		return;
+	}
+	
+	public void setMoi(GameObject me)
+	{
+		moi = me;
 	}
 	
 	public void setPapa(GameObject parent)
