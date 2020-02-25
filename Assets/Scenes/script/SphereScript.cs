@@ -150,8 +150,25 @@ public class SphereScript : MonoBehaviour
 		
 		for(int i = 0; i< spheresCara.Count;i++)
         {
+			spheresCara[i].SetActive(true);
+        }
+		
+		papa.setAllInvisible()
+	}
+	
+	private void retour()
+	{
+		for(int i = 0; i< spheresSect.Count;i++)
+        {
+			spheresSect[i].SetActive(false);
+        }
+		
+		for(int i = 0; i< spheresCara.Count;i++)
+        {
 			spheresCara[i].SetActive(false);
         }
+		
+		papa.setAllVisible()
 	}
 	
 	private void creationCaracteristique()

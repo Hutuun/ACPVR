@@ -123,6 +123,32 @@ public class TestCrea : MonoBehaviour
         }
 	}
 	
+	public void setAllInvisible()
+	{
+		for(int i = 0; i< spheresSect.Count;i++)
+        {
+			spheresSect[i].SetActive(true);
+        }
+		
+		for(int i = 0; i< spheresCara.Count;i++)
+        {
+			spheresCara[i].SetActive(true);
+        }
+	}
+	
+	private void setAllVisible()
+	{
+		for(int i = 0; i< spheresSect.Count;i++)
+        {
+			spheresSect[i].SetActive(false);
+        }
+		
+		for(int i = 0; i< spheresCara.Count;i++)
+        {
+			spheresCara[i].SetActive(false);
+        }
+	}
+	
 	private void creationCaracteristique()
 	{
 		GameObject prefab = (GameObject)Resources.Load("Graph");
