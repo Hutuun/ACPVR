@@ -131,6 +131,8 @@ public class SphereScript : MonoBehaviour
             TextMesh temp = spheresSect[i].GetComponentInChildren<TextMesh>();
 
             temp.text = namesSect[i];
+			
+			spheresSect[i].SetActive(false);
         }
 	}
 	
@@ -183,6 +185,8 @@ public class SphereScript : MonoBehaviour
             TextMesh temp = spheresCara[i].GetComponentInChildren<TextMesh>();
 
             temp.text = namesCara[i];
+			
+			spheresCara[i].SetActive(false);
         }
 	}
     
