@@ -136,6 +136,24 @@ public class SphereScript : MonoBehaviour
         }
 	}
 	
+	private void onMouseDrag()
+	{
+		this.setColor(255,255,255);
+	}
+	
+	private void clique()
+	{
+		for(int i = 0; i< spheresSect.Count;i++)
+        {
+			spheresSect[i].SetActive(true);
+        }
+		
+		for(int i = 0; i< spheresCara.Count;i++)
+        {
+			spheresCara[i].SetActive(false);
+        }
+	}
+	
 	private void creationCaracteristique()
 	{
 		GameObject prefab = (GameObject)Resources.Load("Graph");
