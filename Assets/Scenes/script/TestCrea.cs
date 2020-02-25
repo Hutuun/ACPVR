@@ -136,7 +136,7 @@ public class TestCrea : MonoBehaviour
         }
 	}
 	
-	private void setAllVisible()
+	public void setAllVisible()
 	{
 		for(int i = 0; i< spheresSect.Count;i++)
         {

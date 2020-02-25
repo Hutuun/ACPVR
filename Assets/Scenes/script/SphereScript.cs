@@ -29,7 +29,7 @@ public class SphereScript : MonoBehaviour
 	private List<double> diSect = new List<double>();
     private List<GameObject> spheresSect = new List<GameObject>();
 	
-	private GameObject papa = null;
+	private TestCrea papa = null;
 
     // Start is called before the first frame update
     void Start()
@@ -138,7 +138,7 @@ public class SphereScript : MonoBehaviour
 	
 	private void onMouseDrag()
 	{
-		this.setColor(255,255,255);
+		//this.setColor(255,255,255);
 	}
 	
 	private void clique()
@@ -153,9 +153,7 @@ public class SphereScript : MonoBehaviour
 			spheresCara[i].SetActive(true);
         }
 		
-		TestCrea testCrea = (TestCrea)papa.GetComponent("TestCrea");
-		
-		testCrea.setAllInvisible();
+		papa.setAllInvisible();
 	}
 	
 	private void retour()
@@ -170,9 +168,7 @@ public class SphereScript : MonoBehaviour
 			spheresCara[i].SetActive(false);
         }
 		
-		TestCrea testCrea = (TestCrea)papa.GetComponent("TestCrea");
-		
-		testCrea.setAllVisible();
+		papa.setAllVisible();
 	}
 	
 	private void creationCaracteristique()
