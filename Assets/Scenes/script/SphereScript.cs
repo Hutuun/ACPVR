@@ -58,7 +58,7 @@ public class SphereScript : MonoBehaviour
 		moi = me;
 	}
 	
-	public void setPapa(GameObject parent)
+	public void setPapa(TestCrea parent)
 	{
 		papa = parent;
 	}
