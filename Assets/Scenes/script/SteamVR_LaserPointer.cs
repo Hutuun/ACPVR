@@ -79,7 +79,7 @@ namespace Valve.VR.Extras
                 PointerIn(this, e);
 			if(e.target != null)
 			{
-				e.target.OnMouseOver();
+				e.target.gameObject.OnMouseOver();
 			}
         }
 
