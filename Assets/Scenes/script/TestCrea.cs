@@ -38,7 +38,7 @@ public class TestCrea : MonoBehaviour
         creationCaracteristique();
 		creationSecteur();
 		
-		ButtonReset buttonReset = GetComponentsInParent<ButtonReset>();
+		ButtonReset buttonReset = GetComponentInParent<ButtonReset>();
 		//.GetComponent("SphereScript");
 		
 		//moi = transform.parent.gameObject;
