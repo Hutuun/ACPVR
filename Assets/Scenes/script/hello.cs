@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class hello : MonoBehaviour
 {
-	private bool first = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,13 +14,9 @@ public class hello : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		if(!first)
+        if(Input.anyKey)
 		{
-			first = true;
-			if(Input.anyKey)
-			{
-				transform.gameObject.SetActive(false);
-			}
+			transform.gameObject.SetActive(false);
 		}
     }
 }
