@@ -168,7 +168,7 @@ public class SphereScript : MonoBehaviour
 	private void OnMouseExit()
 	{
 		Renderer renderer = (Renderer)moi.GetComponent("Renderer");
-        renderer.material.color = Color.red;
+        renderer.material = material;
 		
 		selectionne = false;
 	}
@@ -390,7 +390,7 @@ public class SphereScript : MonoBehaviour
 			if(selectionne)
 			{
 				Renderer renderer = (Renderer)moi.GetComponent("Renderer");
-				renderer.material.color = Color.red;
+				renderer.material = material;
 				
 				Debug.Log("Pressed primary button.");
 				clique();

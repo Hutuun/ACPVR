@@ -11,12 +11,16 @@ public class ButtonReset : MonoBehaviour
 	
 	GameObject moi = null;
 	
+	private Material material = null;
+	
     // Start is called before the first frame update
     void Start()
     {
         moi = transform.parent.GetChild(0).gameObject;
 		
 		testCrea = GetComponentInParent<TestCrea>();
+		
+		material = (Material)Resources.Load("SphereMaterial");
     }
 
     // Update is called once per frame
@@ -53,7 +57,7 @@ public class ButtonReset : MonoBehaviour
 	private void OnMouseExit()
 	{
 		Renderer renderer = (Renderer)moi.GetComponent("Renderer");
-        renderer.material.color = Color.red;
+        renderer.material = material;
 		
 		selectionne = false;
 	}
