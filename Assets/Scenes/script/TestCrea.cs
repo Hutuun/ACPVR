@@ -29,24 +29,12 @@ public class TestCrea : MonoBehaviour
     private List<string> namesSect = new List<string>();
 	private List<double> diSect = new List<double>();
     private List<GameObject> spheresSect = new List<GameObject>();
-	
-	private GameObject moi = null;
 
     // Start is called before the first frame update
     void Start()
     {
         creationCaracteristique();
 		creationSecteur();
-		
-		//ButtonReset buttonReset = GetComponentInParent<ButtonReset>();
-		
-		//buttonReset.setTestCrea(this);
-		
-		//buttonReset.setMoi(GetComponentInParent<button>());
-		
-		//.GetComponent("SphereScript");
-		
-		//moi = transform.parent.gameObject;
     }
 	
 	private void creationSecteur()
