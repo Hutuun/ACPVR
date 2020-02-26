@@ -93,7 +93,7 @@ public class SphereScript : MonoBehaviour
 		while ((line = fileT.ReadLine()) != null)
         {
             //Debug.Log(trucTemp / 44);
-            if (trucTemp / 44 < namesSect.Count)
+            if (trucTemp / 44 <= namesSect.Count)
             {
                 if (namesSect[trucTemp / 44] != "Inutilise")
                 {
