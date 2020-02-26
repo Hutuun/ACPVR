@@ -11,7 +11,10 @@ public class TestCrea : MonoBehaviour
 	
     public int modele = 0;
 	public double coeffCara = 6;
-	public double coeffSect = 6;
+	
+	public double coeffSectinit = 6;
+	private double coeffSect = 6;
+	
 	public double coeffTaille = 9;
 	
 	public Vector3 centreGraphCara = new Vector3(-6.055751f, 6.14f, 13.75607f);
@@ -37,6 +40,7 @@ public class TestCrea : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+		coeffSect = coeffSectinit;
         creationCaracteristique();
 		creationSecteur();
     }
@@ -133,6 +137,8 @@ public class TestCrea : MonoBehaviour
 			
 			sphereScript.setMoi(spheresSect[i]);
 			
+			sphereScript.setCoeffSectCara(coeffCara,coeffSect);
+			
 			//spheresSect[i].SetActive(false);
         }
 	}
@@ -147,6 +153,48 @@ public class TestCrea : MonoBehaviour
         }
 		
 		setAllVisible();
+		
+		double max = maxList(resSect2);
+		
+		coeffSect += 6;
+		
+		for(int i = 0;i<resSect2.Count;i++)
+		{
+			resSect2[i]/=max;
+			resSect2[i]*=coeffSect;
+		}
+		
+		for (int i = 0; i < spheresSect.Count; i ++)
+        {
+			spheresSect[i].transform.localPosition = new Vector3(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]);
+			
+			SphereScript sphereScript = (SphereScript)spheresSect[i].GetComponent("SphereScript");
+			
+			sphereScript.zoom();
+            
+			//Debug.Log(convert(resSect[i]));
+        }
+		
+		coeffSect = coeffSectinit;
+		
+		double max = maxList(resSect2);
+		
+		for(int i = 0;i<resSect2.Count;i++)
+		{
+			resSect2[i]/=max;
+			resSect2[i]*=coeffSect;
+		}
+		
+		for (int i = 0; i < spheresSect.Count; i ++)
+        {
+			spheresSect[i].transform.localPosition = new Vector3(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]);
+			
+			SphereScript sphereScript = (SphereScript)spheresSect[i].GetComponent("SphereScript");
+			
+			sphereScript.rezoom(coeffSect);
+            
+			//Debug.Log(convert(resSect[i]));
+        }
 	}
 	
 	public void zoom()
@@ -167,7 +215,7 @@ public class TestCrea : MonoBehaviour
 			
 			SphereScript sphereScript = (SphereScript)spheresSect[i].GetComponent("SphereScript");
 			
-			sphereScript.zoom();
+			sphereScript.rezoom(coeffSect);
             
 			//Debug.Log(convert(resSect[i]));
         }
@@ -193,7 +241,7 @@ public class TestCrea : MonoBehaviour
 				
 				SphereScript sphereScript = (SphereScript)spheresSect[i].GetComponent("SphereScript");
 			
-				sphereScript.dezoom();
+				sphereScript.rezoom(coeffSect);
 			}
 		}
 	}

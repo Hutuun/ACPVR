@@ -55,6 +55,12 @@ public class SphereScript : MonoBehaviour
 		creationSecteur();
     }
 	
+	public void setCoeffSectCara(double coeffCara1, double coeffSect1)
+	{
+		coeffCara = coeffCara1;
+		coeffSect = coeffSect1;
+	}
+	
 	public void setSteamVR(SteamVR_Action_Boolean touchPadTouc, SteamVR_Action_Boolean zoome, SteamVR_Action_Boolean boome)
 	{
 		touchPadTouch = touchPadTouc;
@@ -185,11 +191,11 @@ public class SphereScript : MonoBehaviour
 		selectionne = false;
 	}
 	
-	public void zoom()
+	public void rezoom(double coeff)
 	{
 		double max = maxList(resSect2);
 		
-		coeffSect += 6;
+		coeffSect = coeff;
 		
 		for(int i = 0;i<resSect2.Count;i++)
 		{
@@ -203,27 +209,6 @@ public class SphereScript : MonoBehaviour
             
 			//Debug.Log(convert(resSect[i]));
         }
-	}
-	
-	public void dezoom()
-	{
-		if(!(coeffSect <= 6))
-		{
-			double max = maxList(resSect2);
-			
-			coeffSect -= 6;
-		
-			for(int i = 0;i<resSect2.Count;i++)
-			{
-				resSect2[i]/=max;
-				resSect2[i]*=coeffSect;
-			}
-		
-			for (int i = 0; i < spheresSect.Count; i ++)
-			{
-				spheresSect[i].transform.Translate(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]);
-			}
-		}
 	}
 	
 	private void clique()
