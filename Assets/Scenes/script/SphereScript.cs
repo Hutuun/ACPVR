@@ -185,6 +185,47 @@ public class SphereScript : MonoBehaviour
 		selectionne = false;
 	}
 	
+	public void zoom()
+	{
+		double max = maxList(resSect2);
+		
+		coeffSect += 6;
+		
+		for(int i = 0;i<resSect2.Count;i++)
+		{
+			resSect2[i]/=max;
+			resSect2[i]*=coeffSect;
+		}
+		
+		for (int i = 0; i < spheresSect.Count; i ++)
+        {
+			spheresSect[i].transform.Translate(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]);
+            
+			//Debug.Log(convert(resSect[i]));
+        }
+	}
+	
+	public void dezoom()
+	{
+		if(!(coeffSect <= 6))
+		{
+			double max = maxList(resSect2);
+			
+			coeffSect -= 6;
+		
+			for(int i = 0;i<resSect2.Count;i++)
+			{
+				resSect2[i]/=max;
+				resSect2[i]*=coeffSect;
+			}
+		
+			for (int i = 0; i < spheresSect.Count; i ++)
+			{
+				spheresSect[i].transform.Translate(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]);
+			}
+		}
+	}
+	
 	private void clique()
 	{
 		for(int i = 0; i< spheresSect.Count;i++)

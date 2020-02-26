@@ -164,6 +164,8 @@ public class TestCrea : MonoBehaviour
 		for (int i = 0; i < spheresSect.Count; i ++)
         {
 			spheresSect[i].transform.Translate(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]);
+			
+			spheresSect[i].zoom();
             
 			//Debug.Log(convert(resSect[i]));
         }
@@ -186,6 +188,8 @@ public class TestCrea : MonoBehaviour
 			for (int i = 0; i < spheresSect.Count; i ++)
 			{
 				spheresSect[i].transform.Translate(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]);
+				
+				spheresSect[i].dezoom();
 			}
 		}
 	}
@@ -398,6 +402,13 @@ public class TestCrea : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey("up"))
+		{
+			zoom();
+		}
+		if (Input.GetKey("down"))
+		{
+			dezoom();
+		}
     }
 }
