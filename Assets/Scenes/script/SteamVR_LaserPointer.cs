@@ -77,9 +77,9 @@ namespace Valve.VR.Extras
         {
             if (PointerIn != null)
                 PointerIn(this, e);
-			if(e.target != null)
+			if(e.target.GetChild(1).name == "sphere")
 			{
-				e.target.gameObject.OnMouseOver();
+				SphereScript sphereScript = e.target.gameObject.GetComponent("SphereScript");
 			}
         }
 
