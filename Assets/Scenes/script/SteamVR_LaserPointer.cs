@@ -156,6 +156,12 @@ namespace Valve.VR.Extras
                 pointer.GetComponent<MeshRenderer>().material.color = color;
             }
             pointer.transform.localPosition = new Vector3(0f, 0f, dist / 2f);
+			
+			if(target != null)
+			{
+				target.OnMouseOver();
+			}
+			
         }
     }
 
