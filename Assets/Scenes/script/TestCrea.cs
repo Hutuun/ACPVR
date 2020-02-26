@@ -254,12 +254,12 @@ public class TestCrea : MonoBehaviour
 			courant++;
 		}
 		
-		SphereScript sphereScript = (SphereScript)spheresSect[courant].GetComponent("SphereScript");
+		sphereScript = (SphereScript)spheresSect[courant].GetComponent("SphereScript");
 		
 		sphereScript.OnPointerIn();
 	}
 	
-	public void switchAvant()
+	public void switchArriere()
 	{
 		SphereScript sphereScript = (SphereScript)spheresSect[courant].GetComponent("SphereScript");
 		
@@ -270,7 +270,7 @@ public class TestCrea : MonoBehaviour
 			courant--;
 		}
 		
-		SphereScript sphereScript = (SphereScript)spheresSect[courant].GetComponent("SphereScript");
+		sphereScript = (SphereScript)spheresSect[courant].GetComponent("SphereScript");
 		
 		sphereScript.OnPointerIn();
 	}
