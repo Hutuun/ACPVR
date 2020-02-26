@@ -38,7 +38,7 @@ public class TestCrea : MonoBehaviour
         creationCaracteristique();
 		creationSecteur();
 		
-		this.GetParent();
+		moi = this.GetParent();
     }
 	
 	private void creationSecteur()
