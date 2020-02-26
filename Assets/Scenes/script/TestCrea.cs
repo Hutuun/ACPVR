@@ -102,6 +102,9 @@ public class TestCrea : MonoBehaviour
 			//Debug.Log(convert(resSect[i]));
         }
 
+		Debug.Log("Sphere" + spheresSect.Count);
+		Debug.Log("Sect" + diSect.Count);
+
         for(int i = 0; i< spheresSect.Count;i++)
         {	
 			double temporaire = 1+coeffTaille*diSect[i]/maxTaille;
