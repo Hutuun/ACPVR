@@ -34,6 +34,8 @@ public class SphereScript : MonoBehaviour
 	private GameObject moi = null;
 	
 	private bool selectionne = false;
+	
+	private Material material = (Material)Materials.Load("SphereMaterial");
 
     // Start is called before the first frame update
     void Start()
