@@ -199,6 +199,14 @@ public class SphereScript : MonoBehaviour
 		selectionne = false;
 	}
 	
+	private void OnPointerOut()
+	{
+		Renderer renderer = (Renderer)moi.GetComponent("Renderer");
+        renderer.material = material;
+		
+		selectionne = false;
+	}
+	
 	public void rezoom(double coeff)
 	{
 		double max = maxList(resSect2);
