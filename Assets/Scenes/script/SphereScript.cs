@@ -35,7 +35,7 @@ public class SphereScript : MonoBehaviour
 	
 	private bool selectionne = false;
 	
-	private Material material = (Material)Resources.Load("SphereMaterial");
+	private Material material = null;
 
     // Start is called before the first frame update
     void Start()
@@ -43,6 +43,8 @@ public class SphereScript : MonoBehaviour
 		TextMesh temp = this.GetComponentInChildren<TextMesh>();
 		
 		file += temp.text + "/";
+		
+		material = (Material)Resources.Load("SphereMaterial");
 		
         creationCaracteristique();
 		creationSecteur();
