@@ -385,6 +385,9 @@ public class SphereScript : MonoBehaviour
 		{
 			if(selectionne)
 			{
+				Renderer renderer = (Renderer)moi.GetComponent("Renderer");
+				renderer.material.color = Color.red;
+				
 				Debug.Log("Pressed primary button.");
 				clique();
 			}
