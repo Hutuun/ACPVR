@@ -8,6 +8,8 @@ public class TestCrea : MonoBehaviour
 	public SteamVR_Action_Boolean touchPadTouch;
 	public SteamVR_Action_Boolean zoomer;
 	public SteamVR_Action_Boolean boomer;
+	public SteamVR_Action_Boolean switchA;
+	public SteamVR_Action_Boolean switchB;
 	
     public int modele = 0;
 	public double coeffCara = 6;
@@ -38,6 +40,8 @@ public class TestCrea : MonoBehaviour
     private List<GameObject> spheresSect = new List<GameObject>();
 	
 	private bool first = false;
+	
+	private int courant = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -47,6 +51,21 @@ public class TestCrea : MonoBehaviour
 		creationSecteur();
 		setAllInvisible();
     }
+	
+	public void setCoeffSectCara(double coeffCara1, double coeffSect1)
+	{
+		coeffCara = coeffCara1;
+		coeffSectinit = coeffSect1;
+	}
+	
+	public void setSteamVR(SteamVR_Action_Boolean touchPadTouc, SteamVR_Action_Boolean zoome, SteamVR_Action_Boolean boome,SteamVR_Action_Boolean switch1,SteamVR_Action_Boolean switch2)
+	{
+		touchPadTouch = touchPadTouc;
+		zoomer = zoome;
+		boomer = boome;
+		switchA = switch1;
+		switchB = switch2;
+	}
 	
 	private void creationSecteur()
 	{
@@ -222,6 +241,38 @@ public class TestCrea : MonoBehaviour
 				sphereScript.rezoom(coeffSect);
 			}
 		}
+	}
+	
+	public void switchAvant()
+	{
+		SphereScript sphereScript = (SphereScript)spheresSect[courant].GetComponent("SphereScript");
+		
+		sphereScript.OnPointerOut();
+		
+		if(courant < spheresSect.Count-1)
+		{
+			courant++;
+		}
+		
+		SphereScript sphereScript = (SphereScript)spheresSect[courant].GetComponent("SphereScript");
+		
+		sphereScript.OnPointerIn();
+	}
+	
+	public void switchAvant()
+	{
+		SphereScript sphereScript = (SphereScript)spheresSect[courant].GetComponent("SphereScript");
+		
+		sphereScript.OnPointerOut();
+		
+		if(courant > 0)
+		{
+			courant--;
+		}
+		
+		SphereScript sphereScript = (SphereScript)spheresSect[courant].GetComponent("SphereScript");
+		
+		sphereScript.OnPointerIn();
 	}
 	
 	public void setAllVisible()
