@@ -159,7 +159,7 @@ namespace Valve.VR.Extras
 			
 			if(target != null)
 			{
-				target.OnMouseOver();
+				argsIn.target.OnMouseOver();
 			}
 			
         }
