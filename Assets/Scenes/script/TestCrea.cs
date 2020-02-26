@@ -129,7 +129,9 @@ public class TestCrea : MonoBehaviour
 	{
 		for(int i = 0; i< spheresSect.Count;i++)
         {
-			spheresSect[i].setAllInvisible();
+			SphereScript sphereScript = (SphereScript)spheresSect[i].GetComponent("SphereScript");
+			
+			sphereScript.setAllInvisible();
         }
 		
 		setAllVisible();
