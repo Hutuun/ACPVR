@@ -165,7 +165,9 @@ public class TestCrea : MonoBehaviour
         {
 			spheresSect[i].transform.Translate(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]);
 			
-			spheresSect[i].zoom();
+			SphereScript sphereScript = (SphereScript)spheresSect[i].GetComponent("SphereScript");
+			
+			sphereScript.zoom();
             
 			//Debug.Log(convert(resSect[i]));
         }
@@ -189,7 +191,9 @@ public class TestCrea : MonoBehaviour
 			{
 				spheresSect[i].transform.Translate(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]);
 				
-				spheresSect[i].dezoom();
+				SphereScript sphereScript = (SphereScript)spheresSect[i].GetComponent("SphereScript");
+			
+				sphereScript.dezoom();
 			}
 		}
 	}
