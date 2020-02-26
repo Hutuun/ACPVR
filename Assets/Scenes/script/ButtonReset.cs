@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class ButtonReset : MonoBehaviour
 {
+	
+	private bool selectionne = false;
+	
     // Start is called before the first frame update
     void Start()
     {
@@ -15,4 +18,21 @@ public class ButtonReset : MonoBehaviour
     {
         
     }
+	
+	private void OnMouseOver()
+	{
+        Renderer renderer = (Renderer)moi.GetComponent("Renderer");
+        renderer.material.color = Color.green;
+		
+		selectionne = true;
+	}
+	
+	private void OnMouseExit()
+	{
+		Renderer renderer = (Renderer)moi.GetComponent("Renderer");
+        renderer.material.color = Color.red;
+		
+		selectionne = false;
+	}
+	
 }

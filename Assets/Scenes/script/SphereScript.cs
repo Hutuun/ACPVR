@@ -158,8 +158,6 @@ public class SphereScript : MonoBehaviour
         Renderer renderer = (Renderer)moi.GetComponent("Renderer");
         renderer.material.color = Color.green;
 		
-		//this.setColor(255,255,255);
-		
 		selectionne = true;
 	}
 	
