@@ -77,6 +77,10 @@ namespace Valve.VR.Extras
         {
             if (PointerIn != null)
                 PointerIn(this, e);
+			if(e.target != null)
+			{
+				e.target.OnMouseOver();
+			}
         }
 
         public virtual void OnPointerClick(PointerEventArgs e)
@@ -157,10 +161,10 @@ namespace Valve.VR.Extras
             }
             pointer.transform.localPosition = new Vector3(0f, 0f, dist / 2f);
 			
-			if(target != null)
+			/*if(argsIn.target != null)
 			{
 				argsIn.target.OnMouseOver();
-			}
+			}*/
 			
         }
     }
