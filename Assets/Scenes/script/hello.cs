@@ -13,6 +13,9 @@ public class hello : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.anyKey)
+		{
+			transform.parent.gameObject.setActive(false);
+		}
     }
 }

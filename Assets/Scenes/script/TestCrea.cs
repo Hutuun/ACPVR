@@ -43,6 +43,7 @@ public class TestCrea : MonoBehaviour
 		coeffSect = coeffSectinit;
         creationCaracteristique();
 		creationSecteur();
+		setAllInvisible();
     }
 	
 	private void creationSecteur()
@@ -436,6 +437,10 @@ public class TestCrea : MonoBehaviour
 		if (Input.GetKey(KeyCode.O))
 		{
 			dezoom();
+		}
+		if(Input.anyKey)
+		{
+			setAllVisible();
 		}
     }
 }
