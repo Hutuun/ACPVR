@@ -154,27 +154,6 @@ public class TestCrea : MonoBehaviour
 		
 		setAllVisible();
 		
-		double max = maxList(resSect2);
-		
-		coeffSect += 6;
-		
-		for(int i = 0;i<resSect2.Count;i++)
-		{
-			resSect2[i]/=max;
-			resSect2[i]*=coeffSect;
-		}
-		
-		for (int i = 0; i < spheresSect.Count; i ++)
-        {
-			spheresSect[i].transform.localPosition = new Vector3(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]);
-			
-			SphereScript sphereScript = (SphereScript)spheresSect[i].GetComponent("SphereScript");
-			
-			sphereScript.zoom();
-            
-			//Debug.Log(convert(resSect[i]));
-        }
-		
 		coeffSect = coeffSectinit;
 		
 		double max = maxList(resSect2);
