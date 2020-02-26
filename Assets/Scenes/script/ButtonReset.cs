@@ -7,6 +7,10 @@ public class ButtonReset : MonoBehaviour
 	
 	private bool selectionne = false;
 	
+	TestCrea testCrea = null;
+	
+	GameObject moi = null;
+	
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +20,13 @@ public class ButtonReset : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetMouseButtonDown(0))
+		{
+			if(selectionne)
+			{
+				Debug.Log("Pressed primary button.");
+			}
+		}
     }
 	
 	private void OnMouseOver()
