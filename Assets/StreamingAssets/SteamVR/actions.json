@@ -50,6 +50,18 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/default/in/touchPadTouch",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/zoomer",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/boomer",
+      "type": "boolean"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },

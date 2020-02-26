@@ -5,9 +5,9 @@ using Valve.VR;
 
 public class TestCrea : MonoBehaviour
 {
-	public SteamVR_Input_Sources touchPadTouch;
-	public SteamVR_Input_Sources zoomer;
-	public SteamVR_Input_Sources boomer;
+	public SteamVR_Action_Boolean touchPadTouch;
+	public SteamVR_Action_Boolean zoomer;
+	public SteamVR_Action_Boolean boomer;
 	
     public int modele = 0;
 	public double coeffCara = 6;
