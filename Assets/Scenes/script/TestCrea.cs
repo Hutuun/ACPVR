@@ -194,7 +194,7 @@ public class TestCrea : MonoBehaviour
 		
 		for (int i = 0; i < spheresSect.Count; i ++)
         {	
-			spheresSect[i].transform.localPosition = new Vector3(centreGraphSect.x + (float)resSect2[i+1], centreGraphSect.y + (float)resSect2[i], centreGraphSect.z + (float)resSect2[i+2]);
+			spheresSect[i].transform.localPosition = new Vector3(centreGraphSect.x + (float)resSect2[i+1], centreGraphSect.y + (float)resSect2[i+2], centreGraphSect.z + (float)resSect2[i]);
 			
 			//spheresSect[i].transform.rotation = Quaternion.identity;
 				
@@ -224,7 +224,7 @@ public class TestCrea : MonoBehaviour
 		
 			for (int i = 0; i < spheresSect.Count; i ++)
 			{
-				spheresSect[i].transform.localPosition = new Vector3(centreGraphSect.x + (float)resSect2[i+1], centreGraphSect.y + (float)resSect2[i], centreGraphSect.z + (float)resSect2[i+2]);
+				spheresSect[i].transform.localPosition = new Vector3(centreGraphSect.x + (float)resSect2[i+1], centreGraphSect.y + (float)resSect2[i+2], centreGraphSect.z + (float)resSect2[i]);
 				
 				//spheresSect[i].transform.rotation = Quaternion.identity;
 				
