@@ -145,6 +145,8 @@ public class TestCrea : MonoBehaviour
 	
 	public void zoom()
 	{
+		double max = maxList(resSect2);
+		
 		coeffSect += 6;
 		
 		for(int i = 0;i<resSect2.Count;i++)
@@ -165,6 +167,8 @@ public class TestCrea : MonoBehaviour
 	{
 		if(!(coeffSect <= 6))
 		{
+			double max = maxList(resSect2);
+			
 			coeffSect -= 6;
 		
 			for(int i = 0;i<resSect2.Count;i++)
