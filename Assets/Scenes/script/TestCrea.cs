@@ -166,9 +166,9 @@ public class TestCrea : MonoBehaviour
 		
 		for (int i = 0; i < spheresSect.Count; i ++)
         {
-			spheresSect[i].transform.rotation = Quaternion.identity;
-			
 			spheresSect[i].transform.localPosition = new Vector3(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]);
+			
+			spheresSect[i].transform.rotation = Quaternion.identity;
 			
 			SphereScript sphereScript = (SphereScript)spheresSect[i].GetComponent("SphereScript");
 			
@@ -191,10 +191,10 @@ public class TestCrea : MonoBehaviour
 		}
 		
 		for (int i = 0; i < spheresSect.Count; i ++)
-        {
-			spheresSect[i].transform.rotation = Quaternion.identity;
-			
+        {	
 			spheresSect[i].transform.localPosition = new Vector3(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]);
+			
+			spheresSect[i].transform.rotation = Quaternion.identity;
 			
 			SphereScript sphereScript = (SphereScript)spheresSect[i].GetComponent("SphereScript");
 			
@@ -220,9 +220,9 @@ public class TestCrea : MonoBehaviour
 		
 			for (int i = 0; i < spheresSect.Count; i ++)
 			{
-				spheresSect[i].transform.rotation = Quaternion.identity;
-				
 				spheresSect[i].transform.localPosition = new Vector3(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]);
+				
+				spheresSect[i].transform.rotation = Quaternion.identity;
 				
 				SphereScript sphereScript = (SphereScript)spheresSect[i].GetComponent("SphereScript");
 			
