@@ -183,6 +183,14 @@ public class SphereScript : MonoBehaviour
 		selectionne = true;
 	}
 	
+	private void OnPointerIn()
+	{
+        Renderer renderer = (Renderer)moi.GetComponent("Renderer");
+        renderer.material.color = Color.green;
+		
+		selectionne = true;
+	}
+	
 	private void OnMouseExit()
 	{
 		Renderer renderer = (Renderer)moi.GetComponent("Renderer");
