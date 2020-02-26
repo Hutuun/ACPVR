@@ -406,11 +406,11 @@ public class TestCrea : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("up"))
+        if (Input.GetKey(KeyCode.Z))
 		{
 			zoom();
 		}
-		if (Input.GetKey("down"))
+		if (Input.GetKey(KeyCode.S))
 		{
 			dezoom();
 		}
