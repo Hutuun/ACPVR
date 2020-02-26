@@ -39,6 +39,11 @@ public class TestCrea : MonoBehaviour
 		creationSecteur();
 		
 		ButtonReset buttonReset = GetComponentInParent<ButtonReset>();
+		
+		buttonReset.setTestCrea(this);
+		
+		buttonReset.setMoi(GetComponentInParent("realbutton"));
+		
 		//.GetComponent("SphereScript");
 		
 		//moi = transform.parent.gameObject;

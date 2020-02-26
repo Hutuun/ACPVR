@@ -29,6 +29,16 @@ public class ButtonReset : MonoBehaviour
 		}
     }
 	
+	public void setTestCrea(TestCrea testCrea)
+	{
+		this.testCrea = testCrea;
+	}
+	
+	public void setMoi(GameObject me)
+	{
+		moi = me;
+	}
+	
 	private void OnMouseOver()
 	{
         Renderer renderer = (Renderer)moi.GetComponent("Renderer");
