@@ -32,6 +32,8 @@ public class SphereScript : MonoBehaviour
 	private TestCrea papa = null;
 	
 	private GameObject moi = null;
+	
+	private bool selectionne = false;
 
     // Start is called before the first frame update
     void Start()
@@ -157,12 +159,16 @@ public class SphereScript : MonoBehaviour
         renderer.material.color = Color.green;
 		
 		//this.setColor(255,255,255);
+		
+		selectionne = true;
 	}
 	
 	private void OnMouseExit()
 	{
 		Renderer renderer = (Renderer)moi.GetComponent("Renderer");
         renderer.material.color = Color.red;
+		
+		selectionne = false;
 	}
 	
 	private void clique()
@@ -379,8 +385,11 @@ public class SphereScript : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
 		{
-			Debug.Log("Pressed primary button.");
-			clique();
+			if(selectionne)
+			{
+				Debug.Log("Pressed primary button.");
+				clique();
+			}
 		}
 	}
 }
