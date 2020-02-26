@@ -79,7 +79,7 @@ namespace Valve.VR.Extras
                 PointerIn(this, e);
 			if(e.target.GetChild(1).name == "sphere")
 			{
-				SphereScript sphereScript = e.target.gameObject.GetComponent("SphereScript");
+				SphereScript sphereScript = (SphereScript)e.target.gameObject.GetComponent("SphereScript");
 				sphereScript.OnPointerIn();
 			}
         }

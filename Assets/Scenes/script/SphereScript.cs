@@ -183,7 +183,7 @@ public class SphereScript : MonoBehaviour
 		selectionne = true;
 	}
 	
-	private void OnPointerIn()
+	public void OnPointerIn()
 	{
         Renderer renderer = (Renderer)moi.GetComponent("Renderer");
         renderer.material.color = Color.green;
@@ -199,7 +199,7 @@ public class SphereScript : MonoBehaviour
 		selectionne = false;
 	}
 	
-	private void OnPointerOut()
+	public void OnPointerOut()
 	{
 		Renderer renderer = (Renderer)moi.GetComponent("Renderer");
         renderer.material = material;
