@@ -36,6 +36,8 @@ public class TestCrea : MonoBehaviour
     private List<string> namesSect = new List<string>();
 	private List<double> diSect = new List<double>();
     private List<GameObject> spheresSect = new List<GameObject>();
+	
+	private bool first = false;
 
     // Start is called before the first frame update
     void Start()
@@ -440,7 +442,11 @@ public class TestCrea : MonoBehaviour
 		}
 		if(Input.anyKey)
 		{
-			setAllVisible();
+			if(!first)
+			{
+				setAllVisible();
+				first = true;
+			}
 		}
     }
 }
