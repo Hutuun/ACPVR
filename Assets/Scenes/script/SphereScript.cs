@@ -139,6 +139,8 @@ public class SphereScript : MonoBehaviour
 
             temp.text = namesSect[i];
 			
+			Debug.Log(file + namesSect[i]);
+			
 			spheresSect[i].name = namesSect[i];
 			
 			spheresSect[i].SetActive(false);
