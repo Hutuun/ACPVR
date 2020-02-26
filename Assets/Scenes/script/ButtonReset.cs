@@ -25,6 +25,7 @@ public class ButtonReset : MonoBehaviour
 			if(selectionne)
 			{
 				Debug.Log("Pressed primary button.");
+				testCrea.reset();
 			}
 		}
     }
