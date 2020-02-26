@@ -357,7 +357,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   touchPadTouch:
-    actionPath: 
+    actionPath: /actions/default/in/touchPadTouch
     needsReinit: 0
   zoomer:
     actionPath: /actions/default/in/zoomer
@@ -367,7 +367,7 @@ MonoBehaviour:
     needsReinit: 0
   modele: 0
   coeffCara: 6
-  coeffSect: 6
+  coeffSectinit: 6
   coeffTaille: 9
   centreGraphCara: {x: -11, y: 6.14, z: 13.75607}
   centreGraphSect: {x: 5, y: 6.14, z: 13.75607}
@@ -901,6 +901,7 @@ GameObject:
   - component: {fileID: 1092899541}
   - component: {fileID: 1092899540}
   - component: {fileID: 1092899539}
+  - component: {fileID: 1092899542}
   m_Layer: 0
   m_Name: New Text
   m_TagString: Untagged
@@ -984,6 +985,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1092899542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092899538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c620cf97145088c4ebcc2f501b433ade, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1108183408
 PrefabInstance:
   m_ObjectHideFlags: 0
