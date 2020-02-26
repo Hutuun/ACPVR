@@ -129,6 +129,8 @@ public class TestCrea : MonoBehaviour
 			
 			sphereScript.setPapa(this);
 			
+			sphereScript.setSteamVR(touchPadTouch,zoomer,boomer);
+			
 			sphereScript.setMoi(spheresSect[i]);
 			
 			//spheresSect[i].SetActive(false);

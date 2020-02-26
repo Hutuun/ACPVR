@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class SphereScript : MonoBehaviour
 {
+	public SteamVR_Action_Boolean touchPadTouch;
+	public SteamVR_Action_Boolean zoomer;
+	public SteamVR_Action_Boolean boomer;
+	
     public int modele = 0;
 	public double coeffCara = 6;
 	public double coeffSect = 6;
@@ -49,6 +53,13 @@ public class SphereScript : MonoBehaviour
         creationCaracteristique();
 		creationSecteur();
     }
+	
+	public void setSteamVR(SteamVR_Action_Boolean touchPadTouc, SteamVR_Action_Boolean zoome, SteamVR_Action_Boolean boome)
+	{
+		touchPadTouch = touchPadTouc;
+		zoomer = zoome;
+		boomer = boome;
+	}
 	
 	public void setCentre(Vector3 vecCara, Vector3 vecSect)
 	{
