@@ -143,6 +143,10 @@ public class SphereScript : MonoBehaviour
 			
 			spheresSect[i].SetActive(false);
         }
+		
+		Debug.Log(resSect2.Count);
+		Debug.Log(namesSect.Count);
+		Debug.Log(spheresSect.Count);
 	}
 	
 	private void OnMouseOver()
@@ -228,7 +232,7 @@ public class SphereScript : MonoBehaviour
         {
 
             spheresCara.Add(GameObject.Instantiate(sphere, new Vector3(centreGraphCara.x + (float)resCara2[i], centreGraphCara.y + (float)resCara2[i+1], centreGraphCara.z + (float)resCara2[i+2]), Quaternion.identity));
-            Debug.Log(resCara2[i]);
+            //Debug.Log(resCara2[i]);
         }
 
         for(int i = 0; i< spheresCara.Count;i++)
