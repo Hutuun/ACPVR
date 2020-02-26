@@ -15,7 +15,7 @@ public class hello : MonoBehaviour
     {
         if(Input.anyKey)
 		{
-			transform.parent.gameObject.setActive(false);
+			transform.parent.gameObject.SetActive(false);
 		}
     }
 }
