@@ -25,8 +25,6 @@ namespace Valve.VR.Extras
         public event PointerEventHandler PointerClick;
 
         Transform previousContact = null;
-
-        private GameObject gameObject = null;
 		
 		private SuperScript superScript = null;
 

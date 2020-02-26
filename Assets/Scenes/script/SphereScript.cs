@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Valve.VR;
 
-public class SphereScript : MonoBehaviour, IPointerInHandler
+public class SphereScript : MonoBehaviour
 {
 	public SteamVR_Action_Boolean touchPadTouch;
 	public SteamVR_Action_Boolean zoomer;
