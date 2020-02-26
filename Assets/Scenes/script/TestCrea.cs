@@ -155,6 +155,43 @@ public class TestCrea : MonoBehaviour
 		setAllVisible();
 	}
 	
+	public void zoom()
+	{
+		coeffSect += 6;
+		
+		for(int i = 0;i<resSect2.Count;i++)
+		{
+			resSect2[i]/=max;
+			resSect2[i]*=coeffSect;
+		}
+		
+		for (int i = 0; i < spheresSect.Count; i ++)
+        {
+			spheresSect[i].transform.Translate(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]);
+            
+			//Debug.Log(convert(resSect[i]));
+        }
+	}
+	
+	public void dezoom()
+	{
+		if(!(coeffSect <= 6))
+		{
+			coeffSect -= 6;
+		
+			for(int i = 0;i<resSect2.Count;i++)
+			{
+				resSect2[i]/=max;
+				resSect2[i]*=coeffSect;
+			}
+		
+			for (int i = 0; i < spheresSect.Count; i ++)
+			{
+				spheresSect[i].transform.Translate(centreGraphSect.x + (float)resSect2[i], centreGraphSect.y + (float)resSect2[i+1], centreGraphSect.z + (float)resSect2[i+2]);
+			}
+		}
+	}
+	
 	public void setAllVisible()
 	{
 		for(int i = 0; i< spheresSect.Count;i++)
