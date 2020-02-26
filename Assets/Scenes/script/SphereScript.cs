@@ -144,9 +144,9 @@ public class SphereScript : MonoBehaviour
 			spheresSect[i].SetActive(false);
         }
 		
-		Debug.Log(resSect2.Count);
-		Debug.Log(namesSect.Count);
-		Debug.Log(spheresSect.Count);
+		Debug.Log(file + resSect2.Count);
+		Debug.Log(file + namesSect.Count);
+		Debug.Log(file + spheresSect.Count);
 	}
 	
 	private void OnMouseOver()

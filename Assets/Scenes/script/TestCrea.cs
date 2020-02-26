@@ -102,8 +102,8 @@ public class TestCrea : MonoBehaviour
 			//Debug.Log(convert(resSect[i]));
         }
 
-		Debug.Log("Sphere" + spheresSect.Count);
-		Debug.Log("Sect" + diSect.Count);
+		//Debug.Log("Sphere" + spheresSect.Count);
+		//Debug.Log("Sect" + diSect.Count);
 
         for(int i = 0; i< spheresSect.Count;i++)
         {	
