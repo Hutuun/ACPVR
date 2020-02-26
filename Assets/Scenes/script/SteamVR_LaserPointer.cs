@@ -27,9 +27,13 @@ namespace Valve.VR.Extras
         Transform previousContact = null;
 
         private GameObject gameObject = null;
+		
+		private SuperScript superScript = null;
 
         private void Start()
         {
+			superScript = GetComponentInParent<SuperScript>();
+			
             if (pose == null)
                 pose = this.GetComponent<SteamVR_Behaviour_Pose>();
             if (pose == null)
