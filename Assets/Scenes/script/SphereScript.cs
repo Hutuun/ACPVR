@@ -449,4 +449,13 @@ public class SphereScript : MonoBehaviour
 			}
 		}
 	}
+	
+	public void OnPointerClick()
+	{
+		Renderer renderer = (Renderer)moi.GetComponent("Renderer");
+		renderer.material = material;
+		
+		Debug.Log("Pressed primary button.");
+		clique();
+	}
 }
