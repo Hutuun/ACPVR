@@ -15,6 +15,8 @@ public class ButtonReset : MonoBehaviour
     void Start()
     {
         moi = transform.parent.GetChild(0).gameObject;
+		
+		testCrea = GetComponentInParent<TestCrea>();
     }
 
     // Update is called once per frame

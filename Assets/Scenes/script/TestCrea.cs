@@ -38,9 +38,9 @@ public class TestCrea : MonoBehaviour
         creationCaracteristique();
 		creationSecteur();
 		
-		ButtonReset buttonReset = GetComponentInParent<ButtonReset>();
+		//ButtonReset buttonReset = GetComponentInParent<ButtonReset>();
 		
-		buttonReset.setTestCrea(this);
+		//buttonReset.setTestCrea(this);
 		
 		//buttonReset.setMoi(GetComponentInParent<button>());
 		
