@@ -30,9 +30,9 @@ public class ButtonReset : MonoBehaviour
 		}
     }
 	
-	public void setTestCrea(TestCrea testCrea)
+	public void setTestCrea(TestCrea testCrea1)
 	{
-		this.testCrea = testCrea;
+		this.testCrea = testCrea1;
 	}
 	
 	public void setMoi(GameObject me)
