@@ -210,7 +210,7 @@ public class TestCrea : MonoBehaviour
 	
 	public void dezoom()
 	{
-		if(!(coeffSect <= 6))
+		if(!(coeffSect <= 10))
 		{
 			double max = maxList(resSect2);
 			
