@@ -205,6 +205,10 @@ for i in range(len(secteurG)):
 			secteurlocal+=["Inutilise"]
 			sourcelocal+=[temp]
 		
+		for j in range(len(secteurlocal)):
+			#print(secteurlocal[j].split("\n"))
+			secteurlocal[j]=secteurlocal[j].split("\n")[0]
+		
 		print(pandas.DataFrame({'Secteur G':secteurlocal,'Source locale':sourcelocal}))
 		fct.FonctionPrincipale(sourcelocal,secteurlocal,caracteristique,nbEle,dimx,"InfoSecteur/" + secteurG[i] + "/",1,1)
 
