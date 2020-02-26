@@ -65,8 +65,8 @@ public class SphereScript : MonoBehaviour
 	
 	private void creationSecteur()
 	{
-		GameObject prefab = (GameObject)Resources.Load("Graph");
-        graphSect = GameObject.Instantiate(prefab, centreGraphSect, Quaternion.identity);
+		//GameObject prefab = (GameObject)Resources.Load("Graph");
+        //graphSect = GameObject.Instantiate(prefab, centreGraphSect, Quaternion.identity);
 
         GameObject sphere = (GameObject)Resources.Load("SpherePrefab");
 
@@ -187,8 +187,8 @@ public class SphereScript : MonoBehaviour
 	
 	private void creationCaracteristique()
 	{
-		GameObject prefab = (GameObject)Resources.Load("Graph");
-        graphCara = GameObject.Instantiate(prefab, centreGraphCara, Quaternion.identity);
+		//GameObject prefab = (GameObject)Resources.Load("Graph");
+        //graphCara = GameObject.Instantiate(prefab, centreGraphCara, Quaternion.identity);
 
         GameObject sphere = (GameObject)Resources.Load("SpherePrefab");
 
