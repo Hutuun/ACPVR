@@ -172,7 +172,7 @@ public class SphereScript : MonoBehaviour
 		papa.setAllInvisible();
 	}
 	
-	private void retour()
+	private void setAllInvisible()
 	{
 		for(int i = 0; i< spheresSect.Count;i++)
         {
@@ -183,8 +183,6 @@ public class SphereScript : MonoBehaviour
         {
 			spheresCara[i].SetActive(false);
         }
-		
-		papa.setAllVisible();
 	}
 	
 	private void creationCaracteristique()

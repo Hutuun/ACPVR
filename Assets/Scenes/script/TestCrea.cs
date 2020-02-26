@@ -125,7 +125,17 @@ public class TestCrea : MonoBehaviour
         }
 	}
 	
-	public void setAllInvisible()
+	public void reset()
+	{
+		for(int i = 0; i< spheresSect.Count;i++)
+        {
+			spheresSect[i].setAllInvisible();
+        }
+		
+		setAllVisible();
+	}
+	
+	public void setAllVisible()
 	{
 		for(int i = 0; i< spheresSect.Count;i++)
         {
@@ -138,7 +148,7 @@ public class TestCrea : MonoBehaviour
         }
 	}
 	
-	public void setAllVisible()
+	public void setAllInvisible()
 	{
 		for(int i = 0; i< spheresSect.Count;i++)
         {
