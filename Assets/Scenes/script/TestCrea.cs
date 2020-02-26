@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class TestCrea : MonoBehaviour
 {
+	public SteamVR_Input_Sources touchPadTouch;
+	public SteamVR_Input_Sources zoomer;
+	public SteamVR_Input_Sources boomer;
 	
     public int modele = 0;
 	public double coeffCara = 6;
