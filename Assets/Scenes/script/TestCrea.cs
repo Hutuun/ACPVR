@@ -42,7 +42,7 @@ public class TestCrea : MonoBehaviour
 		
 		buttonReset.setTestCrea(this);
 		
-		buttonReset.setMoi(GetComponentInParent<Cylinder>("realbutton"));
+		buttonReset.setMoi(GetComponentInParent<realbutton>());
 		
 		//.GetComponent("SphereScript");
 		
