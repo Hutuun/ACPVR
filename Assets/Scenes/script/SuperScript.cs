@@ -10,6 +10,7 @@ public class SuperScript : MonoBehaviour
 	public SteamVR_Action_Boolean boomer;
 	public SteamVR_Action_Boolean switchA;
 	public SteamVR_Action_Boolean switchB;
+	public SteamVR_Action_Boolean resetter;
 	
 	public double coeffCara = 6;
 	
@@ -29,7 +30,7 @@ public class SuperScript : MonoBehaviour
 		
 		testCrea.setCoeffSectCara(coeffCara,coeffSect);
 		
-		testCrea.setSteamVR(touchPadTouch,zoomer,boomer,switchA,switchB);
+		testCrea.setSteamVR(touchPadTouch,zoomer,boomer,switchA,switchB,resetter);
     }
 
     // Update is called once per frame

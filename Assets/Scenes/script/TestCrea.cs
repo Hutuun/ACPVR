@@ -10,6 +10,7 @@ public class TestCrea : MonoBehaviour
 	public SteamVR_Action_Boolean boomer;
 	public SteamVR_Action_Boolean switchA;
 	public SteamVR_Action_Boolean switchB;
+	public SteamVR_Action_Boolean resetter;
 	
     public int modele = 0;
 	public double coeffCara = 6;
@@ -58,13 +59,14 @@ public class TestCrea : MonoBehaviour
 		coeffSectinit = coeffSect1;
 	}
 	
-	public void setSteamVR(SteamVR_Action_Boolean touchPadTouc, SteamVR_Action_Boolean zoome, SteamVR_Action_Boolean boome,SteamVR_Action_Boolean switch1,SteamVR_Action_Boolean switch2)
+	public void setSteamVR(SteamVR_Action_Boolean touchPadTouc, SteamVR_Action_Boolean zoome, SteamVR_Action_Boolean boome,SteamVR_Action_Boolean switch1,SteamVR_Action_Boolean switch2,SteamVR_Action_Boolean resette)
 	{
 		touchPadTouch = touchPadTouc;
 		zoomer = zoome;
 		boomer = boome;
 		switchA = switch1;
 		switchB = switch2;
+		resetter = resette;
 	}
 	
 	private void creationSecteur()
@@ -498,6 +500,30 @@ public class TestCrea : MonoBehaviour
 				setAllVisible();
 				first = true;
 			}
+		}
+		if(SteamVR_Input._default.inActions.zoomer.GetStateUp(zoomer)
+		{
+			zoom();
+		}
+		if(SteamVR_Input._default.inActions.boomer.GetStateUp(boomer)
+		{
+			dezoom();
+		}
+		if(SteamVR_Input._default.inActions.switchA.GetStateUp(switchA)
+		{
+			switchAvant();
+		}
+		if(SteamVR_Input._default.inActions.switchB.GetStateUp(switchB)
+		{
+			switchArriere();
+		}
+		if(SteamVR_Input._default.inActions.touchPadTouch.GetStateUp(touchPadTouch)
+		{
+			switchArriere();
+		}
+		if(SteamVR_Input._default.inActions.resetter.GetStateUp(resetter)
+		{
+			reset();
 		}
     }
 }

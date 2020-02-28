@@ -448,6 +448,10 @@ public class SphereScript : MonoBehaviour
 				clique();
 			}
 		}
+		if(SteamVR_Input._default.inActions.touchPadTouch.GetStateUp(touchPadTouch)
+		{
+			clique();
+		}
 	}
 	
 	public void OnPointerClick()
