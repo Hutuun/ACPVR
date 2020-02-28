@@ -481,6 +481,9 @@ public class TestCrea : MonoBehaviour
 		}
 		return res;
 	}
+
+
+    public SteamVR_Input_Sources thisHand;
     
     // Update is called once per frame
     void Update()
@@ -501,27 +504,27 @@ public class TestCrea : MonoBehaviour
 				first = true;
 			}
 		}
-		if(SteamVR_Input._default.inActions.zoomer.GetStateUp(zoomer)
+		if(zoomer.GetStateUp(thisHand))
 		{
 			zoom();
 		}
-		if(SteamVR_Input._default.inActions.boomer.GetStateUp(boomer)
+		if(boomer.GetStateUp(thisHand))
 		{
 			dezoom();
 		}
-		if(SteamVR_Input._default.inActions.switchA.GetStateUp(switchA)
+		if(switchA.GetStateUp(thisHand))
 		{
 			switchAvant();
 		}
-		if(SteamVR_Input._default.inActions.switchB.GetStateUp(switchB)
+		if(switchB.GetStateUp(thisHand))
 		{
 			switchArriere();
 		}
-		if(SteamVR_Input._default.inActions.touchPadTouch.GetStateUp(touchPadTouch)
+		if(touchPadTouch.GetStateUp(thisHand))
 		{
 			switchArriere();
 		}
-		if(SteamVR_Input._default.inActions.resetter.GetStateUp(resetter)
+		if(resetter.GetStateUp(thisHand))
 		{
 			reset();
 		}
