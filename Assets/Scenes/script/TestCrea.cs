@@ -504,23 +504,23 @@ public class TestCrea : MonoBehaviour
 				first = true;
 			}
 		}
-		if(zoomer.GetStateUp(SteamVR_Input_Sources.RightHand))
+		if(zoomer.GetStateDown(SteamVR_Input_Sources.RightHand))
 		{
 			zoom();
 		}
-		if(boomer.GetStateUp(SteamVR_Input_Sources.RightHand))
+		if(boomer.GetStateDown(SteamVR_Input_Sources.RightHand))
 		{
 			dezoom();
 		}
-		if(switchA.GetStateUp(SteamVR_Input_Sources.RightHand))
+		if(switchA.GetStateDown(SteamVR_Input_Sources.RightHand))
 		{
 			switchAvant();
 		}
-		if(switchB.GetStateUp(SteamVR_Input_Sources.LeftHand))
+		if(switchB.GetStateDown(SteamVR_Input_Sources.LeftHand))
 		{
 			switchArriere();
 		}
-		if(resetter.GetStateUp(SteamVR_Input_Sources.RightHand))
+		if(resetter.GetStateDown(SteamVR_Input_Sources.RightHand))
 		{
 			reset();
 		}

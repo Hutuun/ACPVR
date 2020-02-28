@@ -449,7 +449,7 @@ public class SphereScript : MonoBehaviour
 				clique();
 			}
 		}
-		if(touchPadTouch.GetStateUp(SteamVR_Input_Sources.LeftHand))
+		if(touchPadTouch.GetStateDown(SteamVR_Input_Sources.LeftHand))
 		{
 			clique();
 		}
