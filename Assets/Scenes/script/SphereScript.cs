@@ -433,8 +433,7 @@ public class SphereScript : MonoBehaviour
 		}
 		return res;
 	}
-
-    public SteamVR_Input_Sources thisHand;
+    
 
     // Update is called once per frame
     void Update()
@@ -450,7 +449,7 @@ public class SphereScript : MonoBehaviour
 				clique();
 			}
 		}
-		if(touchPadTouch.GetStateUp(thisHand))
+		if(touchPadTouch.GetStateUp(SteamVR_Input_Sources.LeftHand))
 		{
 			clique();
 		}
