@@ -225,7 +225,7 @@ public class SphereScript : MonoBehaviour
         }
 	}
 	
-	private void clique()
+	public void clique()
 	{
 		for(int i = 0; i< spheresSect.Count;i++)
         {
@@ -449,10 +449,10 @@ public class SphereScript : MonoBehaviour
 				clique();
 			}
 		}
-		if(touchPadTouch.GetStateDown(SteamVR_Input_Sources.LeftHand))
+		/*if(touchPadTouch.GetStateDown(SteamVR_Input_Sources.LeftHand))
 		{
 			clique();
-		}
+		}*/
 	}
 	
 	public void OnPointerClick()

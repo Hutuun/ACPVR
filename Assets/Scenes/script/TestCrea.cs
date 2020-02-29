@@ -255,6 +255,10 @@ public class TestCrea : MonoBehaviour
 		{
 			courant++;
 		}
+		else
+		{
+			courant = 0;
+		}
 		
 		sphereScript = (SphereScript)spheresSect[courant].GetComponent("SphereScript");
 		
@@ -270,6 +274,10 @@ public class TestCrea : MonoBehaviour
 		if(courant > 0)
 		{
 			courant--;
+		}
+		else
+		{
+			courant = spheresSect.Count-1;
 		}
 		
 		sphereScript = (SphereScript)spheresSect[courant].GetComponent("SphereScript");
@@ -481,6 +489,12 @@ public class TestCrea : MonoBehaviour
 		}
 		return res;
 	}
+	
+	
+	private void clique()
+	{
+		spheresSect[courant].clique();
+	}
 
 
     public SteamVR_Input_Sources thisHand;
@@ -503,6 +517,10 @@ public class TestCrea : MonoBehaviour
 				setAllVisible();
 				first = true;
 			}
+		}
+		if(touchPadTouch.GetStateDown(SteamVR_Input_Sources.LeftHand))
+		{
+			clique();
 		}
 		if(zoomer.GetStateDown(SteamVR_Input_Sources.RightHand))
 		{
