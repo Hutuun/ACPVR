@@ -493,7 +493,8 @@ public class TestCrea : MonoBehaviour
 	
 	private void clique()
 	{
-		spheresSect[courant].clique();
+		SphereScript sphere = (SphereScript)spheresSect[courant].GetComponent("SphereScript");
+        sphere.clique();
 	}
 
 
